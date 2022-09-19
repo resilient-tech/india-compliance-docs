@@ -1,0 +1,16 @@
+.medium-zoom-overlay {
+    z-index: 20;
+}
+
+.medium-zoom-image {
+    z-index: 21;
+}
+
+p > img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.VPButton {
+    border-radius: 6px !important;
+}
