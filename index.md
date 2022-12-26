@@ -11,7 +11,7 @@ hero:
     actions:
         - theme: brand
           text: Get Started
-          link: /guide/introduction
+          link: /docs/guide/getting-started/introduction
         - theme: alt
           text: View on GitHub
           link: https://github.com/resilient-tech/india-compliance/

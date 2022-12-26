@@ -11,7 +11,7 @@ import {
 const members = [
 {
     avatar: 'https://github.com/sagarvora.png',
-    name: 'Smit Vora',
+    name: 'Sagar Vora',
     title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/sagarvora' }

@@ -1,2 +1,10 @@
-# ignore node modeule folder
-/node_modules
+.vscode
+node_modules
+yarn.lock
+
+# vitepress
+/dist
+docs/.vitepress/dist
+
+# vitepress cache
+/.vitepress/cache

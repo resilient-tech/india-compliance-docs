@@ -1,16 +1,17 @@
 {
-    "name": "Lakshit",
+    "name": "vitepress-starter",
     "version": "1.0.0",
     "description": "India Compliance Documentation",
     "main": "index.js",
+    "author": "Resilient Tech",
+    "license": "MIT",
     "scripts": {
         "docs:dev": "vitepress dev",
         "docs:build": "vitepress build",
         "docs:serve": "vitepress serve"
     },
     "keywords": [],
-    "author": "",
-    "license": "MIT",
+   
     "devDependencies": {
         "@types/node": "^18.11.8",
         "@typescript-eslint/eslint-plugin": "^5.41.0",
@@ -21,7 +22,6 @@
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-vue": "^9.7.0",
-        "flexsearch": "^0.7.31",
         "fs-extra": "^10.1.0",
         "globby": "^11.1.0",
         "gray-matter": "^4.0.3",
@@ -33,5 +33,6 @@
     },
     "dependencies": {
         "medium-zoom": "^1.0.6"
-    }
+    },
+    "repository": "https://github.com/resilient-tech/india-compliance-docs.git"
 }

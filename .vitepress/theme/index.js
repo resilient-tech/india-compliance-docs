@@ -1,17 +1,21 @@
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme from 'vitepress/theme';
+import Archives from './components/Archives.vue';
+import Tags from './components/Tags.vue';
+import Page from './components/Page.vue';
+import Comment from './components/Comment.vue';
+import { onMounted } from "vue";
+import mediumZoom from "medium-zoom";
 
-import NewLayout from './components/NewLayout.vue'
-import Archives from './components/Archives.vue'
-import Tags from './components/Tags.vue'
-import Page from './components/Page.vue'
-import Comment from './components/Comment.vue'
 
-//import './custom.css'
-import './index.css'
+import './index.css';
 
 export default {
     ...DefaultTheme,
-    Layout: NewLayout,
+    setup() {
+        onMounted(() => {
+            mediumZoom(".main img", { background: "var(--vp-c-bg)" });
+        });
+    },    
     enhanceApp({ app }) {
         // register global compoment
         app.component('Tags', Tags)

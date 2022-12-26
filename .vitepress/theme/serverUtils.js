@@ -39,6 +39,8 @@ page: true
 date: 2021-06-30
 title: ${i === 1 ? 'Blog' : 'page_' + i}
 sidebar: true
+editLink: false
+lastUpdated: false
 ---
 <script setup>
 import Page from "../.vitepress/theme/components/Page.vue";
