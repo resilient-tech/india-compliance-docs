@@ -6,12 +6,11 @@
     "author": "Resilient Tech",
     "license": "MIT",
     "scripts": {
-        "docs:dev": "vitepress dev",
-        "docs:build": "vitepress build",
-        "docs:serve": "vitepress serve"
+        "docs:dev": "vitepress dev pages",
+        "docs:build": "vitepress build pages",
+        "docs:serve": "vitepress serve pages"
     },
     "keywords": [],
-   
     "devDependencies": {
         "@types/node": "^18.11.8",
         "@typescript-eslint/eslint-plugin": "^5.41.0",
