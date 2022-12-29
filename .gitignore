@@ -4,4 +4,7 @@ yarn.lock
 
 # vitepress
 /dist
-docs/.vitepress/dist
+pages/.vitepress/dist
+
+# vitepress cache
+pages/.vitepress/cache

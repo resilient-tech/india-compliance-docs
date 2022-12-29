@@ -1,20 +1,37 @@
 {
-  "name": "vitepress-starter",
-  "version": "1.0.0",
-  "description": "India Compliance Documentation",
-  "main": "index.js",
-  "author": "Resilient Tech",
-  "license": "MIT",
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
-  },
-  "devDependencies": {
-    "vitepress": "^1.0.0-alpha.10",
-    "vue": "^3.2.37"
-  },
-  "dependencies": {
-    "medium-zoom": "^1.0.6"
-  }
+    "name": "vitepress-starter",
+    "version": "1.0.0",
+    "description": "India Compliance Documentation",
+    "main": "index.js",
+    "author": "Resilient Tech",
+    "license": "MIT",
+    "scripts": {
+        "docs:dev": "vitepress dev pages",
+        "docs:build": "vitepress build pages",
+        "docs:serve": "vitepress serve pages"
+    },
+    "keywords": [],
+    "devDependencies": {
+        "@types/node": "^18.11.8",
+        "@typescript-eslint/eslint-plugin": "^5.41.0",
+        "@typescript-eslint/parser": "^5.41.0",
+        "@typescript-eslint/types": "^5.41.0",
+        "@vue/compiler-sfc": "^3.2.41",
+        "eslint": "8.11.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-vue": "^9.7.0",
+        "fs-extra": "^10.1.0",
+        "globby": "^11.1.0",
+        "gray-matter": "^4.0.3",
+        "markdown-it": "^13.0.1",
+        "prettier": "^2.7.1",
+        "typescript": "^4.8.4",
+        "vitepress": "^1.0.0-alpha.26",
+        "vitepress-plugin-search": "^1.0.4-alpha.17"
+    },
+    "dependencies": {
+        "medium-zoom": "^1.0.6"
+    },
+    "repository": "https://github.com/resilient-tech/india-compliance-docs.git"
 }

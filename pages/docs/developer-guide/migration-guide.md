@@ -18,7 +18,7 @@ First, you shall be required to upgrade your ERPNext site from version 13 to ver
 India-specific features have been removed from ERPNext, and you shall be required to install the new app, India Compliance.
 :::
 
-Once done, you must add India Compliance App and install it as per instructions [here](getting-started#self-hosted).
+Once done, you must add India Compliance App and install it as per instructions [here](../getting-started/installation#self-hosted).
 
 Now we shall cover changes to specific features below.
 
@@ -28,7 +28,7 @@ There has been a complete revamp of GST Settings and its features. Kindly review
 
 For more details, refer to the GST settings documentation.
 
-![gst-settings](assets/gst_settings.png)
+![gst-settings](./assets/gst_settings.png)
 
 ## Company Setup
 
