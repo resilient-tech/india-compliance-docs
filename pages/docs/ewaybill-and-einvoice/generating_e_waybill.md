@@ -61,6 +61,12 @@ From the e-Waybill menu. Specify the reason for cancelling in the dialog and cli
 ## e-Waybill Logs  
 In this DocType, e-Waybill history is maintained. It is created after you generate an e-Waybill using the APIs. Any further updates to e-Waybill are added here as a comment.
 
+![E-waybill Log](./assets/e_waybill_log.png)
+
+Updated Log
+
+![E-waybill Log Update](./assets/e_waybill_log_update.png)
+
 
 
 ## Bulk e-Waybill Generation
