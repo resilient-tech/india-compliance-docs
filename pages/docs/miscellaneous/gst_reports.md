@@ -52,4 +52,4 @@ or simply search for GSTR-1 Report in awesomebar.
 
 You can also Export report in Excel or CSV.
 
-![GSTR-1 Report](./assets/gstr_1.png)
+![GSTR-1 Report](./assets/gstr1_report.png)
