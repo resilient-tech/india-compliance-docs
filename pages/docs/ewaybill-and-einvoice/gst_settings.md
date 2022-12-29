@@ -10,7 +10,7 @@ New GSP User will be required if you want to generate e-Waybill or e-Invoice usi
 3. Add New User. Choose GSP Name as **Adaequare Info Private Limited**.
 4. Enter the appropriate Username and Password and add the user.
 
-![Create e-Waybill Credentials](./assets/create-e-waybill-e-invoice-credentials.gif)
+![Create e-Waybill Credentials](./assets/create_e_waybill_e_invoice_credentials.gif)
 
 **Are the credentials for e-Waybill and e-Invoice the same?**  
 **Yes**, e-Waybill or e-Invoice Portal have the same credentials. Updating your password on any portal will update it on another portal also.

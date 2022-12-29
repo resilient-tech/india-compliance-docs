@@ -79,7 +79,6 @@ function nav() {
             link: "/docs/getting-started/introduction",
             activeMatch: "/docs/",
         },
-        { text: "Team", link: "team", activeMatch: "/team/" },
         { text: "Blog", link: "blog/index", activeMatch: "/blog/"}
     ];
 }
@@ -97,40 +96,42 @@ function sidebarDocs() {
             ]
         },
         {
-            text: "GST Configuration",
+            text: "Configuration",
             collapsible: true,
             items: [
-                { text: "Setting-Up", link: "/docs/gst-configuration/gst_setup" },
-                { text: "Sales Transaction", link: "/docs/gst-configuration/sales_transaction" },
-                { text: "Purchase Transaction", link: "/docs/gst-configuration/purchase_transaction" },
-                { text: "Other Transaction", link: "/docs/gst-configuration/other_transaction" }                                
+                { text: "Setting-Up", link: "/docs/configuration/gst_setup" },
+                { text: "Sales Transaction", link: "/docs/configuration/sales_transaction" },
+                { text: "Purchase Transaction", link: "/docs/configuration/purchase_transaction" },
+                { text: "Other Transaction", link: "/docs/configuration/other_transaction" }                                
             ]
         },
         {   
-            text: "e-Waybill & e-Invoice",
+            text: "e-Waybill And e-Invoice",
             collapsible: true,
             items: [
-                { text: "Setting-Up", link: "/docs/e-invoice-and-eway/gst_settings" },
-                { text: "Generating e-Waybill", link: "/docs/e-invoice-and-eway/generating_e_waybill" },
-                { text: "Generating e-Invoice", link: "/docs/e-invoice-and-eway/generating_e_invoice" },
-                { text: "FAQs", link: "/docs/e-invoice-and-eway/faqs" }                
+                { text: "Setting-Up", link: "/docs/ewaybill-and-einvoice/gst_settings" },
+                { text: "Generating e-Waybill", link: "/docs/ewaybill-and-einvoice/generating_e_waybill" },
+                { text: "Generating e-Invoice", link: "/docs/ewaybill-and-einvoice/generating_e_invoice" },
+                { text: "FAQs", link: "/docs/ewaybill-and-einvoice/faqs" }                
             ]
         },
         {
-            text: "Other Features",
+            text: "Miscellaneous",
             collapsible: true,
+            collapsed: true,
             items: [
-                { text: "GSTIN Verification", link: "/docs/other-features/gstin_verification" },
-                { text: "Reports and Returns", link: "/docs/other-features/gst_reports" },
-                { text: "Transaction Validations", link: "/docs/other-features/transaction_validations" }                 
+                { text: "GSTIN Verification", link: "/docs/miscellaneous/gstin_verification" },
+                { text: "Reports and Returns", link: "/docs/miscellaneous/gst_reports" },
+                { text: "Transaction Validations", link: "/docs/miscellaneous/transaction_validations" }                 
             ]
         },
         {
-            text: "Developers Option",
+            text: "Developer Guide",
             collapsible: true,
+            collapsed: true,
             items: [
-                { text: "Migration Guide", link: "/docs/developer-option/migration-guide" },
-                { text: "Sandbox", link: "/docs/developer-option/sandbox" }                
+                { text: "Migration Guide", link: "/docs/developer-guide/migration-guide" },
+                { text: "Sandbox", link: "/docs/developer-guide/sandbox" }                
             ]
         },
        

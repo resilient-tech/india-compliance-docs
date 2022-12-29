@@ -4,7 +4,7 @@ Whenever you do business with a new party, you can validate the GSTIN/UIN inform
 India Compliance facilitates quick online validation of GSTIN and UIN related information.
 
 ### Steps to Enable Auto-GSTIN Verification
-- [Setup GSP Credentials](../e-invoice-and-eway/gst_settings#gsp-credentials) 
+- [Setup GSP Credentials](../ewaybill-and-einvoice/gst_settings#gsp-credentials) 
 - Enable API Features under GST Settings.
 - Enable **`Autofill Party Information based on GSTIN`** fron GST Settings Tab.
 

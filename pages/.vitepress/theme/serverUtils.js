@@ -14,7 +14,7 @@ async function getPosts() {
             data.date = _convertDate(data.date)
             return {
                 frontMatter: data,
-                regularPath: `/${item.replace('.md', '.html')}`
+                regularPath: `/${item.replace('.md', '.html').replace('pages/', '')}`
             }
         })
     )
@@ -30,7 +30,7 @@ async function generatePaginationPages(pageSize) {
     let pagesNum = allPagesLength % pageSize === 0 ? allPagesLength / pageSize : allPagesLength / pageSize + 1
     pagesNum = parseInt(pagesNum.toString())
 
-    const paths = path.resolve('pages/blog')
+    const paths = path.resolve('./pages/blog')
     if (allPagesLength > 0) {
         for (let i = 1; i < pagesNum + 1; i++) {
             const page = `

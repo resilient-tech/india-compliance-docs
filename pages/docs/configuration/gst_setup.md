@@ -8,19 +8,19 @@ As of 2017, India will fall under the new GST (Goods and Services Tax) regime an
 
 According to the GST Law, your itemised invoices must contain the HSN Code related to that Item. India Compliance comes pre-installed with all 12,000+ HSN Codes so that you can easily select the relevant HSN Code in your Item.
 
-![HSN in Item](./assets/hsn-item.gif)
+![HSN in Item](./assets/hsn_item.gif)
 
 - ## Tax Accounts
 
 With new installations, you get default GST Accounts created for your company.
 
-![GST Ledgers](./assets/gst-ledger.png)
+![GST Ledgers](./assets/gst_ledger.png)
 
 - ## Tax Templates
 
 Default Sales and Purchase Tax Templates are pre-configured for your company.
 
-![GST Tax Template](./assets/gst-tax-template.png)
+![GST Tax Template](./assets/gst_tax_template.png)
 
 - ## Item Tax Templates
 
@@ -31,7 +31,7 @@ For different tax rates, you get item tax templates preconfigured for your compa
 - ## Item Master
 Nil rated, exempted or Non-GST items have Is nill rated or Is Non-GST checkbox is checked in the item master.
 
-![GST Exempted](./assets/gst-item.png)
+![GST Exempted](./assets/gst_item.png)
 
 - ## GST Accounts
 
@@ -81,7 +81,7 @@ GST will be applied and validated to a specific transaction based on this master
 - **View Tax Breakup Table Based On HSN Code**  
      Tax Breakup Table in Sales Invoice or Purchase Invoice is generally available item-wise. If this is enabled, the tax breakup table shall be HSN Wise.
 
-    ![Sample GST Tax Invoice](./assets/sample-gst-tax-invoice.png)
+    ![Sample GST Tax Invoice](./assets/sample_gst_tax_invoice.png)
 
 - **Enable Reverse Charge in Sales Transactions**   
     Enable this setting, if reverse charge is applicable on goods/services you sell.

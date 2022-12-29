@@ -10,7 +10,7 @@ To book reversal of ITC go to Journal Entry doctype and follow the following ste
 4. Fill the accounts and amounts in the Accounting Entries as shown below
 5. Save and Submit
 
-![Reversal of Input Tax Credit](./assets/reversal-of-itc.png)
+![Reversal of Input Tax Credit](./assets/reversal_of_itc.png)
 
 
 ## Reverse Charge
@@ -20,7 +20,7 @@ Setting up reverse charge and posting reverse charge purchase invoices
 
 Add reverse charge accounts for GST as shown in the image below and check the "Is Reverse Charge Account" as shown in the image below. Instead of separate reverse charge account the Output GST tax account used for sales can also be marked as reverse charge account
 
-![GST Reverse Charge Settings](./assets/gst-reverse-charge-setting.png)
+![GST Reverse Charge Settings](./assets/gst_reverse_charge_setting.png)
 
 - ### Making purchase invoices liable to reverse charge
 
@@ -32,11 +32,11 @@ To make purchase invoices liable to reverse charge invoices please follow the fo
 * If GST paid is eligible for input tax credit, in "Eligibility for ITC" select "ITC on Reverse Charge"
 * "Add" taxes using the regular Input Tax account heads
 
-![Reverse Charge](./assets/reverse-charge-add.png)
+![Reverse Charge](./assets/reverse_charge_add.png)
 
 * "Deduct" the same amount of taxes using the reverse charge accounts so that the net GST payable by the supplier is 0
 
-![Reverse Charge](./assets/reverse-charge-deduct.png)
+![Reverse Charge](./assets/reverse_charge_deduct.png)
 
 * Save and Submit
 
@@ -44,14 +44,14 @@ In order to avoid manual selection of accounts and automate this process please 
 
 * Create Tax Category for reverse charge
 
-![Reverse Charge Tax Category](./assets/reverse-charge-tax-category.png)
+![Reverse Charge Tax Category](./assets/reverse_charge_tax_category.png)
 
 * Update tax category in the relevant supplier masters
 
-![Supplier Tax Category](./assets/supplier-tax-category.png)
+![Supplier Tax Category](./assets/supplier_tax_category.png)
 
 * Create Purchase Taxes and Charges template for reverse charge
 
-![Reverse Charge Template](./assets/reverse-charge-template.png)
+![Reverse Charge Template](./assets/reverse_charge_template.png)
 
 * Once this configuration is done, on selection of supplier appropriate Purchase Taxes and Charges Template will be applied
