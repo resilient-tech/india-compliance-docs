@@ -14,3 +14,7 @@ p > img {
 .VPButton {
     border-radius: 6px !important;
 }
+
+:root {
+    --vp-c-brand: #42b883;
+}
