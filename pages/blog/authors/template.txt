@@ -1,0 +1,11 @@
+---
+name: [NAME OF AUTHOR]
+avatar: [LINK FOR PHOTO]
+---
+<AuthorDetail>
+
+Description/Content
+Markdown format supported,stick to template.
+
+
+</AuthorDetail>

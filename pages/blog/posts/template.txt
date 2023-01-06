@@ -1,0 +1,16 @@
+---
+date: 2023-01-03
+title: [title]
+category: [turorial/article/document]
+author: [author-name]
+description: [Long description should be indented otherwise error will be raised]
+tags:
+- In list
+- ERPNEXT13
+- IC
+---
+<PostDetail>
+Content inside the tags
+shouldn't start with h1/#
+
+</PostDetail>
