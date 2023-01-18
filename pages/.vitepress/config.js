@@ -1,76 +1,71 @@
-const { getPosts, generatePaginationPages } = require('./theme/serverUtils')
-import { defineConfig } from "vitepress";
+import Unocss from 'unocss/vite'
+import { defineConfig } from 'vitepress'
+import { version } from '../../package.json'
 
 
-async function config() {
-    const pageSize = 3
-    await generatePaginationPages(pageSize)
-    return {        
-        lang: "en-UK",
-        title: "India Compliance",
-        description: "Documentation and User Guide for India Compliance App",
+export default defineConfig({
+    lang: "en-UK",
+    title: "India Compliance",
+    description: "Documentation and User Guide for India Compliance App",
+    
+    ignoreDeadLinks:true,
+    lastUpdated: true,
+    cleanUrls: "without-subfolders",
 
-        ignoreDeadLinks:true,
-        lastUpdated: true,
-        cleanUrls: "without-subfolders",
-        
-        themeConfig: {
-            posts: await getPosts(),
-            pageSize: pageSize,
-            website: "https://www.resilient.tech/",
-
-            editLink: {
-            pattern:
-                "https://github.com/resilient-tech/india-compliance-docs/edit/main/:path",
-            text: "Edit this page on GitHub",
-            },
-            
-            socialLinks: [
-                {
-                    icon: "github",
-                    link: "https://github.com/resilient-tech/india-compliance/",
-                },
-            ],
-
-            footer: {
-                message: "Powered by Resilient Tech",
-                copyright: "Copyright © 2022",
-            },
-
-            comment: {
-                repo: 'resilient-tech/india-compliance',
-                themes: 'github-light',
-                issueTerm: 'pathname'
-            },
-
-            nav: nav() ,
-
-            algolia: {
-                appId: "8J64VVRP8K",
-                apiKey: "a18e2f4cc5665f6602c5631fd868adfd",
-                indexName: "vitepress",
-            },
-
-            sidebar: {
-            "/docs/": sidebarDocs(),
-            "/blog/": sidebarBlog(),
-            },      
-            
-        },   
-
-        vite: {
-            //build: { minify: false }
-            //server: { port: 5000 },
+    themeConfig: {                      
+        editLink: {
+        pattern:
+            "https://github.com/resilient-tech/india-compliance-docs/edit/main/pages/:path",
+        text: "Edit this page on GitHub",
         },
-        /*
-      optimizeDeps: {
-          keepNames: true
-      }
-      */
-    }
-}
+        
+        socialLinks: [
+            {
+                icon: "github",
+                link: "https://github.com/resilient-tech/india-compliance/",
+            },
+        ],
 
-module.exports = config()
+        footer: {
+            message: "<a href=https://www.resilient.tech/> Powered by Resilient Tech <a> ",
+            copyright: "Copyright © 2022",
+        },
+
+        comment: {
+            repo: 'resilient-tech/india-compliance',
+            themes: 'github-light',
+            issueTerm: 'pathname'
+        },
+
+        nav: nav() ,
+
+        algolia: {
+            appId: "8J64VVRP8K",
+            apiKey: "a18e2f4cc5665f6602c5631fd868adfd",
+            indexName: "vitepress",
+        },
+
+        sidebar: {
+        "/docs/": sidebarDocs(),
+        },
+        
+        blog: {
+            title: 'India Compliance Blog',
+            description: 'Exploring implementation strategies for India',
+        }
+        
+    },
+    vite: {
+        plugins: [
+            Unocss({
+                configFile: '../../unocss.config.ts',
+            }),
+        ],
+        build: {
+            ssr: false,
+        },
+      },    
+})
 
 function nav() {
     return [
@@ -135,19 +130,5 @@ function sidebarDocs() {
             ]
         },
        
-    ];
-}
-
-function sidebarBlog() {
-    return [
-        {
-            text: "",
-            collapsible: true,
-            items: [
-                { text: "Recent", link: "/blog/" },
-                { text: "Archives", link: "/blog/pages/archives" },
-                { text: "Tags", link: "/blog/pages/tags" },                
-            ],
-        },
     ];
 }
