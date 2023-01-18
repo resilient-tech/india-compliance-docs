@@ -24,8 +24,6 @@ To use API features,you need an Account.
 - Verify your email and refresh your India Compliance account page.
 - You are now signed up for API Features and can start using them.
 
-![Account Creation](./assets/ic_account.gif)
-
 ::: tip
 You can use same account on Multiple Sites.
 :::
@@ -56,8 +54,6 @@ We give one year's validity with any purchase that you make. However, it immedia
 ## Balance
 Usage of the credits shall be available from within your system from integration request log.
 Credits balance shall be available from My Account Page. However, it’s not live and we update it at interval of 10 minutes.
-
-![API Dashboard](./assets/api_dashboard.png)
 
 
 </PostDetail>
