@@ -3,6 +3,10 @@
 Want to test the API features?  
 Get started in less than a minute with all API Features and test out the app.
 
+::: tip
+We recommend [Frappe Cloud](https://frappecloud.com/dashboard/signup?referrer=99df7a8f) for hosting your site. It comes bundled with India Compliance API features and hence India Compliance Account won't be accessible there.
+:::
+
 ## Account Creation
 To use API features,you need an Account.  
 **Follow these steps for sign up.**
