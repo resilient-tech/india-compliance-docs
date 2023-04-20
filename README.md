@@ -1,6 +1,11 @@
-# India Compliance App Documentation
+<div align="center">
 
-Welcome to the India Compliance App documentation! This documentation includes tutorials, guides, and reference material for using the app.
+<h1><a href="https://docs.indiacompliance.app/">India Compliance Docs</a></h1>
+
+Welcome to the India Compliance App documentation! It includes tutorials, guides, and reference material for using the app.
+<br><br><br>
+
+</div>
 
 ## Folder Structure
 
