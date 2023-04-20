@@ -46,6 +46,10 @@ export default defineConfig({
         blog: {
             title: 'India Compliance Blog',
             description: 'Exploring implementation strategies for India',
+        },
+
+        search: {
+            provider: "local"
         }
         
     },
