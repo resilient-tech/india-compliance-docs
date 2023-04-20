@@ -30,7 +30,7 @@
         "markdown-it": "^13.0.1",
         "typescript": "^4.9.4",
         "unocss": "^0.48.0",
-        "vitepress": "1.0.0-alpha.34",
+        "vitepress": "^1.0.0-alpha.34",
         "vue": "^3.2.45"
     },
     "dependencies": {

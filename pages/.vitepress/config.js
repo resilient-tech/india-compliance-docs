@@ -39,12 +39,6 @@ export default defineConfig({
 
         nav: nav() ,
 
-        algolia: {
-            appId: "8J64VVRP8K",
-            apiKey: "a18e2f4cc5665f6602c5631fd868adfd",
-            indexName: "vitepress",
-        },
-
         sidebar: {
         "/docs/": sidebarDocs(),
         },
@@ -115,6 +109,7 @@ function sidebarDocs() {
             collapsible: true,
             collapsed: true,
             items: [
+                { text: "Audit Trail", link: "/docs/miscellaneous/audit_trail" },
                 { text: "GSTIN Verification", link: "/docs/miscellaneous/gstin_verification" },
                 { text: "Reports and Returns", link: "/docs/miscellaneous/gst_reports" },
                 { text: "Transaction Validations", link: "/docs/miscellaneous/transaction_validations" }                 
