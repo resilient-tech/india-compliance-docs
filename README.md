@@ -26,8 +26,8 @@ pages
 └── docs
     └── topics
         |── *.md
-		└── assets
-			└── *.png
+        └── assets
+            └── *.png
 ```
 
 - The `pages` folder contains the source code for the documentation site.
