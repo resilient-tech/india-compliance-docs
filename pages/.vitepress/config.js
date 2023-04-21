@@ -49,7 +49,12 @@ export default defineConfig({
         },
 
         search: {
-            provider: "local"
+            provider: "algolia",
+            options: {
+                appId: "RFULW5EJJD",
+                apiKey: "1037e3c97bcd3fc44e18ce6ddcac5965",
+                indexName: "indiacompliance"
+            }
         }
         
     },
