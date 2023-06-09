@@ -100,7 +100,7 @@ Fields like Acknowledgement No and Date and other relevant fields have been move
 
 ### e-Invoice QR and Print Format
 
-e-Invoice QR was getting attached to the Sales Invoice, which was unnecessary and could cause problems. If you use one, you must fix your custom print format, and you can check the newer implementation here.
+e-Invoice QR was getting attached to the Sales Invoice, which was unnecessary and could cause problems. If you use one, you must fix your custom print format, and you can check the newer implementation [here](./e_invoice_qr.md).
 
 ## Doctypes and Reports Deprecated
 
