@@ -31,7 +31,7 @@ First, you shall be required to upgrade your ERPNext site from version 13 to ver
 India-specific features have been removed from ERPNext, and you shall be required to install the new app, India Compliance.
 :::
 
-Once done, you must add India Compliance App and install it as per instructions 
+Once done, you must add India Compliance App and install it as per instructions
 Now we shall cover changes to specific features below.
 
 ## GST Settings
@@ -39,8 +39,6 @@ Now we shall cover changes to specific features below.
 There has been a complete revamp of GST Settings and its features. Kindly review them individually once again and check if the configurations work as you expect.
 
 For more details, refer to the GST settings documentation.
-
-
 
 ## Company Setup
 
@@ -112,7 +110,7 @@ Fields like Acknowledgement No and Date and other relevant fields have been move
 
 ### e-Invoice QR and Print Format
 
-e-Invoice QR was getting attached to the Sales Invoice, which was unnecessary and could cause problems. If you use one, you must fix your custom print format, and you can check the newer implementation here.
+e-Invoice QR was getting attached to the Sales Invoice, which was unnecessary and could cause problems. If you use one, you must fix your custom print format, and you can check the newer implementation [here](../../docs/developer-guide/e_invoice_qr.md).
 
 ## Doctypes and Reports Deprecated
 
