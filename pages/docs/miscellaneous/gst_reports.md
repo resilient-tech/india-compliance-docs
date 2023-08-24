@@ -1,8 +1,7 @@
 # GST Reports
-ERPNext comes with most of your reports you need to prepare your GST Returns.  
+ERPNext comes with most of your reports you need to prepare your GST Returns.
 
-
-## GSTR3B Report 
+## GSTR3B Report
 
 To generate GSTR3B Report in ERPNext navigate to
 
@@ -31,6 +30,11 @@ If you want to print the report it can also be printed and viewed in GSTR3B Form
 
 ![Download Option in GSTR 3B](./assets/gstr_3b_download.png)
 
+## GSTR-3B Details Report
+
+The GSTR-3B Details Report provides detailed information on all the purchase transactions that are included in the GSTR-3B report.
+
+TODO: Add screenshot of GSTR-3B Details Report
 
 ## GSTR-1 Report
 
@@ -53,3 +57,7 @@ or simply search for GSTR-1 Report in awesomebar.
 You can also Export report in Excel or CSV.
 
 ![GSTR-1 Report](./assets/gstr1_report.png)
+
+## GST Balance Report
+
+With version-14 India Compliance app doesn't support 
