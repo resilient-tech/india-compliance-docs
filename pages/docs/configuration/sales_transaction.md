@@ -11,4 +11,4 @@ If you have set up the GSTIN of your Customers and Suppliers, and your tax templ
 ![GST Invoice](./assets/gst_invoice.gif)
 
 ### Printing GST Tax Invoice  
-To print Tax Invoice as per GSTN guidelines, please select **GST Tax Invoice** print format. This print format includes company address, GSTIN numbers, HSN/SAC Code and item-wise tax breakup. And while printing select the correct value of the Invoice Copy field, to mention whether it is for the Customer, Supplier or Transporter.
+To print Tax Invoice as per GSTIN guidelines, please select **GST Tax Invoice** print format. This print format includes company address, GSTIN numbers, HSN/SAC Code and item-wise tax breakup. And while printing, select the correct value of the `Invoice Copy` field to mention whether it is for the Customer, Supplier or Transporter.
