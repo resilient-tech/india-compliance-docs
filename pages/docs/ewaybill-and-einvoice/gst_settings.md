@@ -1,8 +1,8 @@
 # Setting-Up API
 ## GSP Credentials
-Setup Credentials for e-Waybill or e-Invoice
+Setup Credentials for e-Waybill or e-Invoice on GSP Portal
 
-New GSP User will be required if you want to generate e-Waybill or e-Invoice using APIs.  
+You must need to create a new GSP User to generate and avail the features of e-Waybill or e-Invoice using APIs.  
 **The following steps will help you create a new user for GSP.**
 
 1. Login to the e-Waybill portal using your existing credentials.
@@ -13,15 +13,17 @@ New GSP User will be required if you want to generate e-Waybill or e-Invoice usi
 ![Create e-Waybill Credentials](./assets/create_e_waybill_e_invoice_credentials.gif)
 
 **Are the credentials for e-Waybill and e-Invoice the same?**  
-**Yes**, e-Waybill or e-Invoice Portal have the same credentials. Updating your password on any portal will update it on another portal also.
+**Yes**, Portal shares the same credentials for e-Waybill or e-Invoice. Updating your password on any portal will also update it on other portal.
 
-**Is it necessary to create GSP Login to make API Access?**  
-**Absolutely**, in a way, you are authorizing GSP to create/upload e-Waybill and e-Invoice transactions on your account. You shall not be able to access APIs if credentials are for different GSP / you are using personal login credentials.
+**Is it necessary to create GSP Login to make API Access?**
+**Absolutely**, in a way, you are authorizing GSP to create/upload e-Waybill and e-Invoice transactions on your account. You shall not be able to access APIs if credentials are different for GSP or you are using personal login credentials.
 
 ## Adding GSP 
-After creating new user for GSP ,same has to be added in ERPNext.
-For adding GSP Credential  
+In next step, same GSP settings has to be added in ERPNext.
+To add GSP credentials to the ERPNext:
+```
 **Go to GST Settings --> Select Credentials Tab --> Add new user with same Username and Password** 
+```
 ![Adding GSP](./assets/gst_settings_credentials.png)
 
 
