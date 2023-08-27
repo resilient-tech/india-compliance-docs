@@ -30,17 +30,21 @@ To add GSP credentials to the ERPNext:
 ## e-Waybill Settings
 
 - **Enable e-Waybill Features**  
-If e-waybill is applicable to enable the e-Waybill Features.  
+Enable this setting to avail e-Waybill Features like generating e-Waybill, Update Transporter & Vehicle Information, and extend the validity of e-Waybill.
 
 - **Enable e-Waybill Generation from Delivery Note**:  
-Do you want to generate an e-Waybill from the delivery note? Do you transfer goods for Job Work or to your different warehouse? You should enable e-Waybill generation from Delivery Note if you use these features.
+Do you want to generate an e-Waybill from the delivery note? Do you want to transfer goods for Job Work or to your different warehouse? Enable "e-Waybill generation from Delivery Note" to start generating e-Waybills from Delivery Note.
 
 ::: tip
 You should ideally generate an e-Waybill from the sales invoice. e-Waybill generation from delivery notes should be restricted only to the movement of goods without an Invoice (Say, for Job Work or Transfer of goods to different warehouses)
 :::
 
+- **Enable e-Waybill Generation from Purchase Invoice**
+Enable this setting to generate e-Waybill from Purchase Invoice. Businesses are generally required togenerate e-Waybills for Purchases involving the movement of goods to ensure compliance, transparency and accurate taxation.
+
+
 - **Invoice Value Threshold for e-Waybill Generation**  
-It's set to 50,000 by default, but you can change it as per applicable laws or ensure tighter internal controls. Applicability of e-Waybill for Sales Invoice is checked based on this setting.
+As per the CGST Rules, the limit is Rs.50,000 which is set by default. But it may very state wise so, you can configure it as per applicable laws or ensure tighter internal controls. Applicability of e-Waybill for Sales Invoice is checked based on this setting.
 
 ![e-Waybill Settings](./assets/e_waybill_settings.png)
 
@@ -57,7 +61,7 @@ e-Waybill applicability is checked based on the threshold limit set above. Also,
 On the generation of e-Waybill, complete data of e-Waybill (as per NIC Portal) is not available. However, this may be necessary to generate the e-Waybill Print Format as per the e-Waybill Portal. *Additional API request is required to fetch the e-Waybill data.* If enabled, it shall be updated in your logs.
 
 - **Attach e-Waybill Print After Generation**  
-e-Waybill print will be attached to the invoice automatically on the generation of the e-Waybill (after fetching the data). It can be used for emails or records.
+On enabling this option, e-Waybill print will be attached to the invoice automatically on the generation of the e-Waybill (after fetching the data). It can be used for emails or records.
 
 ![e-Waybill Settings](./assets/e_waybill_settings.png)
 
