@@ -74,11 +74,25 @@ You need to first enable API to access e-Invoice Settings
 Enable e-Invoicing if it is applicable to you.
 
 - **Automatically Generate e-Invoice on Invoice Submission**  
-e-Invoice will be automatically generated, if applicable, on submission of Sales Invoice.
+If this settings is enabled, e-Invoice will automatically be generated on submission of Sales Invoice.
+
+- **Generate e-Waybill with e-Invoice**
+e-Waybill will be generated along with e-Invoice if the invoice value threshold is met, and data is available and valid.
 
     > e-Invoice is automatically generated for all invoices except for supplies to Unregistered Person or Non-GST Supplies.
 
 - **e-Invoice Applicable From**  
-e-Invoices will only be generated for invoice generated after this date. You can pre-configure this if its going to be applicable at a later date.
+e-Invoices will only be generated for invoices generated after this date. You can pre-configure this if its going to be applicable at a later date. This date will be applicable only if **Apply e-Invoice for Selected Companies** option is disabled.
+
+![e-Invoice Settings](./assets/e_invoice_settings_1.png)
+
+- **Apply e-Invoice for Selected Companies**
+This setting will allow you to configure e-Invoicing for Selected Companies only.
+
+- **e-Invoice Applicable Companies**
+Set **Applicable From** date for each Company. Validation checks will be performed based on this setting.
+
+- **Enable Retry e-Invoice Generation**
+If this setting is enabled, e-Invoice generation will automatically retry e-Invoice generation in case of Gateway Timout Errors.
 
 ![e-Invoice Settings](./assets/e_invoice_settings.png)
