@@ -21,9 +21,9 @@ You must need to create a new GSP User to generate and avail the features of e-W
 ## Adding GSP 
 In next step, same GSP settings has to be added in ERPNext.
 To add GSP credentials to the ERPNext:
-```
+
 **Go to GST Settings --> Select Credentials Tab --> Add new user with same Username and Password** 
-```
+
 ![Adding GSP](./assets/gst_settings_credentials.png)
 
 
