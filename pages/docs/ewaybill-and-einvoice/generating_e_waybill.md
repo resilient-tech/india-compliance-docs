@@ -49,6 +49,15 @@ Use this feature to update the vehicle information (say, vehicle number) to your
     
 ![Update Vehicle Info](./assets/update_vehicle_info.gif)
 
+## Extend e-Waybill Validity
+The validity of e-Waybill can be extended between 8 hours before expiry time and 8 hours after expiry time.
+From the e-Waybill menu, Click on "Extend Validity". In the dialog box, enter the requiered details and specify the reason for the extentions and click Extend to extend the validity of the e-Waybill.
+
+1. click on "Extend Validity"
+2. Update the required details in the dialog box.
+
+![Extend e-Waybill Validity](./assets/extend_e_waybill.gif)
+
 ## Print e-Waybill
 You can use this to print an e-Waybill if you prefer not to have attachments. It works similar to printing any other document in ERPNext. It will redirect you to the respective e-Waybill log print and fetch the latest e-Waybill data (from NIC Portal) for printing if it's not available.
 
