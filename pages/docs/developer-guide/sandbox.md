@@ -5,10 +5,13 @@
 Sandbox comes pre-configured with credentials. Sandbox can be enabled from your site configuration as below.
 
 ```sh
-bench --site [your-site-name] set-config ic_api_sandbox_mode 1
+bench --site [your-site-name] set-config ic_api_secret <secret-key>
 ```
 
-You may disable the sandbox by setting the `ic_api_sandbox_mode` to 0. You must be logged in to your India Compliance Account to use the sandbox. However, any use of API calls for sandbox will not be billed.
+Update `<secret-key>` with any text.
+
+Also, Enable "Use API in Sandbox Mode?" from GST Settings.
+You must be logged in to your India Compliance Account to use the sandbox. However, any use of API calls for sandbox will not be billed.
 
 ## Sandbox for Public APIs
 
@@ -27,7 +30,7 @@ A lot of functionality has been developed around e-Waybill, and you may test it 
 
 - Although the distance is auto-populated for live APIs, it's not the same for the sandbox. So you may need to give a dummy distance between 1 to 4000 km.
 - Use `05AAACG2140A1ZL` as transporter GSTIN if required.
-- You can use all other functionality, including print, attach, update or cancel, as you need to test the APIs
+- You can use all other functionality, including print, attach, update, extend or cancel to test the APIs.
 
 ## Sandbox for e-Invoice
 
