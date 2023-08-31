@@ -24,7 +24,15 @@ For purchasing a new asset:
 6. On submission of Purchase Receipt, based on the auto creatio n checkbox, Asset will be created automatically.
 
 ## GST Expense 
-When a business makes purchases that are subject to GST, the GST amount paid is considered an expense. This expense is accounted for on the business's financial statements.
+A business may incur day-to-day expenses such as rent, telephone bills, Internet Bill, stationery, petty-cash expenses, and so on, to carry out the operations. These expenses attract GST.
+
+If you are a registered dealer and purchasing from another registered dealer, and paid GST at the time of payment or purchase, you are eligible to claim the Input Tax Credit.
+
+To create a GST Expense Purchase Invoice:
+
+1. Create a Item for the Expense.
+2. Create a Purchase Invoice for the Expense.
+3. Select the correct Expense Account in the Item.
 
 ![GST Expense](./assets/gst_expense.gif)
 
