@@ -1,4 +1,4 @@
-# Setting-Up API
+# Setting Up API
 ## GSP Credentials
 Setup Credentials for e-Waybill or e-Invoice on GSP Portal
 
@@ -19,7 +19,7 @@ You must need to create a new GSP User to generate and avail the features of e-W
 **Absolutely**, in a way, you are authorizing GSP to create/upload e-Waybill and e-Invoice transactions on your account. You shall not be able to access APIs if credentials are different for GSP or you are using personal login credentials.
 
 ## Adding GSP 
-In next step, same GSP settings has to be added in ERPNext.
+In next step, same GSP Credentials has to be added in ERPNext.
 To add GSP credentials to the ERPNext:
 
 **Go to GST Settings --> Select Credentials Tab --> Add new user with same Username and Password** 
@@ -40,7 +40,7 @@ You should ideally generate an e-Waybill from the sales invoice. e-Waybill gener
 :::
 
 - **Enable e-Waybill Generation from Purchase Invoice**
-Enable this setting to generate e-Waybill from Purchase Invoice. Businesses are generally required togenerate e-Waybills for Purchases involving the movement of goods to ensure compliance, transparency and accurate taxation.
+Enable this setting to generate e-Waybill from Purchase Invoice. Businesses are generally required to generate e-Waybills for Purchases involving the movement of goods to ensure compliance, transparency and accurate taxation.
 
 
 - **Invoice Value Threshold for e-Waybill Generation**  

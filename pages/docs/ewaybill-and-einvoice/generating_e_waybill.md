@@ -96,7 +96,6 @@ e-Waybills can be generated in bulk by two ways.
 - e-Waybill shall be generated --> Update the e-Waybill number in your Sales Invoice / Delivery Note.
 
 <!-- ToDo: Update GIF from Portal -->
-![Generate e-Waybill from JSON](./assets/generate_e_waybill_from_json.gif)
 
 **2. Enqueue Bulk e-Waybill Generation**
 - Update the documents with Transporter details for which you want to generate e-Waybills in bulk.

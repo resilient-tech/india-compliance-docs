@@ -34,7 +34,7 @@ If you want to print the report it can also be printed and viewed in GSTR3B Form
 
 The GSTR-3B Details Report provides detailed information on all the purchase transactions that are included in the GSTR-3B report.
 
-TODO: Add screenshot of GSTR-3B Details Report
+![GSTR-3B Details Report](./assets/gstr_3b_details_report.png)
 
 ## GSTR-1 Report
 

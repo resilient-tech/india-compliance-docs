@@ -4,14 +4,16 @@
 
 Sandbox comes pre-configured with credentials. Sandbox can be enabled from your site configuration as below.
 
-```sh
-bench --site [your-site-name] set-config ic_api_secret <secret-key>
-```
+- Enable `Use API in Sandbox Mode?` from GST Settings.
 
-Update `<secret-key>` with any text.
+- You must be logged in to your India Compliance Account to use the sandbox. However, any use of API calls for sandbox will not be billed.
 
-Also, Enable "Use API in Sandbox Mode?" from GST Settings.
-You must be logged in to your India Compliance Account to use the sandbox. However, any use of API calls for sandbox will not be billed.
+::: info
+
+`ic_api_sandbox_mode`config is now deprecated and setting this config will no longer have any effect.
+Your existing settings in site_config.json will be ported to the new API section in GST Settings.
+
+:::
 
 ## Sandbox for Public APIs
 
