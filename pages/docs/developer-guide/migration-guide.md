@@ -28,7 +28,7 @@ There has been a complete revamp of GST Settings and its features. Kindly review
 
 For more details, refer to the GST settings documentation.
 
-![gst-settings](./assets/gst_settings.png)
+![gst-settings](./assets/gst_settings.gif)
 
 ## Company Setup
 
@@ -96,7 +96,7 @@ It has been migrated to Integration Request.
 
 Sales Invoice is now much lighter with fewer and most necessary e-Invoice fields.
 
-Fields like Acknowledgement No and Date and other relevant fields have been moved to e-Invoice Log, which is lined to Sales Invoice.
+Fields like Acknowledgement No and Date and other relevant fields have been moved to e-Invoice Log, which is linked to Sales Invoice.
 
 ### e-Invoice QR and Print Format
 

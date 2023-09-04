@@ -29,6 +29,7 @@ For different tax rates, you get item tax templates preconfigured for your compa
 ![GST Item Tax Template](./assets/gst_item_tax_template.png)
 
 - ## Item Master
+
 Nil rated, exempted or Non-GST items have Is nill rated or Is Non-GST checkbox is checked in the item master.
 
 ![GST Exempted](./assets/gst_item.png)
@@ -39,7 +40,7 @@ Where GST Accounts are auto-created, their settings are automatically updated fo
 
 ![GST Settings for GST Account](./assets/gst_settings_accounts.png)
 
-> Where you wish to have different default settings, you must configure them manually at all the above places. 
+> Where you wish to have different default settings, you must configure them manually at all the above places.
 
 **GST Accounts form a very important part of GST Settings. Many validations and calculations are based on these settings.**
 
@@ -67,35 +68,51 @@ Also, create or update your Company Address with appropriate GST Details.
 
 - ### Create/Update Customers and suppliers
 
-
 In a very similar manner create or update your customers and suppliers with GSTIN Details. Also, they need to be updated in relevant addresses of the parties.Since GST is a destination-based tax, please make sure all Indian Customers and Suppliers have GST state (even the Unregistered ones).
 
 GST will be applied and validated to a specific transaction based on this master. GST Details will be first fetched from the Address. If the Address is not available in a transaction, it will be applied as per the Customer or Supplier.
 
-![Create Party Quick Entry](./assets/create_party_quick_entry.gif) 
+![Create Party Quick Entry](./assets/create_party_quick_entry.gif)
 
+- ### Taxes Configuration for Supplier
 
+In case of a supplier, if reverse charge is applicable for the supplier, you must check the checkbox for Reverse Charge Applicable. This will ensure that reverse charge is applied to all the transactions with this supplier. Also, you get an option to specify GST Transporter ID for the supplier. This will be fetched when you select the transporter and used in e-Waybill Generation.
+
+- ### Tax Withholding Category for Customer/Supplier
+
+In scenarios where tax withholding is mandated for suppliers, it becomes imperative to accurately select the appropriate Tax Withholding Category. This will ensure that tax withholding is consistently applied to all the transactions involving the designated supplier. Similarly, in cases where TCS is applicable, the Tax Withholding Category must be chosen for the customer. Note that tax rate in tax witholding category can be negative if required for GST TDS in Sales Invoice. All accounts that are used in tax-whitholding categories will be ignored for the purposes of calculating taxable value for GST.
+
+![Tax Withholding Category for Customer/Supplier](./assets/supplier_with_tax_withholding.png)
 
 ## General Settings
 
 - **View Tax Breakup Table Based On HSN Code**  
-     Tax Breakup Table in Sales Invoice or Purchase Invoice is generally available item-wise. If this is enabled, the tax breakup table shall be HSN Wise.
+    Tax Breakup Table in Sales Invoice or Purchase Invoice is generally available item-wise. If this is enabled, the tax breakup table shall be HSN Wise.
 
     ![Sample GST Tax Invoice](./assets/sample_gst_tax_invoice.png)
 
-- **Enable Reverse Charge in Sales Transactions**   
+- **Enable Reverse Charge in Sales Transactions**
     Enable this setting, if reverse charge is applicable on goods/services you sell.
 
-- **Enable SEZ / Overseas Transactions**   
-    Enable if you deal in Import / Export transactions with SEZ / Overseas Entity. A few fields or validations are simplified in case its not applicable to you.
+- **Enable SEZ/Overseas Transactions**
+    Enable this option if you engage in Import/Export transactions with SEZ/Overseas Entities. A certain fields or validations are simplified if its not applicable to you.
 
 - **Round Off GST Values**  
     Enabling this option will round off individual GST components in all the invoices.
 
-- **Validate HSN Code in Sales Item and Transactions**  
-    As per Central Tax Notification No. 78/2020, HSN/SAC code must be specified in Sales Invoice with minimum of 4 or 6 digits (based on turnover). Even HSN/SAC is made mandatory for selling items.
+- **Require Supplier Invoice Number for GST Purchases**
+    By enabling this option, the Supplier Invoice Number will become mandatory for all purchases (except from unregistered suppliers). This enhancement will contribute to seamless purchase reconciliation processes.
 
-- **Minimum HSN/SAC Code Digits**     
+- **Validate HSN Code in Sales Item and Transactions**  
+    Enable this setting to make HSN/SAC mandatory for selling items. As per Central Tax Notification No. 78/2020, HSN/SAC code must be specified in Sales Invoice with minimum of 4 or 6 digits (based on turnover).
+
+- **Minimum HSN/SAC Code Digits**
     Validation for minimum HSN/SAC code digits can be set here based on your turnover.
 
-![GST Settings](./assets/gst_settings.png)
+- **Enable Reverse Charge for Purchase from Unregistered Supplier**
+    Enable this option if you are making purchases from an unregistered supplier, and reverse charge is applicable. This will automatically apply and enforce reverse charge on purchase transactions from unregistered suppliers.
+
+- **Invoice Value Threshold for Reverse Charge**
+    Reverse charge will be applicable only when the invoice value exceeds the specified threshold for purchases from Unregistered Suppliers.
+
+    ![GST Settings](./assets/gst_general_settings.png)

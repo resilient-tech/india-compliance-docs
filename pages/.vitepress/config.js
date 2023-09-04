@@ -97,7 +97,7 @@ function sidebarDocs() {
             text: "Configuration",
             collapsible: true,
             items: [
-                { text: "Setting-Up", link: "/docs/configuration/gst_setup" },
+                { text: "Setting Up", link: "/docs/configuration/gst_setup" },
                 { text: "Sales Transaction", link: "/docs/configuration/sales_transaction" },
                 { text: "Purchase Transaction", link: "/docs/configuration/purchase_transaction" },
                 { text: "Other Transaction", link: "/docs/configuration/other_transaction" }
@@ -107,7 +107,7 @@ function sidebarDocs() {
             text: "e-Waybill And e-Invoice",
             collapsible: true,
             items: [
-                { text: "Setting-Up", link: "/docs/ewaybill-and-einvoice/gst_settings" },
+                { text: "Setting Up", link: "/docs/ewaybill-and-einvoice/gst_settings" },
                 { text: "Generating e-Waybill", link: "/docs/ewaybill-and-einvoice/generating_e_waybill" },
                 { text: "Generating e-Invoice", link: "/docs/ewaybill-and-einvoice/generating_e_invoice" },
                 { text: "FAQs", link: "/docs/ewaybill-and-einvoice/faqs" }

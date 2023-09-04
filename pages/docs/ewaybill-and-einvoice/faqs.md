@@ -4,7 +4,7 @@
 
 We have a seamless integration for you where both are applicable to you. Following points shall help you understand the same in detail.
 
-- If `Automatically Generate e-Invoice on Invoice Submission` setting is enabled by you, `Automatically Generate e-Waybill on Invoice Submission` will be a mandatory setting for you.
+- `Automatically Generate e-Waybill on Invoice Submission` option will be mandatory, If `Automatically Generate e-Invoice on Invoice Submission` setting is enabled.
 
 - While generating e-Invoice, e-Waybill shall be generated automatically if applicable and required fields (Transport Details) are present. In case, data is not available, and e-Waybill is not generated or only Part A of e-Waybill is generated, you shall be able to generate or update e-Waybill from e-Waybill menu items.
 

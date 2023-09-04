@@ -54,6 +54,14 @@ Documents for which Audit Trail is enabled and made mandatory are as follows ([r
 - POS Invoice
 - Bill of Entry
 
+## Audit Trail Report
+
+The Audit Trail Report provides a detailed history of all changes made to documents in the system. This includes the user who made the change, the date and time of the change, and the type of change. The report can be viewed by doctype or user, and it provides all important and relevant details about the document generated.
+
+![Audit Trail Report](./assets/audit_trail_report.png)
+
+The Audit Trail Report is a valuable tool for tracking changes to documents in the system. It can be used to identify who made changes to a document, when the changes were made, and what type of changes were made. This information can be used to investigate problems, identify unauthorized changes, and ensure that documents are accurate and up-to-date.
+
 ## Adding custom doctypes
 
 If you have custom doctypes that you would like to enforce Audit Trail on, you can do so by adding them to the `audit_trail_doctypes` hook. Here's how:
