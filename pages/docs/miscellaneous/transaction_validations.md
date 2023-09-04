@@ -12,7 +12,7 @@ Mode Of Transport, Transporter Name or ID is entered or not; all the fields in a
 ## Pincode
 The master database of the e-invoicing system has a state master which validates the PIN codes against the states. If a particular PIN code does not exist, it will match the first three digits of the PIN code with the PIN code to the state mapping pattern as defined by the postal department. Only after proper validation, an IRN will be generated.
 
-## HSN CODE
+## HSN Code
 According to the GST Law, your itemized invoices must contain the HSN Code related to that item.India Compliance checks validity of HSN Code and ensures correct HSN with minimum code digit is present.
 
 ![Invalid HSN](./assets/invalid_hsn.png)
