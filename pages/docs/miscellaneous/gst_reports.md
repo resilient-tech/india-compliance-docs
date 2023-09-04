@@ -1,4 +1,5 @@
 # GST Reports
+
 ERPNext comes with most of your reports you need to prepare your GST Returns.
 
 ## GSTR3B Report
@@ -13,10 +14,10 @@ or simply search for GSTR 3B Report in awesomebar.
 
 - Enter the following details to generate the report:
 
-    1.  Company Name
-    2.  Company Address linked to the GSTIN for which the report is to be generated
-    3.  Year
-    4.  Month
+    1. Company Name
+    2. Company Address linked to the GSTIN for which the report is to be generated
+    3. Year
+    4. Month
 
 ![GSTR 3B Report](./assets/gstr_3b_input.png)
 
@@ -46,11 +47,11 @@ or simply search for GSTR-1 Report in awesomebar.
 
 - Enter the following details to generate the report:
 
-    1.  Company Name
-    2.  Company Address linked to the GSTIN for which the report is to be generated
-    3.  From Date
-    4.  To Date
-    5.  Type of Business
+    1. Company Name
+    2. Company Address linked to the GSTIN for which the report is to be generated
+    3. From Date
+    4. To Date
+    5. Type of Business
 
 - Click `Download as JSON` to create JSON.
 
@@ -60,4 +61,17 @@ You can also Export report in Excel or CSV.
 
 ## GST Balance Report
 
-With version-14 India Compliance app doesn't support 
+The GST Balance Report provides the balance of GST Accounts for a given period.
+It also provides the balance summary for each GSTIN.
+
+To view GST balance report navigate to **Accounts > GST India > GST Balance**
+
+or simply search for GST Balance in awesomebar.
+
+![GST Balance Details Report](./assets/gst_balance_details_report.png)
+![GST Balance Summary Report](./assets/gst_balance_summary_report.png)
+
+::: info
+You may need to update GSTIN in documents where GST Number is not set.
+We have provided a tool to update GST Number in all documents.However, in a multi-company setup, you'll need to manually update for each document, as GSTIN cannot be determined.
+:::
