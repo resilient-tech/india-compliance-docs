@@ -77,3 +77,74 @@ In order to avoid manual selection of accounts and automate this process you can
 ![Reverse Charge Template](./assets/reverse_charge_template.png)
 
 * Once this configuration is done, on selection of supplier appropriate Purchase Taxes and Charges Template will be applied
+
+
+## ITC Ineligibility
+
+> Introduced in v14.18.0
+
+A new feature was recently introduced in version-14 that automates ITC Reversal with GL Entry if you are not eligible to claim input tax credit.
+
+### Configurations
+
+* GST Expense Account should be set in company doctype
+
+![Default GST Expense](./assets/default_gst_expense.png)
+
+* If ITC is not eligible for specific items, enable Is Ineligible for ITC in Item Taxes.
+
+![Is Ineligible for ITC](./assets/is_ineligible_for_itc.png)
+
+### What are the cases where ITC is ineligible? How are these cases handeled in India Compliance?
+
+**GSTR3B Extract**
+![Cases for ITC Reversal GSTR3B](./assets/cases_for_itc_reversal_gstr_3b.png)
+
+As per laws in India, ITC may be required to be *reversed* in the following cases:
+- *Rules 38, 42, and 43 of CGST*: This is usually in relation to sales made (eg: Input claims for Exempt sales). Such reversals can be handeled in Journal Entry. This will be reported in 4B(1) of GSTR-3B.
+
+- *Section 17(5) of CGST*: This is usually in relation to item purchased. Such reversals if it's defined for item, can be handeled in Purchase Invoice automatically. For other cases (like personal use) it can be handeled in Journal Entry. This will be reported in 4B(1) of GSTR-3B.
+
+- *Other reasons*: Reversal can be handeled in Journal Entry. This will be reported in 4B(2) of GSTR-3B.
+
+- *ITC is restricted due to PoS (Place of Supply) rules*. As per these rules, ITC can only be claimed if Place of Supply is same as State of Registration of the supplier.
+	eg: If place of supply is Maharashtra, then ITC cannot be claimed if company is registered in Karnataka. Classic example: You booked a stay in Mumbai, but your company is registered in Karnataka. 
+
+	Such cases are automatically handeled in Purchase Invoice and ITC in such cases is reversed if claimed. This will then be reported in 4D(2) of GSTR-3B. 
+
+	> Note: This will be handeled irrespective of ITC eligibility set in Item.
+
+**Journal Entry**
+![ITC Reversal Journal Entry](./assets/itc_reversal_journal_entry.png)
+
+**Purchase Invoice Item**
+![Purchase Invoice Item ITC Reversal](./assets/purchase_invoice_item_itc_reversal.png)
+
+**Purchase Invoice** (Reason Autoset)
+![Reason for Ineligibility](./assets/reason_for_ineligibility.png)
+
+### Which accounts are affected in case of ITC Reversal done automatically?
+
+Accounts affected will depend on item.
+- Expense items: Expense account will be debited proportionally.
+- Stock items: Stock account will be debited proportionally and its value will be adjusted.
+- Asset items: Asset account will be debited proportionally and its value will be adjusted.
+
+Different workflows are taken care of and accounting would be done accordingly.
+- Purchase Receipt --> Purchase Invoice: Item valuation is adjusted in Purchase Receipt. Input Reversal is done in Purchase Invoice.
+- Only Purchase Invoice: Item valuation is adjusted in Purchase Invoice. Input Reversal is done in Purchase Invoice.
+- Purchase Receipt --> Purchase Invoice --> Bill of Entry: Input Reversal is done in Bill of Entry. 
+	
+	Taxes are not known in purchase receipt / purchase invoice. Hence valutaion is **not** automatically updated for purchase receipt / purchase invoice. However, proportionate valuation is auto-populated when trying to create Landed Cost Voucher from Bill of Entry.
+
+**Landed Cost Voucher**
+![Autopopulated Landed Cost Voucher](./assets/autopopulated_landed_cost_voucher.png)
+
+### Example use case with Purchase Invoice
+
+**Purchase Invoice with Stock / Expense / Asset Item** (Items in Green are eligible for ITC)
+![Purchase Invoice With Eligible and Ineligible Items](./assets/purchase_invoice_with_eligible_and_ineligible_items.png)
+
+**GL Entry**
+![GL Entry With Ineligible ITC](./assets/gl_entry_with_ineligible_itc.png)
+
