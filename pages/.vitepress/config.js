@@ -118,6 +118,7 @@ function sidebarDocs() {
             collapsible: true,
             collapsed: true,
             items: [
+                { text: "Purchase Reconciliation Tool", link: "/docs/miscellaneous/purchase_reconciliation_tool" },
                 { text: "Audit Trail", link: "/docs/miscellaneous/audit_trail" },
                 { text: "GSTIN Verification", link: "/docs/miscellaneous/gstin_verification" },
                 { text: "Reports and Returns", link: "/docs/miscellaneous/gst_reports" },
