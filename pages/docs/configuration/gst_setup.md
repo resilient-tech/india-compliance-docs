@@ -30,9 +30,13 @@ For different tax rates, you get item tax templates preconfigured for your compa
 
 - ## Item Master
 
-Nil rated, exempted or Non-GST items have Is nill rated or Is Non-GST checkbox is checked in the item master.
+You can configure HSN, Tax Templeate, etc for item from Item Master.
 
-![GST Exempted](./assets/gst_item.png)
+Item Taxes can be configured from the taxes tab as below. 
+- If the item is not eligible for claiming ITC, it can be configured from here and GST will be reversed for such item when a purchase is made.
+- Select the appropriate item tax template applicable for that item. This template is auto-set when creating transactions. Templates would differ for each company.
+
+![GST Item Configuration](./assets/gst_item.png)
 
 - ## GST Accounts
 
