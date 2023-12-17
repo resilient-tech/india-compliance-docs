@@ -130,6 +130,7 @@ function sidebarDocs() {
             collapsible: true,
             collapsed: true,
             items: [
+                { text: "Migrating from V13", link: "/docs/developer-guide/migrating-from-v13" },
                 { text: "Migration Guide", link: "/docs/developer-guide/migration-guide" },
                 { text: "Sandbox", link: "/docs/developer-guide/sandbox" },
                 { text: "E-Invoice QR", link: "/docs/developer-guide/e_invoice_qr" },

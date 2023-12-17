@@ -26,5 +26,5 @@ You can get started in a few minutes with a new site and a fresh install to try 
 
 Need consultation / support in getting started. [Get help!](mailto:info@resilient.tech)
 
-For Migration guide [Click Here](../developer-guide/migration-guide.md)  
+For Migration guide [Click Here](../developer-guide/migrating-from-v13.md)  
 For Sandbox Configuration [Click Here](../developer-guide/sandbox.md)
