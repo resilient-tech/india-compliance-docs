@@ -100,7 +100,8 @@ function sidebarDocs() {
                 { text: "Setting Up", link: "/docs/configuration/gst_setup" },
                 { text: "Sales Transaction", link: "/docs/configuration/sales_transaction" },
                 { text: "Purchase Transaction", link: "/docs/configuration/purchase_transaction" },
-                { text: "Other Transaction", link: "/docs/configuration/other_transaction" }
+                { text: "TDS Configuration", link: "/docs/configuration/tds_configuration" },
+                { text: "Other Transaction", link: "/docs/configuration/other_transaction" },
             ]
         },
         {
@@ -122,7 +123,8 @@ function sidebarDocs() {
                 { text: "Audit Trail", link: "/docs/miscellaneous/audit_trail" },
                 { text: "GSTIN Verification", link: "/docs/miscellaneous/gstin_verification" },
                 { text: "Reports and Returns", link: "/docs/miscellaneous/gst_reports" },
-                { text: "Transaction Validations", link: "/docs/miscellaneous/transaction_validations" }
+                { text: "Transaction Validations", link: "/docs/miscellaneous/transaction_validations" },
+                { text: "Lower Deduction Certificate", link: "/docs/miscellaneous/lower_deduction_certificate" },
             ]
         },
         {

@@ -48,6 +48,28 @@ There is a slight change in how this works in v14 instead of v13. We have brough
 
 With this standardisation, you will see a lot of improvements in validations and how taxes are implemented in v14.
 
+**Scenario 1:** You are using a single GST Account for Input and Output Tax
+
+While using the India Compliance app it is mandatory to setup separate accounts for each type so in case you are migrating from version 13 to version 14 you can update your accounts as follows.
+
+You can use your current GST Accounts with type as "Output" and make new accounts for types "Input" and "Reverse Charge". Your new GST Settings should look as follows in this case.
+
+![single-account](./assets/single_account.png)
+
+Now in case you still want to see the net GST Balance in one single account a journal entry can be posted to move the balance to Input GST Account and the final balance will give you the payable GST.
+
+![new-settings](./assets/new_settings.png)
+
+**Scenario 2:** You are using multiple GST Accounts by tax rate or state
+
+![multipe-account](./assets/multiple_account.png)
+
+All your GST Accounts will have to merged into a single account, in case you are already using separate input and output accounts, merge the accounts for each type and update the GST Accounts against each type.
+
+The "Output CGST 5%" and "Output CGST 9%" accounts will be merged into a single account "Output CGST", same goes for SGST and IGST accounts
+
+In case you are using multiple accounts for rates or any other reason but same account for type "Input"(Purchase) and "Output"(Sales) then follow the process mentioned in Scenario 1 post merging all the accounts.
+
 ## Party and Address Doctypes
 
 There has been a change in how GST details are saved in party and address doctypes. Also, there is a slight difference in how they are auto-populated. You may refer to the documentation here and make appropriate changes.
