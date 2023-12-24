@@ -13,7 +13,7 @@ Following breaking change is introduced to simplify setup, reduce errors, and be
 - Introduced <strong>GST Details</strong> in all transactions. [Learn more](../configuration/sales_transaction.md#gst-details)
 - Fields <strong>Depricated</strong> from Item; `Is Nil Exempt` and `Is Non-GST`. Instead `GST Treatement` is introduced in Item Tax Templates. [Learn More](../configuration/gst_setup.md#item-tax-templates)
 - Splitting of `Is Nil Exempt` to `Nil-Rated` and `Exepted`
-- <strong>Patch</strong>: Items marked as `Is Nil Exepmt` will be marked as `Nil-Rated` in Item Tax Templates. If this is not acceptable for a few items, you should manually update your configuration as required.
+- <strong>Patch</strong>: Items marked as `Is Nil Exempt` will be marked as `Nil-Rated` in Item Tax Templates. If this is not acceptable for a few items, you should manually update your configuration as required.
 
 <strong>Best approach to manually update:</strong>
 Update HSN Taxes >> Update taxes for Items >> This will update item tax templates for your items.
