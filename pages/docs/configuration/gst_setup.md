@@ -30,7 +30,7 @@ For different tax rates, you get item tax templates preconfigured for your compa
 
 - ## Item Master
 
-You can configure HSN, Tax Templeate, etc for item from Item Master.
+You can configure HSN, Tax Template, etc for item from Item Master.
 
 Item Taxes can be configured from the taxes tab as below. 
 - If the item is not eligible for claiming ITC, it can be configured from here and GST will be reversed for such item when a purchase is made.
