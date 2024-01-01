@@ -31,7 +31,7 @@ We have a simple pricing plan offered with pay-per-use model. Minimum purchase p
 
 ## Free Trial
 For New-users we are providing **1000 credits** with 3 months validity.  
-Free credits gets activated on e-mail verifiaction.
+Free credits gets activated on e-mail verification.
 (*Offer for limited period only*)
 
 ## Purchase Credits
