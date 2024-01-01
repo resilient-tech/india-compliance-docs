@@ -1,3 +1,16 @@
+---
+description: Learn how to create and use Lower Deduction Certificates in ERPNext to obtain a confirmation for either a lower rate or NIL rate of TDS compared to the prescribed rates in tax withholding categories. Explore the prerequisites, step-by-step guide for creating a certificate, and its usage in purchase invoices.
+
+structured_data:
+  - "@context": "https://schema.org"
+    "@type": "WebPage"
+    name: "Lower Deduction Certificates in ERPNext - Documentation"
+    description: "Learn how to create and use Lower Deduction Certificates in ERPNext to obtain a confirmation for either a lower rate or NIL rate of TDS compared to the prescribed rates in tax withholding categories. Explore the prerequisites, step-by-step guide for creating a certificate, and its usage in purchase invoices."
+    mainEntityOfPage:
+      "@type": "WebPage"
+      "@id": "https://docs.indiacompliance.app/docs/miscellaneous/lower_deduction_certificate"
+---
+
 # Lower Deduction Certificate
 
 According to the tax withholding category, a person responsible for making payments is required to deduct tax at source at prescribed rates. Instead of receiving tax on your income from you at a later date, the government wants the payers to deduct tax beforehand and deposit it with the government. However this scheme of deducting tax at source may cause issues to a few taxpayers who may not have taxable income for that fiscal year.
