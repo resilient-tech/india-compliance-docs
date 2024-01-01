@@ -5,8 +5,9 @@ structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
     name: "Advanced Purchase Reconciliation Tool - ERPNext Documentation"
-    description: "Explore the Advanced Purchase Reconciliation Tool in ERPNext, designed to streamline the reconciliation process with GST returns. Learn about its dual reconciliation feature, advanced matching algorithm, one-click report generation, and secure end-to-end encryption with the GST Portal. Follow the configuration steps, download and upload processes for GSTR2A and GSTR2B, and understand the significance of each. Utilize bulk actions, quick filters, and individual transaction processing to efficiently reconcile your purchases. Share insightful reports with vendors to maintain accurate records and compliance.
-    mainEntityOfPage:"
+    description: "Explore the Advanced Purchase Reconciliation Tool in ERPNext, designed to streamline the reconciliation process with GST returns. Learn about its dual reconciliation feature, advanced matching algorithm, one-click report generation, and secure end-to-end encryption with the GST Portal. Follow the configuration steps, download and upload processes for GSTR2A and GSTR2B, and understand the significance of each. Utilize bulk actions, quick filters, and individual transaction processing to efficiently reconcile your purchases. Share insightful reports with vendors to maintain accurate records and compliance."
+
+    mainEntityOfPage:
       "@type": "WebPage"
       "@id": "https://docs.indiacompliance.app/docs/miscellaneous/purchase_reconciliation_tool"
 ---

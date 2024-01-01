@@ -51,7 +51,7 @@ export default defineConfig({
 
         footer: {
             message: "<a href=https://www.resilient.tech/> Powered by Resilient Tech <a> ",
-            copyright: "Copyright © 2022",
+            copyright: "Copyright © 2023",
         },
 
         comment: {
