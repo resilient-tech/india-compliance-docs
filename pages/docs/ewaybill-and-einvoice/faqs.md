@@ -1,3 +1,18 @@
+---
+description: FAQs on e-Invoice and e-Waybill.
+
+structured_data:
+  - "@context": "https://schema.org"
+    "@type": "WebPage"
+    name: "FAQs for India compliance"
+
+    description: "FAQs on e-Invoice and e-Waybill."
+
+    mainEntityOfPage:
+      "@type": "WebPage"
+      "@id": "https://docs.indiacompliance.app/docs/ewaybill-and-einvoice/faqs"
+---
+
 # FAQs
 
 ### e-Invoice and e-Waybill both are applicable to us. How do these settings interact with each other?
