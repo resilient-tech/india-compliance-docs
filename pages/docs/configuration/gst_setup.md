@@ -1,3 +1,16 @@
+---
+description: Learn how to configure GST in ERPNext with India Compliance, covering HSN Codes, Tax Accounts, Tax Templates, Item Tax Templates, Item Master, GST Accounts, and more.
+
+structured_data:
+  - "@context": "https://schema.org"
+    "@type": "WebPage"
+    name: "Configuring GST in ERPNext - India Compliance Documentation"
+    description: "Learn how to configure GST in ERPNext with India Compliance, covering HSN Codes, Tax Accounts, Tax Templates, Item Tax Templates, Item Master, GST Accounts, and more."
+    mainEntityOfPage:
+      "@type": "WebPage"
+      "@id": "https://docs.indiacompliance.app/docs/configuration/gst_setup"
+---
+
 # Configuring GST in ERPNext
 
 As of 2017, India will fall under the new GST (Goods and Services Tax) regime and India Compliance makes it easy for users to track the details of its Supplier and Customers across Invoices and make the required reports.
