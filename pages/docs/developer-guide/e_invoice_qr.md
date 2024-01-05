@@ -39,7 +39,7 @@ To add an e-Invoice QR code to a standard print format, follow these steps:
 <img src="data:image/png;base64,{{ get_qr_code(qr_text, scale=2) }}" class="qrcode">
 ```
 
-##### 2. Add the following fileds in child table "Fields"
+##### 2. Add the following fields in child table "Fields"
 
 - Label: QR Text
 - Fieldname: qr_text
