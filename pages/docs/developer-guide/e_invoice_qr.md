@@ -20,7 +20,7 @@ To add a QR code to a custom print format, use the following code snippet:
 ```
 
 ::: tip
-You  can also check out the implementation in the [Standard e-Invoice print format](https://github.com/resilient-tech/india-compliance/blob/4bd775ab656f81fc6764cc1dc6587d11e0097afd/india_compliance/gst_india/print_format/e_invoice/e_invoice.html#L109) for further guidance.
+You can also check out the implementation in the [Standard e-Invoice print format](https://github.com/resilient-tech/india-compliance/blob/4bd775ab656f81fc6764cc1dc6587d11e0097afd/india_compliance/gst_india/print_format/e_invoice/e_invoice.html#L109) for further guidance.
 :::
 
 ## Standard Print Format
@@ -39,7 +39,7 @@ To add an e-Invoice QR code to a standard print format, follow these steps:
 <img src="data:image/png;base64,{{ get_qr_code(qr_text, scale=2) }}" class="qrcode">
 ```
 
-##### 2. Add the following fields in child table "Fields"
+##### 2. Add the following fields in the child table "Fields"
 
 - Label: QR Text
 - Fieldname: qr_text

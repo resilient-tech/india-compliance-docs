@@ -29,9 +29,9 @@ A lot of functionality has been developed around e-Waybill, and you may test it 
 
 You can test e-Invoice and its interaction with e-Waybill with the following restrictions (for sandbox only):
 
-- You shall not be able to print or attach e-Waybill print. This is not possible as APIs are different with different user credentials.
+- You shall not be able to print or attach an e-Waybill print. This is not possible as APIs are different with different user credentials.
 - You will not be able to update the transporter or vehicle information from the sandbox.
-- Other than this, you can test the generation or cancellation of e-Invoice & e-Waybill.
+- Other than this, you can test the generation or cancellation of e-Invoice & e-Waybills.
 
 ## Sandbox for Public APIs
 

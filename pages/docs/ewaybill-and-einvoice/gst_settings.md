@@ -2,7 +2,7 @@
 ## GSP Credentials
 Setup Credentials for e-Waybill or e-Invoice on GSP Portal
 
-You must need to create a new GSP User to generate and avail the features of e-Waybill or e-Invoice using APIs.  
+You need to create a new GSP User to generate and avail the features of e-Waybill or e-Invoice using APIs.  
 **The following steps will help you create a new user for GSP.**
 
 1. Login to the e-Waybill portal using your existing credentials.
@@ -16,10 +16,10 @@ You must need to create a new GSP User to generate and avail the features of e-W
 **Yes**, Portal shares the same credentials for e-Waybill or e-Invoice. Updating your password on any portal will also update it on other portal.
 
 **Is it necessary to create GSP Login to make API Access?**
-**Absolutely**, in a way, you are authorizing GSP to create/upload e-Waybill and e-Invoice transactions on your account. You shall not be able to access APIs if credentials are different for GSP or you are using personal login credentials.
+**Absolutely**, in a way, you are authorizing GSP to create/upload e-Waybill and e-Invoice transactions on your account. You shall not be able to access APIs if the credentials are different for GSP or you are using personal login credentials.
 
 ## Adding GSP 
-In next step, same GSP Credentials has to be added in ERPNext.
+In the next step, the same GSP Credentials have to be added in ERPNext.
 To add GSP credentials to the ERPNext:
 
 **Go to GST Settings --> Select Credentials Tab --> Add new user with same Username and Password** 
@@ -30,7 +30,7 @@ To add GSP credentials to the ERPNext:
 ## e-Waybill Settings
 
 - **Enable e-Waybill Features**  
-Enable this setting to avail e-Waybill Features like generating e-Waybill, Update Transporter & Vehicle Information, and extend the validity of e-Waybill.
+Enable this setting to avail e-Waybill Features like generating e-Waybill, Update Transporter and vehicle Information, and extending the validity of e-Waybill.
 
 - **Enable e-Waybill Generation from Delivery Note**:  
 Do you want to generate an e-Waybill from the delivery note? Do you want to transfer goods for Job Work or to your different warehouse? Enable "e-Waybill generation from Delivery Note" to start generating e-Waybills from Delivery Note.
@@ -44,7 +44,7 @@ Enable this setting to generate e-Waybill from Purchase Invoice. Businesses are 
 
 
 - **Invoice Value Threshold for e-Waybill Generation**  
-As per the CGST Rules, the limit is Rs.50,000 which is set by default. But it may very state wise so, you can configure it as per applicable laws or ensure tighter internal controls. Applicability of e-Waybill for Sales Invoice is checked based on this setting.
+As per the CGST Rules, the limit is Rs.50,000 which is set by default. But it may vary state-wise so, you can configure it as per applicable laws or ensure tighter internal controls. Applicability of e-Waybill for Sales Invoice is checked based on this setting.
 
 ![e-Waybill Settings](./assets/e_waybill_settings.png)
 
@@ -74,15 +74,15 @@ You need to first enable API to access e-Invoice Settings
 Enable e-Invoicing if it is applicable to you.
 
 - **Automatically Generate e-Invoice on Invoice Submission**  
-If this settings is enabled, e-Invoice will automatically be generated on submission of Sales Invoice.
+If this setting is enabled, an e-Invoice will automatically be generated on submission of the Sales Invoice.
 
 - **Generate e-Waybill with e-Invoice**
 e-Waybill will be generated along with e-Invoice if the invoice value threshold is met, and data is available and valid.
 
-    > e-Invoice is automatically generated for all invoices except for supplies to Unregistered Person or Non-GST Supplies.
+    > e-Invoice is automatically generated for all invoices except for supplies to Unregistered Persons or Non-GST Supplies.
 
 - **e-Invoice Applicable From**  
-e-Invoices will only be generated for invoices generated after this date. You can pre-configure this if its going to be applicable at a later date. This date will be applicable only if **Apply e-Invoice for Selected Companies** option is disabled.
+e-Invoices will only be generated for invoices generated after this date. You can pre-configure this if it's going to be applicable at a later date. This date will be applicable only if **Apply e-Invoice for Selected Companies** option is disabled.
 
 ![e-Invoice Settings](./assets/e_invoice_settings_1.png)
 
