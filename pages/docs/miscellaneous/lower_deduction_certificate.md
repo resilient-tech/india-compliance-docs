@@ -1,8 +1,8 @@
 # Lower Deduction Certificate
 
-According to the tax withholding category, a person responsible for making payments is required to deduct tax at source at prescribed rates. Instead of receiving tax on your income from you at a later date, the government wants the payers to deduct tax beforehand and deposit it with the government. However this scheme of deducting tax at source may cause issues to a few taxpayers who may not have taxable income for that fiscal year.
+According to the tax withholding category, a person responsible for making payments is required to deduct tax at source at prescribed rates. Instead of receiving tax on your income from you at a later date, the government wants the payers to deduct tax beforehand and deposit it with the government. However, this scheme of deducting tax at source may cause issues for a few taxpayers who may not have taxable income for that fiscal year.
 
-Therefore, for such taxpayers, the government provides an option to obtain a certificate confirming to either a lower rate or NIL rate of TDS compared to the rate specified in the tax withholding category.
+Therefore, for such taxpayers, the government provides an option to obtain a certificate confirming either a lower rate or NIL rate of TDS compared to the rate specified in the tax withholding category.
 
 ## Prerequisites
 
@@ -17,9 +17,9 @@ Before creating and using a Lower Deduction Certificate, it is advised to create
 - Enter the Certificate No.
 - Select the Section Code.
 - Enter the Fiscal Year.
-- Select the Supplier having a valid PAN number. PAN number will be auto fetched on the selection of Supplier.
+- Select the Supplier having a valid PAN number. PAN number will be auto-fetched on the selection of Supplier.
 - Enter Valid From and Valid Up To dates.
-- Enter rate of TDS as per the certificate and the certificate limit.
+- Enter the rate of TDS as per the certificate and the certificate limit.
 - Click on Save.
 
 ![lower-deduction-certificate](./assets/lower_deduction_certificate.png)

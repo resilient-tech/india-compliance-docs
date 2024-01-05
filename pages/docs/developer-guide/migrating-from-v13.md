@@ -4,7 +4,7 @@ Migrations are never easy, with a lot of uncertainties attached to them.
 
 To simplify this, we have a guide for changes we have made to version 13 and how you can tackle them.
 
-This guide is particular to changes with India Compliance App.
+This guide is particular to changes with the India Compliance App.
 
 ::: info
 We have appropriate patches to ensure a smooth migration, but there can be some ambiguity, which we have not touched. Make sure you have got all this right before you start using your systems.
@@ -18,7 +18,7 @@ First, you shall be required to upgrade your ERPNext site from version 13 to ver
 India-specific features have been removed from ERPNext, and you shall be required to install the new app, India Compliance.
 :::
 
-Once done, you must add India Compliance App and install it as per instructions [here](../getting-started/installation#self-hosted).
+Once done, you must add the India Compliance App and install it as per instructions [here](../getting-started/installation#self-hosted).
 
 Now we shall cover changes to specific features below.
 
@@ -50,9 +50,9 @@ With this standardisation, you will see a lot of improvements in validations and
 
 **Scenario 1:** You are using a single GST Account for Input and Output Tax
 
-While using the India Compliance app it is mandatory to setup separate accounts for each type so in case you are migrating from version 13 to version 14 you can update your accounts as follows.
+While using the India Compliance app it is mandatory to set up separate accounts for each type so in case you are migrating from version 13 to version 14 you can update your accounts as follows.
 
-You can use your current GST Accounts with type as "Output" and make new accounts for types "Input" and "Reverse Charge". Your new GST Settings should look as follows in this case.
+You can use your current GST Accounts with the type "Output" and make new accounts for types "Input" and "Reverse Charge". Your new GST Settings should look as follows in this case.
 
 ![single-account](./assets/single_account.png)
 
@@ -64,15 +64,15 @@ Now in case you still want to see the net GST Balance in one single account a jo
 
 ![multipe-account](./assets/multiple_account.png)
 
-All your GST Accounts will have to merged into a single account, in case you are already using separate input and output accounts, merge the accounts for each type and update the GST Accounts against each type.
+All your GST Accounts will have to be merged into a single account, in case you are already using separate input and output accounts, merge the accounts for each type and update the GST Accounts against each type.
 
-The "Output CGST 5%" and "Output CGST 9%" accounts will be merged into a single account "Output CGST", same goes for SGST and IGST accounts
+The "Output CGST 5%" and "Output CGST 9%" accounts will be merged into a single account "Output CGST", The same goes for SGST and IGST accounts
 
-In case you are using multiple accounts for rates or any other reason but same account for type "Input"(Purchase) and "Output"(Sales) then follow the process mentioned in Scenario 1 post merging all the accounts.
+In case you are using multiple accounts for rates or any other reason but the same account for type "Input"(Purchase) and "Output"(Sales) then follow the process mentioned in Scenario 1 post merging all the accounts.
 
 ## Party and Address Doctypes
 
-There has been a change in how GST details are saved in party and address doctypes. Also, there is a slight difference in how they are auto-populated. You may refer to the documentation here and make appropriate changes.
+There has been a change in how GST details are saved in the party and address doctypes. Also, there is a slight difference in how they are auto-populated. You may refer to the documentation here and make appropriate changes.
 
 **How is it different from v13?**
 
@@ -80,14 +80,14 @@ There has been a change in how GST details are saved in party and address doctyp
 - "URP" / "NA" is no longer acceptable for empty or No GSTIN. Just keep it blank.
 - Improved validations to ensure you get it right.
 
-**What care is needed post migration?**
+**What care is needed post-migration?**
 
 We do have a patch to ensure this works, but it doesn't work where there is ambiguity or maybe your existing database is not complete.
 Just filter out for following in Customer / Supplier / Address doctypes and fix them.
 
 - GST Category *is* not set.
 - GST Category *not in* Unregistered, Overseas and GSTIN *is* not set.
-- For addresses, you can have an additional filter. Check for link doctype *is in* Customer, Supplier, Company.
+- For addresses, you can have an additional filter. Check for the link doctype *is in* Customer, Supplier, Company.
 
 All this is to ensure you have GSTIN and GST Category appropriately set for your parties and their addresses. It will ensure smoother transactions (without validation failures) in the future.
 
@@ -96,7 +96,7 @@ All this is to ensure you have GSTIN and GST Category appropriately set for your
 With v14, there is consistency with the fields available in Transaction DocTypes throughout sales and purchase cycles.
 
 - There are minor changes with the placements of the fields and their types.
-- Fields that may need user inputs have been brought up from GST Section below.
+- Fields that may need user inputs have been brought up from the GST Section below.
 - *Is Reverse Charge* and *Is Export with Payment of Tax* is now a checkbox.
 - *GST Category* is now closer to GSTIN.
 
@@ -118,7 +118,7 @@ It has been migrated to Integration Request.
 
 Sales Invoice is now much lighter with fewer and most necessary e-Invoice fields.
 
-Fields like Acknowledgement No and Date and other relevant fields have been moved to e-Invoice Log, which is linked to Sales Invoice.
+Fields like Acknowledgement No and Date and other relevant fields have been moved to e-Invoice Log, which is linked to the Sales Invoice.
 
 ### e-Invoice QR and Print Format
 

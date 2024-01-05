@@ -6,7 +6,7 @@ To book reversal of ITC go to Journal Entry doctype and follow the following ste
 
 1. Select "Entry Type" as "Reversal Of ITC"
 2. In "Reversal Type" select "As per rules 42 &amp; 43 of CGST Rules" or "Others" based on the types of reversal
-3. Select appropriate Company Address (GSTIN) for which ITC is being reversed
+3. Select the appropriate Company Address (GSTIN) for which ITC is being reversed
 4. Fill the accounts and amounts in the Accounting Entries as shown below
 5. Save and Submit
 
@@ -15,19 +15,19 @@ To book reversal of ITC go to Journal Entry doctype and follow the following ste
 
 ## GST on Advanced Payments
 
-As per GST laws in India, where advances are received from a customer, there is a liability to pay GST on such advance receipts. This liability is then adjusted when the advance is adjusted against the supply made. Following example will help understand how this transaction will work with India Compliance.
+As per GST laws in India, where advances are received from a customer, there is a liability to pay GST on such advance receipts. This liability is then adjusted when the advance is adjusted against the supply made. The following example will help us understand how this transaction will work with India Compliance.
 
 ### Advance Payment Receipt
 
-Resilient Tech receives a payment of Rs. 10000/- from a customer. Resilient Tech is expecting to charge GST @ 18% in relation to the planned supply.
+Resilient Tech receives a payment of Rs. 10000/- from a customer. Resilient Tech is expecting to charge GST @ 18% for the planned supply.
 
-Advance payment received will be considered as amount received including GST. Resilient Tech is therefore liable to pay GST of Rs. 1525.42/- on this advance receipt.
+Advance payment received will be considered as the amount received including GST. Resilient Tech is therefore liable to pay GST of Rs. 1525.42/- on this advance receipt.
 
 ![Advance Payment With GST](./assets/advace_payment_with_gst.png)
 
 ### Supply of Services
 
-One month later, Resilient Tech supplies services worth Rs. 20000/- + GST to the customer. Advance Payment received above is adjusted against the supply of services.
+One month later, Resilient Tech supplies service worth Rs. 20000/- + GST to the customer. Advance Payment received above is adjusted against the supply of services.
 
 ![Adjustment of Advance With GST](./assets/adjustment_of_advance_with_gst.png)
 
@@ -39,11 +39,11 @@ Automatic reversal of GST on Advance Payment will be posted against Payment Entr
 
 ### GST Advance Detail Report
 
-This report comes with following configurations:
+This report comes with the following configurations:
 
 **Period vs As on the Date Report**
 - *Show for Period*: It would show **all** the transactions for the selected period.
-- *As on the Date Report*: It would show **only** the transactions where GST unallocated amount is greater than 0.
+- *As on the Date Report*: It would show **only** the transactions where the GST unallocated amount is greater than 0.
 
 **Detailed vs Summary Report**
 - *Detailed Report*: It would even show invoice level details where GST is allocated.

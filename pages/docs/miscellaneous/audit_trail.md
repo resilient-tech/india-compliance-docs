@@ -8,7 +8,7 @@ A similar feature called [Document Versioning](https://docs.erpnext.com/docs/v14
 ## Feature Highlights
 1. This feature can be enabled from Accounts Settings or from Setup Wizard.
 1. Once this feature is enabled, it cannot be disabled.
-1. Accounts Settings with respect to Delete Accounting and Stock Ledger Entries on deletion of Transaction will be disabled and made read-only. Hence it wouldn't be possible to delete any accounting and or stock transaction.
+1. Accounts Settings with respect to Delete Accounting and Stock Ledger Entries on deletion of transaction will be disabled and made read-only. Hence it wouldn't be possible to delete any accounting and or stock transaction.
 1. Document Versioning or Track Changes would be enabled for all accounting and stock transactions by default and cannot be disabled or overridden
 
 ![Enable Audit Trail](./assets/enable_audit_trail.png)
