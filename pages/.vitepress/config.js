@@ -17,9 +17,9 @@ export default defineConfig({
 
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
         ['meta', { name: 'author', content: 'Resilient Tech' }],
-        ['meta', { name: 'keywords', content: 'India Compliance, Resilient Tech, ERP , ERPNext, Frappe,business management, open source, software, services,Vadodara,Gujarat,India,Baroda' }],
+        ['meta', { name: 'keywords', content: 'India Compliance, Resilient Tech, ERP, ERPNext, Frappe' }],
         ['meta', { name: 'robots', content: 'index, follow' }],
-        ['meta', { name: 'copyright', content: 'Copyright © 2023, Resilient Tech' }],
+        ['meta', { name: 'copyright', content: 'Copyright © 2024, Resilient Tech' }],
         ['meta', { name: 'revisit-after', content: '7 days' }],
 
         ['meta', { name: 'og:title', property: 'og:title', content: 'India Compliance' }],
@@ -51,7 +51,7 @@ export default defineConfig({
 
         footer: {
             message: "<a href=https://www.resilient.tech/> Powered by Resilient Tech <a> ",
-            copyright: "Copyright © 2023",
+            copyright: "Copyright © 2024",
         },
 
         comment: {
