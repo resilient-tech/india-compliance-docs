@@ -1,3 +1,17 @@
+---
+description: Learn how to validate GSTIN and UIN information using India Compliance. Explore the steps to enable auto-GSTIN verification, set up GSP credentials, enable API features, and autofill party information based on GSTIN.
+
+structured_data:
+  - "@context": "https://schema.org"
+    "@type": "WebPage"
+    name: "GSTIN Verification - India Compliance Documentation"
+    description: "Discover how to validate GSTIN and UIN information using India Compliance. Follow the steps to enable auto-GSTIN verification, set up GSP credentials, enable API features, and autofill party information based on GSTIN."
+    mainEntityOfPage:
+      "@type": "WebPage"
+      "@id": "https://docs.indiacompliance.app/docs/miscellaneous/gstin_verification"
+---
+
+
 # GSTIN Verification
 Whenever you do business with a new party, you can validate the GSTIN/UIN information provided by the party. It is recommended to validate GSTIN information while creating a party ledger. It ensures that the information entered in the Party ledger is authentic, and you can then make corrections immediately if needed.
 

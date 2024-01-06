@@ -1,3 +1,16 @@
+---
+description: Explore various GST transactions in ERPNext, including the reversal of Input Tax Credit and GST on advanced payments. Follow step-by-step guides with examples and reports for better understanding.
+
+structured_data:
+  - "@context": "https://schema.org"
+    "@type": "WebPage"
+    name: "Other GST Transactions - ERPNext Documentation"
+    description: "Explore various GST transactions in ERPNext, including the reversal of Input Tax Credit and GST on advanced payments. Follow step-by-step guides with examples and reports for better understanding."
+    mainEntityOfPage:
+      "@type": "WebPage"
+      "@id": "https://docs.indiacompliance.app/docs/configuration/other_transaction"
+---
+
 # Other GST Transactions
 
 ## Reversal of Input Tax Credit

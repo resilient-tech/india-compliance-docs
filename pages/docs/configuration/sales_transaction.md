@@ -1,3 +1,16 @@
+---
+description: Learn how to make GST transactions using India Compliance, covering steps for creating Sales Invoices, selecting tax templates, and printing GST tax invoices with detailed item-wise tax breakup.
+
+structured_data:
+  - "@context": "https://schema.org"
+    "@type": "WebPage"
+    name: "Making GST Transactions - India Compliance Documentation"
+    description: "Learn how to make GST transactions using India Compliance, covering steps for creating Sales Invoices, selecting tax templates, and printing GST tax invoices with detailed item-wise tax breakup."
+    mainEntityOfPage:
+      "@type": "WebPage"
+      "@id": "https://docs.indiacompliance.app/docs/configuration/sales_transaction"
+---
+
 # Making GST Transactions
 If you have set up the GSTIN of your Customers and Suppliers, and your tax template, you are ready to go for making GST Ready Invoices!
 

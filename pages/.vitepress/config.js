@@ -11,6 +11,29 @@ export default defineConfig({
     ignoreDeadLinks: true,
     lastUpdated: true,
     cleanUrls: "without-subfolders",
+    
+    head: [
+        ['link', { rel: 'icon', type: 'image/x-icon', href: '/docs/favicon.ico' }],
+
+        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+        ['meta', { name: 'author', content: 'Resilient Tech' }],
+        ['meta', { name: 'keywords', content: 'India Compliance, Resilient Tech, ERP, ERPNext, Frappe' }],
+        ['meta', { name: 'robots', content: 'index, follow' }],
+        ['meta', { name: 'copyright', content: 'Copyright © 2024, Resilient Tech' }],
+        ['meta', { name: 'revisit-after', content: '7 days' }],
+
+        ['meta', { name: 'og:title', property: 'og:title', content: 'India Compliance' }],
+        ['meta', { name: 'og:description', property: 'og:description', content: 'Documentation and User Guide for India Compliance App' }],
+        ['meta', { name: 'og:type', content: 'website' }],
+        ['meta', { name: 'og:url', content: 'https://docs.indiacompliance.app/' }],
+        ['meta', { name: 'og:image', property: 'og:image', content: '/docs/favicon.ico' }],
+        ['meta', { name: 'og:image:alt', content: 'India Compliance Logo' }],
+
+        ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+        ['meta', { name: 'twitter:title', content: 'India Compliance' }],
+        ['meta', { name: 'twitter:description', content: 'Documentation and User Guide for India Compliance App' }],
+        ['meta', { name: 'twitter:image', content: '/docs/favicon.ico' }],
+    ],
 
     themeConfig: {
         editLink: {
@@ -28,7 +51,7 @@ export default defineConfig({
 
         footer: {
             message: "<a href=https://www.resilient.tech/> Powered by Resilient Tech <a> ",
-            copyright: "Copyright © 2022",
+            copyright: "Copyright © 2024",
         },
 
         comment: {
@@ -58,6 +81,7 @@ export default defineConfig({
         }
 
     },
+
     vite: {
         plugins: [
             Unocss({
@@ -68,6 +92,7 @@ export default defineConfig({
             ssr: false,
         },
     },
+
 })
 
 function nav() {

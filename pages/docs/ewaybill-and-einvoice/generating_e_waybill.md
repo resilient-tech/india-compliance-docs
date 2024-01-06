@@ -1,3 +1,17 @@
+---
+
+description: Learn how to manage e-Waybills in ERPNext, including generation, updates, extension, cancellation, and bulk operations. Ensure compliance and streamline the movement of goods with e-Waybill features.
+
+structured_data:
+  - "@context": "https://schema.org"
+    "@type": "WebPage"
+    name: "e-Waybill Management - ERPNext Documentation"
+    description: "Learn how to manage e-Waybills in ERPNext, including generation, updates, extension, cancellation, and bulk operations. Ensure compliance and streamline the movement of goods with e-Waybill features."
+    mainEntityOfPage:
+      "@type": "WebPage"
+      "@id": "https://docs.indiacompliance.app/docs/ewaybill-and-einvoice/generating_e_waybill"
+---
+
 # e-Waybill
 e-Waybill is an electronic waybill required to be generated on [e-Waybill Portal](https://ewaybillgst.gov.in/) for the movement of goods. India Compliance offers multiple ways to manage your e-Waybill compliance.
 

@@ -1,3 +1,16 @@
+---
+description: Learn how to efficiently generate and cancel e-Invoices in ERPNext, ensuring compliance with Indian tax regulations. Explore the step-by-step process for automatic and manual e-Invoice generation, as well as cancellation procedures.
+
+structured_data:
+  - "@context": "https://schema.org"
+    "@type": "WebPage"
+    name: "e-Invoice Generation and Cancellation - ERPNext Documentation"
+    description: "Learn how to efficiently generate and cancel e-Invoices in ERPNext, ensuring compliance with Indian tax regulations. Explore the step-by-step process for automatic and manual e-Invoice generation, as well as cancellation procedures."
+    mainEntityOfPage:
+      "@type": "WebPage"
+      "@id": "https://docs.indiacompliance.app/docs/ewaybill-and-einvoice/generating_e_invoice"
+---
+
 # e-Invoice
 
 e-Invoice is an electronic invoice required to be generated on [e-Invoice Portal](https://einvoice1.gst.gov.in/) for all invoices except for supplies made to unregistered customers. To comply with the same, India Compliance offers an easy, quick and reliable solution to generate e-Invoice.

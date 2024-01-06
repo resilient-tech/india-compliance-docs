@@ -1,3 +1,16 @@
+---
+description: Explore the powerful validations provided by India Compliance in ERPNext to ensure correct compliance with Indian tax regulations. Learn about missing fields, PIN code validation, HSN code verification, e-Waybill validity, e-Waybill applicability, duplicate IRN checks, and proper GST account routing.
+
+structured_data:
+  - "@context": "https://schema.org"
+    "@type": "WebPage"
+    name: "India Compliance Validations - ERPNext Documentation"
+    description: "Explore the powerful validations provided by India Compliance in ERPNext to ensure correct compliance with Indian tax regulations. Learn about missing fields, PIN code validation, HSN code verification, e-Waybill validity, e-Waybill applicability, duplicate IRN checks, and proper GST account routing."
+    mainEntityOfPage:
+      "@type": "WebPage"
+      "@id": "https://docs.indiacompliance.app/docs/miscellaneous/transaction_validations"
+---
+
 # Validations
 
 India Compliance comes with Powerful validations to ensure correct compliance.  

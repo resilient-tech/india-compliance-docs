@@ -1,3 +1,16 @@
+---
+description: Learn how to create and manage your India Compliance Account to access API features, including account creation, credits, pricing, free trial, purchase credits, and more.
+
+structured_data:
+  - "@context": "https://schema.org"
+    "@type": "WebPage"
+    name: "India Compliance Account - API Features and Account Management"
+    description: "Learn how to create and manage your India Compliance Account to access API features, including account creation, credits, pricing, free trial, purchase credits, and more."
+    mainEntityOfPage:
+      "@type": "WebPage"
+      "@id": "https://docs.indiacompliance.app/docs/getting-started/india_compliance_account"
+---
+
 # India Compliance Account
 
 Want to test the API features?  

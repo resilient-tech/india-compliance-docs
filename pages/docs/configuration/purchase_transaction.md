@@ -1,3 +1,18 @@
+---
+
+description: Learn how to handle GST Purchase Transactions in India Compliance, covering the acquisition of goods or services, GST Asset Purchase, GST Expenses, Reverse Charge scenarios, and ITC Ineligibility handling.
+
+structured_data:
+  - "@context": "https://schema.org"
+    "@type": "WebPage"
+    name: "GST Purchase Transactions - India Compliance Documentation"
+    description: "Learn how to handle GST Purchase Transactions in India Compliance, covering the acquisition of goods or services, GST Asset Purchase, GST Expenses, Reverse Charge scenarios, and ITC Ineligibility handling."
+    mainEntityOfPage:
+      "@type": "WebPage"
+      "@id": "https://docs.indiacompliance.app/docs/configuration/purchase_transaction"
+---
+
+
 # GST Purchase Transactions
 GST Purchase Transactions involve the acquisition of goods or services by a business from the supplier. Set up the GSTIN of your supplier and the required Tax Templates for the transactions for making GST-ready invoices!
 

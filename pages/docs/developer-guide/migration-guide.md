@@ -1,3 +1,16 @@
+---
+description: Learn about the changes introduced in Item Tax Templates from versions 14.21.0 and 15.2.0 in the India Compliance App. Understand the breaking changes, deprecations, and the recommended approach to manually update your configuration.
+
+structured_data:
+  - "@context": "https://schema.org"
+    "@type": "WebPage"
+    name: "Item Tax Templates Changes - India Compliance Documentation"
+    description: "Learn about the changes introduced in Item Tax Templates from versions 14.21.0 and 15.2.0 in the India Compliance App. Understand the breaking changes, deprecations, and the recommended approach to manually update your configuration."
+    mainEntityOfPage:
+      "@type": "WebPage"
+      "@id": "https://docs.indiacompliance.app/docs/developer-guide/migration-guide"
+---
+
 # Migration Guide
 
 ## Item Tax Templates
