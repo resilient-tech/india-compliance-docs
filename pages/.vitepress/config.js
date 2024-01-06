@@ -13,7 +13,7 @@ export default defineConfig({
     cleanUrls: "without-subfolders",
     
     head: [
-        ['link', { rel: 'icon', href: '/docs/favicon.png' }],
+        ['link', { rel: 'icon', href: '/favicon.ico' }],
 
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
         ['meta', { name: 'author', content: 'Resilient Tech' }],
@@ -26,13 +26,13 @@ export default defineConfig({
         ['meta', { name: 'og:description', property: 'og:description', content: 'Documentation and User Guide for India Compliance App' }],
         ['meta', { name: 'og:type', content: 'website' }],
         ['meta', { name: 'og:url', content: 'https://docs.indiacompliance.app/' }],
-        ['meta', { name: 'og:image', property: 'og:image', content: '/docs/favicon.png' }],
+        ['meta', { name: 'og:image', property: 'og:image', content: '/favicon.ico' }],
         ['meta', { name: 'og:image:alt', content: 'India Compliance Logo' }],
 
         ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
         ['meta', { name: 'twitter:title', content: 'India Compliance' }],
         ['meta', { name: 'twitter:description', content: 'Documentation and User Guide for India Compliance App' }],
-        ['meta', { name: 'twitter:image', content: '/docs/favicon.png' }],
+        ['meta', { name: 'twitter:image', content: '/favicon.ico' }],
     ],
 
     themeConfig: {
