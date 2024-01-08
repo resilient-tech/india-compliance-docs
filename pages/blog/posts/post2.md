@@ -1,12 +1,14 @@
 ---
 date: 2023-01-03
-title: India Compliance Account
+title: India Compliance Account Blog
 category: Article
-description: Want to test the API features?  
-    Get started in less than a minute with all API Features and test out the app.
+description: Want to test the API features? Get started in less than a minute with all API Features and test out the app.
 tags:
 - India Compliance
 - IC Account    
+
+og_title :  Blog | India Compliance Account
+og_url : https://docs.indiacompliance.app/blog/posts/post2
 ---
 <PostDetail>
 
