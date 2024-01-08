@@ -27,14 +27,20 @@ export default defineConfig({
         ['meta', { name: 'og:description', property: 'og:description', content: 'Documentation and User Guide for India Compliance App' }],
         ['meta', { name: 'og:type', content: 'website' }],
         ['meta', { name: 'og:url', content: 'https://docs.indiacompliance.app/' }],
-        ['meta', { name: 'og:image', property: 'og:image', content: '/favicon.ico' }],
+        ['meta', { name: 'og:image', property: 'og:image', content: 'https://docs.indiacompliance.app/assets/OG-Share.jpg' }],
         ['meta', { name: 'og:image:alt', content: 'India Compliance Logo' }],
+        ['meta', { name: 'og:image:width', content: '1200' }],
+        ['meta', { name: 'og:image:height', content: '675' }],
 
         ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
         ['meta', { name: 'twitter:title', content: 'India Compliance' }],
         ['meta', { name: 'twitter:description', content: 'Documentation and User Guide for India Compliance App' }],
-        ['meta', { name: 'twitter:image', content: '/favicon.ico' }],
-        // FIXME open graph Image is not visible and even if it is visible its look bad
+        ['meta', { name: 'twitter:image', content: 'https://docs.indiacompliance.app/assets/OG-Share.jpg' }],
+        // NOTE  : It converts <HOST>/docs/configuration/assets to <HOST>/assets
+        ['meta', { name: 'twitter:image:alt', content: 'India Compliance Logo' }],
+        ['meta', { name: 'twitter:image:width', content: '1200' }],
+        ['meta', { name: 'twitter:image:height', content: '675' }],
+
     ],
 
     themeConfig: {
