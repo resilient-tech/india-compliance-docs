@@ -13,11 +13,12 @@ export default defineConfig({
     cleanUrls: "without-subfolders",
     
     head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }],
+        ['link', { rel: 'icon', href: 'https://docs.indiacompliance.app/favicon.ico' }],
 
+        ['meta', { name: 'Description', content: "Documentation and User Guide for India Compliance App"}],
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
         ['meta', { name: 'author', content: 'Resilient Tech' }],
-        ['meta', { name: 'keywords', content: 'India Compliance, Resilient Tech, ERP, ERPNext, Frappe' }],
+        ['meta', { name: 'keywords', content: 'India Compliance, Resilient Tech, ERP, ERPNext, Frappe, GSTR2A/2B, Reconciliation Tool, e-Invoice, e-Waybill, GST, India' }],
         ['meta', { name: 'robots', content: 'index, follow' }],
         ['meta', { name: 'copyright', content: 'Copyright © 2024, Resilient Tech' }],
         ['meta', { name: 'revisit-after', content: '7 days' }],
@@ -33,6 +34,7 @@ export default defineConfig({
         ['meta', { name: 'twitter:title', content: 'India Compliance' }],
         ['meta', { name: 'twitter:description', content: 'Documentation and User Guide for India Compliance App' }],
         ['meta', { name: 'twitter:image', content: '/favicon.ico' }],
+        // FIXME open graph Image is not visible and even if it is visible its look bad
     ],
 
     themeConfig: {
