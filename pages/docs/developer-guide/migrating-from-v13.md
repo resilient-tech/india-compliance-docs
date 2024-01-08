@@ -1,11 +1,14 @@
 ---
-description: Learn how to migrate from ERPNext Version 13 to Version 14, specifically focusing on changes introduced in the India Compliance App. Explore step-by-step guidance on migrating GST settings, company setup, GST accounts, party and address doctypes, field restructuring, and major refactors for e-Invoice.
+description: Learn to migrate from ERPNext V13 to V14, emphasizing India Compliance App changes. Follow step-by-step guidance on migrating GST settings, company setup, GST accounts, party and address doctypes, and e-Invoice updates.
+
+og_title : Migrating from ERPNext Version 13 to Version 14
+og_url : https://docs.indiacompliance.app/docs/developer-guide/migrating-from-v13
 
 structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
     name: "Migrating from ERPNext Version 13 to Version 14 - India Compliance Documentation"
-    description: "Learn how to migrate from ERPNext Version 13 to Version 14, specifically focusing on changes introduced in the India Compliance App. Explore step-by-step guidance on migrating GST settings, company setup, GST accounts, party and address doctypes, field restructuring, and major refactors for e-Invoice."
+    description: "Learn to migrate from ERPNext V13 to V14, emphasizing India Compliance App changes. Follow step-by-step guidance on migrating GST settings, company setup, GST accounts, party and address doctypes, and e-Invoice updates."
     mainEntityOfPage:
       "@type": "WebPage"
       "@id": "https://docs.indiacompliance.app/docs/developer-guide/migrating-from-v13"

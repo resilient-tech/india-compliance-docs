@@ -1,10 +1,13 @@
 ---
 description: Learn how to set up API credentials for e-Waybill and e-Invoice, add GSP credentials, and configure e-Waybill and e-Invoice settings in ERPNext for seamless integration and compliance.
 
+og_title : Setting Up API for e-Waybill and e-Invoice
+og_url : https://docs.indiacompliance.app/docs/ewaybill-and-einvoice/gst_settings
+
 structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
-    name: "Setting Up API for e-Waybill and e-Invoice - ERPNext Documentation"
+    name: "Setting Up API for e-Waybill and e-Invoice"
     description: "Learn how to set up API credentials for e-Waybill and e-Invoice, add GSP credentials, and configure e-Waybill and e-Invoice settings in ERPNext for seamless integration and compliance."
     mainEntityOfPage:
       "@type": "WebPage"

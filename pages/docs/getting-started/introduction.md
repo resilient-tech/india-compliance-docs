@@ -1,5 +1,7 @@
 ---
 description: India Compliance simplifies compliance with Indian rules and regulations. Integrated with GST APIs, it streamlines recurring compliance processes.
+og_title : Introduction to India Compliance
+og_url : https://docs.indiacompliance.app/docs/getting-started/introduction
 
 structured_data:
   - "@context": "https://schema.org"

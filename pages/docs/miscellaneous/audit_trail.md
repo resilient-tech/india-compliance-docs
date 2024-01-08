@@ -1,6 +1,9 @@
 ---
 description: Learn about the Audit Trail feature in the India Compliance App, designed to keep a record of all actions taken within the app for compliance and accountability.
 
+og_title : Audit Trail Feature - India Compliance App Documentation
+og_url : https://docs.indiacompliance.app/docs/miscellaneous/audit_trail
+
 structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
