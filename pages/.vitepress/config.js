@@ -35,6 +35,11 @@ export default defineConfig({
         ['meta', { name: 'twitter:image', content: '/favicon.ico' }],
     ],
 
+    sitemap: {
+        hostname: 'https://docs.indiacompliance.app/',
+        lastmodDateOnly: false
+    },
+
     themeConfig: {
         editLink: {
             pattern:
