@@ -16,7 +16,7 @@ p>img {
 }
 
 :root {
-    --vp-c-brand: hsl(208, 86%, 54%);
+    --vp-c-brand: hsl(208deg 86% 54%);
     --vp-home-hero-name-color: var(--vp-c-brand);
     --vp-button-brand-bg: var(--vp-c-brand);
 }
