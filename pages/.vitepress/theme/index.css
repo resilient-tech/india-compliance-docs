@@ -6,7 +6,7 @@
     z-index: 21;
 }
 
-p > img {
+p>img {
     width: 100%;
     border-radius: 8px;
 }
@@ -16,5 +16,7 @@ p > img {
 }
 
 :root {
-    --vp-c-brand: #42b883;
+    --vp-c-brand: hsl(208, 86%, 54%);
+    --vp-home-hero-name-color: var(--vp-c-brand);
+    --vp-button-brand-bg: var(--vp-c-brand);
 }

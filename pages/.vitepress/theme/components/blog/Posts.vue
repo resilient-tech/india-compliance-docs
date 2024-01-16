@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useData } from 'vitepress'
 import usePosts from '../../composables/usePosts'
+import Post from './Post.vue'
 
 const { allPosts: posts } = usePosts()
 
@@ -10,10 +11,11 @@ const { theme } = useData()
 <template>
   <div class="mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-      <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-[color:var(--vp-c-brand)] dark:text-[color:var(--vp-c-brand)]">
+      <h2
+        class="mb-4 text-4xl lg:text-5xl tracking-normal font-extrabold text-[color:var(--vp-c-brand)] dark:text-[color:var(--vp-c-brand)]">
         {{ theme.blog?.title }}
       </h2>
-      <p class="font-light sm:text-xl text-[color:var(--vp-c-text-light-1)] dark:text-[color:var(--vp-c-text-dark-1)]">
+      <p class="font-medium sm:text-2xl text-[color:var(--vp-c-text-2)]">
         {{ theme.blog?.description }}
       </p>
     </div>
