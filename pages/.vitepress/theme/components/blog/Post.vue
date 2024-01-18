@@ -15,7 +15,7 @@ const author = findByName(props.post.author)
 
 <template>
   <article
-    class="p-6 rounded-lg border bg-[color:var(--vp-c-bg-soft)] border-[color:var(--vp-c-brand)] shadow-md dark:border-[color:var(--vp-c-brand)]">
+    class="p-6 rounded-lg border bg-[color:var(--vp-c-bg-soft)] border-[color:var(--vp-c-brand)] shadow-md">
     <div class="flex justify-between items-center mb-5 text-gray-500">
       <span class="bg-primary-100 text-sm font-medium inline-flex items-center rounded">
         <PostIcon :post="post">
@@ -23,7 +23,7 @@ const author = findByName(props.post.author)
         </PostIcon>
       </span>
     </div>
-    <h2 class="mb-2 text-2xl font-bold text-[color:var(--vp-c-brand)] dark:text-[color:var(--vp-c-brand)]">
+    <h2 class="mb-2 text-2xl font-bold text-[color:var(--vp-c-brand)]">
       <a :href="`${site.base}blog${post.href}`">{{ post.title }}</a>
     </h2>
     <p class="mb-5 font-medium text-[color:var(--vp-c-text-2)]">
@@ -31,7 +31,7 @@ const author = findByName(props.post.author)
     </p>
     <div class="flex justify-between items-center text-[color:var(--vp-c-text-2)]">
       <PostAuthor :author="author" />
-      <a :href="`/blog${post.href}`" class="inline-flex items-center font-medium hover:text-[color:var(--vp-c-brand)]">
+      <a :href="`/blog${post.href}`" class="inline-flex items-center font-medium hover:text-[color:var(--vp-c-brand-1)]">
         Read more
         <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd"
@@ -58,8 +58,8 @@ const author = findByName(props.post.author)
 
 .tag {
   font-family: var(--vp-font-family-base);
-  border: 1px solid var(--vp-c-text-2);
-  color: var(--vp-c-text-2);
+  border: 1px solid var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
   border-radius: 0.75rem;
   font-size: 0.75rem;
   height: 1.5rem;

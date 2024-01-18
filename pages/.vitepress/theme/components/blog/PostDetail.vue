@@ -26,13 +26,13 @@ const author = findByName(post.value.author)
       </div>
       <div class="flex justify-between items-center mt-2 text-gray-500">
         <a v-if="prevPost" :href="`${site.base}blog${prevPost.href}`"
-          class="inline-flex items-center font-medium dark:text-white hover:text-[color:var(--vp-c-brand)]">
+          class="inline-flex items-center font-medium dark:text-white hover:text-[color:var(--vp-c-brand-1)]">
           <div class="i-bx:arrow-back mr-2" />
           <span>Previous Post</span>
         </a>
         <div v-if="!prevPost" />
         <a v-if="nextPost" :href="`${site.base}blog${nextPost.href}`"
-          class="inline-flex items-center font-medium dark:text-white hover:text-[color:var(--vp-c-brand)]">
+          class="inline-flex items-center font-medium dark:text-white hover:text-[color:var(--vp-c-brand-1)]">
           <span>Next Post</span>
           <div class="i-bx:right-arrow-alt ml-2" />
         </a>

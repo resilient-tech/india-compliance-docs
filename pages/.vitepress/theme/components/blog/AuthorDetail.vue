@@ -17,14 +17,14 @@ const { currentAuthor: author, path, prevAuthor, nextAuthor } = useAuthors()
             :src="author.data.avatar"
             :alt="author.name"
           >
-          <span class="ml-4 text-4xl text-[color:var(--vp-c-brand)] dark:text-[color:var(--vp-c-brand)]">
+          <span class="ml-4 text-4xl text-[color:var(--vp-c-brand)]">
             {{ author.name }}
           </span>
         </div>
         <div class="flex justify-between items-center mt-4 text-gray-500">
           <a
             v-if="prevAuthor" :href="`${site.base}blog${prevAuthor.href}`"
-            class="inline-flex items-center font-medium dark:text-white hover:text-[color:var(--vp-c-brand)]"
+            class="inline-flex items-center font-medium dark:text-white hover:text-[color:var(--vp-c-brand-1)]"
           >
             <div class="i-bx:arrow-back mr-2" />
             <span>Previous Author</span>
@@ -32,7 +32,7 @@ const { currentAuthor: author, path, prevAuthor, nextAuthor } = useAuthors()
           <div v-if="!prevAuthor" />
           <a
             v-if="nextAuthor" :href="`${site.base}blog${nextAuthor.href}`"
-            class="inline-flex items-center font-medium dark:text-white hover:text-[color:var(--vp-c-brand)]"
+            class="inline-flex items-center font-medium dark:text-white hover:text-[color:var(--vp-c-brand-1)]"
           >
             <span>Next Author</span>
             <div class="i-bx:right-arrow-alt ml-2" />

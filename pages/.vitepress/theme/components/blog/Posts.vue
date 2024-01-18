@@ -12,7 +12,7 @@ const { theme } = useData()
   <div class="mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
       <h2
-        class="mb-4 text-4xl lg:text-5xl tracking-normal font-extrabold text-[color:var(--vp-c-brand)] dark:text-[color:var(--vp-c-brand)]">
+        class="mb-4 text-4xl lg:text-5xl tracking-normal font-extrabold text-[color:var(--vp-c-brand)]">
         {{ theme.blog?.title }}
       </h2>
       <p class="font-medium sm:text-2xl text-[color:var(--vp-c-text-2)]">

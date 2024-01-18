@@ -13,7 +13,7 @@ const { site } = useData()
   <div v-if="author" class="flex items-center space-x-4">
     <img class="w-7 h-7 rounded-full" :src="author.data.avatar" :alt="author.name">
     <a :href="`${site.base}blog${author.href}`"
-      class="inline-flex items-center font-medium hover:text-[color:var(--vp-c-brand)]"><span class="font-medium">
+      class="inline-flex items-center font-medium hover:text-[color:var(--vp-c-brand-1)]"><span class="font-medium">
         {{ author.name }}
       </span>
     </a>
