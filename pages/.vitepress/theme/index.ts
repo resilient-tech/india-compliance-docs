@@ -1,3 +1,4 @@
+import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme';
 import { inBrowser, useRoute } from 'vitepress';
 import mediumZoom from "medium-zoom";
@@ -10,6 +11,8 @@ import PostDetail from './components/blog/PostDetail.vue';
 import PostIcon from './components/blog/PostIcon.vue';
 import PostAuthor from './components/blog/PostAuthor.vue';
 import AuthorDetail from './components/blog/AuthorDetail.vue';
+import Step from '../../docs/components/Step.vue'
+import Steps from '../../docs/components/Steps.vue'
 
 import './index.css';
 import 'uno.css';
@@ -39,5 +42,7 @@ export default {
     app.component('PostIcon', PostIcon)
     app.component('PostAuthor', PostAuthor)
     app.component('AuthorDetail', AuthorDetail)
+    app.component('Step', Step)
+    app.component('Steps', Steps)
   },
-}
+} satisfies Theme
