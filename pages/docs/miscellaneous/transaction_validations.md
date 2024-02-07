@@ -46,3 +46,17 @@ Proper routing of GST Transactions to valid GST Accounts is very important.
 India Compliance checks if the correct GST Account is selected for a particular transaction.
 
 ![Invalid Account](./assets/invalid_account.png)
+
+## Document Name
+As per the provisions of GST, any document reported to GSTN or NIC should have a valid name.
+
+- Should be alphanumeric
+- It can contain dash (-) or slash (/)
+- It cannot start with a special character or zero
+- It should not exceed 16 characters
+
+However, if your series names are suffixed for amendments (eg: `SINV-222-1` with `-1` for amendment), you should restrict the naming to 14 characters.
+
+You can continue using default naming for amendments, by having appropriate configuration in the Document Naming Settings (so amendmed document would be like `SINV-223`).
+
+This configuration is applicable for all documents reported through e-Waybill/e-Invoice/GSTR-1. Hence it is recommended to have a valid naming convention for all documents including Purchase Invoice, Purchase Receipt and Delivery Note.
