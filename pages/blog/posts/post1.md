@@ -3,13 +3,14 @@ date: 2023-01-03
 title: Migrating from ERPNext Version 13
 category: Tutorial
 author: Smit Vora
-description: Migrations are never easy, with a lot of uncertainties attached to them.
-
-    To simplify this, we have a guide for changes we have made to version 13 and how you can tackle them.
+description: Migrations are never easy, with a lot of uncertainties attached to them.To simplify this, we have a guide for changes we have made to version 13 and how you can tackle them.
 tags:
 - Migration
 - ERPNEXT13
 - IC
+
+og_title: Blog | Migrating from ERPNext Version 13
+og_url : https://docs.indiacompliance.app/blog/posts/post1
 ---
 <PostDetail>
 

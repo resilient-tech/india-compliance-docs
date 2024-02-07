@@ -1,5 +1,7 @@
 ---
 description: Learn how to install India Compliance on your Frappe site, whether self-hosted or on Frappe Cloud.
+og_title : Installation of India Compliance
+og_url : https://docs.indiacompliance.app/docs/getting-started/installation
 
 structured_data:
   - "@context": "https://schema.org"

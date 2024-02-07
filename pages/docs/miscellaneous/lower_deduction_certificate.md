@@ -1,11 +1,13 @@
 ---
-description: Learn how to create and use Lower Deduction Certificates in ERPNext to obtain a confirmation for either a lower rate or NIL rate of TDS compared to the prescribed rates in tax withholding categories. Explore the prerequisites, step-by-step guide for creating a certificate, and its usage in purchase invoices.
+description: Learn to create and use Lower Deduction Certificates in ERPNext for TDS rate confirmation. Explore prerequisites, step-by-step certificate creation, and usage in purchase invoices.
+og_title : Lower Deduction Certificates in ERPNext
+og_url : https://docs.indiacompliance.app/docs/miscellaneous/lower_deduction_certificate
 
 structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
     name: "Lower Deduction Certificates in ERPNext - Documentation"
-    description: "Learn how to create and use Lower Deduction Certificates in ERPNext to obtain a confirmation for either a lower rate or NIL rate of TDS compared to the prescribed rates in tax withholding categories. Explore the prerequisites, step-by-step guide for creating a certificate, and its usage in purchase invoices."
+    description: "Learn to create and use Lower Deduction Certificates in ERPNext for TDS rate confirmation. Explore prerequisites, step-by-step certificate creation, and usage in purchase invoices."
     mainEntityOfPage:
       "@type": "WebPage"
       "@id": "https://docs.indiacompliance.app/docs/miscellaneous/lower_deduction_certificate"

@@ -1,11 +1,15 @@
 ---
-description: Learn how to configure TDS (Tax Deducted at Source) in ERPNext for Indian statutory compliances. Follow the step-by-step guide to define Tax Withholding Categories, set up Tax Withholding Rates, link TDS categories to suppliers, and apply TDS in Purchase Invoices.
+description: Configure TDS in ERPNext for Indian compliance by defining Tax Withholding Categories, setting up Tax Withholding Rates, linking TDS categories to suppliers, and applying TDS in Purchase Invoices.
+
+og_title : TDS Configuration - ERPNext Documentation
+og_url : https://docs.indiacompliance.app/docs/configuration/tds_configuration
 
 structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
     name: "TDS Configuration - ERPNext Documentation"
-    description: "Learn how to configure TDS (Tax Deducted at Source) in ERPNext for Indian statutory compliances. Follow the step-by-step guide to define Tax Withholding Categories, set up Tax Withholding Rates, link TDS categories to suppliers, and apply TDS in Purchase Invoices."
+    description: "Configure TDS in ERPNext for Indian compliance by defining Tax Withholding Categories, setting up Tax Withholding Rates, linking TDS categories to suppliers, and applying TDS in Purchase Invoices."
+    
     mainEntityOfPage:
       "@type": "WebPage"
       "@id": "https://docs.indiacompliance.app/docs/configuration/tds_configuration"

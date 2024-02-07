@@ -1,11 +1,14 @@
 ---
-description: Learn how to add an e-Invoice QR code to custom and standard print formats. This guide provides step-by-step instructions for both scenarios, including the code snippets and configurations needed.
+description: Learn to add an e-Invoice QR code to custom and standard print formats with step-by-step instructions, including code snippets and configurations for both scenarios.
+
+og_title : Guide to Add e-Invoice QR Code in Print Formats
+og_url : https://docs.indiacompliance.app/docs/developer-guide/e_invoice_qr
 
 structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
     name: "Guide to Add e-Invoice QR Code in Print Formats"
-    description: "Learn how to add an e-Invoice QR code to custom and standard print formats. This guide provides step-by-step instructions for both scenarios, including the code snippets and configurations needed."
+    description: "Learn to add an e-Invoice QR code to custom and standard print formats with step-by-step instructions, including code snippets and configurations for both scenarios."
     mainEntityOfPage:
       "@type": "WebPage"
       "@id": "https://docs.indiacompliance.app/docs/developer-guide/e_invoice_qr"

@@ -1,6 +1,9 @@
 ---
 description: FAQs on e-Invoice and e-Waybill.
 
+og_title : FAQs for India compliance
+og_url :  https://docs.indiacompliance.app/docs/ewaybill-and-einvoice/faqs
+
 structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"

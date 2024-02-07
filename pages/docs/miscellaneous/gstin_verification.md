@@ -1,11 +1,14 @@
 ---
-description: Learn how to validate GSTIN and UIN information using India Compliance. Explore the steps to enable auto-GSTIN verification, set up GSP credentials, enable API features, and autofill party information based on GSTIN.
+description: Discover how to validate GSTIN and UIN information using India Compliance in ERPNext. Enable auto-GSTIN verification, set up GSP credentials, and autofill party information based on GSTIN with these simple steps.
+
+og_title : GSTIN Verification - India Compliance Documentation
+og_url : https://docs.indiacompliance.app/docs/miscellaneous/gstin_verification
 
 structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
     name: "GSTIN Verification - India Compliance Documentation"
-    description: "Discover how to validate GSTIN and UIN information using India Compliance. Follow the steps to enable auto-GSTIN verification, set up GSP credentials, enable API features, and autofill party information based on GSTIN."
+    description: "Discover how to validate GSTIN and UIN information using India Compliance in ERPNext. Enable auto-GSTIN verification, set up GSP credentials, and autofill party information based on GSTIN with these simple steps."
     mainEntityOfPage:
       "@type": "WebPage"
       "@id": "https://docs.indiacompliance.app/docs/miscellaneous/gstin_verification"

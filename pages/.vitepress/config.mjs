@@ -5,35 +5,87 @@ import { version } from '../../package.json'
 
 export default defineConfig({
     lang: "en-UK",
+
+    // common meta(head) tags
+    head: [
+
+        ['link', { rel: 'icon', href: 'https://docs.indiacompliance.app/favicon.ico' }],
+
+        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+        ['meta', { name: 'author', content: 'Resilient Tech' }],
+        ['meta', { name: 'keywords', content: 'India Compliance, Resilient Tech, ERP, ERPNext, Frappe, GSTR2A/2B, Reconciliation Tool, e-Invoice, e-Waybill, GST, India' }],
+        ['meta', { name: 'robots', content: 'index, follow' }],
+        ['meta', { name: 'copyright', content: 'Copyright © 2024, Resilient Tech' }],
+        ['meta', { name: 'revisit-after', content: '7 days' }],
+        
+        ['meta', { name: 'og:type', content: 'website' }],
+        ['meta', { name: 'og:image', property: 'og:image', content: 'https://docs.indiacompliance.app/assets/OG-Share.jpg' }],
+        ['meta', { name: 'og:image:alt', content: 'India Compliance Logo' }],
+        ['meta', { name: 'og:image:width', content: '1200' }],
+        ['meta', { name: 'og:image:height', content: '675' }],
+
+        ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+        ['meta', { name: 'twitter:image', content: 'https://docs.indiacompliance.app/assets/OG-Share.jpg' }],
+        // NOTE  : It converts <HOST>/docs/configuration/assets to <HOST>/assets
+        ['meta', { name: 'twitter:image:alt', content: 'India Compliance Logo' }],
+        ['meta', { name: 'twitter:image:width', content: '1200' }],
+        ['meta', { name: 'twitter:image:height', content: '675' }],
+
+    ],
+
+
+    // index page meta(head) tags
     title: "India Compliance",
     description: "Documentation and User Guide for India Compliance App",
+    og_title:"India Compliance",
+    og_url:"https://docs.indiacompliance.app/",
 
     ignoreDeadLinks: true,
     lastUpdated: true,
     cleanUrls: "without-subfolders",
 
-    head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }],
-
-        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
-        ['meta', { name: 'author', content: 'Resilient Tech' }],
-        ['meta', { name: 'keywords', content: 'India Compliance, Resilient Tech, ERP, ERPNext, Frappe' }],
-        ['meta', { name: 'robots', content: 'index, follow' }],
-        ['meta', { name: 'copyright', content: 'Copyright © 2024, Resilient Tech' }],
-        ['meta', { name: 'revisit-after', content: '7 days' }],
-
-        ['meta', { name: 'og:title', property: 'og:title', content: 'India Compliance' }],
-        ['meta', { name: 'og:description', property: 'og:description', content: 'Documentation and User Guide for India Compliance App' }],
-        ['meta', { name: 'og:type', content: 'website' }],
-        ['meta', { name: 'og:url', content: 'https://docs.indiacompliance.app/' }],
-        ['meta', { name: 'og:image', property: 'og:image', content: '/favicon.ico' }],
-        ['meta', { name: 'og:image:alt', content: 'India Compliance Logo' }],
-
-        ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-        ['meta', { name: 'twitter:title', content: 'India Compliance' }],
-        ['meta', { name: 'twitter:description', content: 'Documentation and User Guide for India Compliance App' }],
-        ['meta', { name: 'twitter:image', content: '/favicon.ico' }],
-    ],
+    // for specific page  meta(head) tags
+    transformPageData(pageData) {
+        pageData.frontmatter.head = []
+        pageData.frontmatter.head.push(
+            ['meta',
+                {
+                    name: 'og:title',
+                    content: `${pageData?.frontmatter?.og_title ? pageData.frontmatter.og_title : "India Compliance"}`
+                }
+            ],
+            ['meta',
+                {
+                    name: 'og:description',
+                    content: `${pageData?.description ? pageData.description : "Documentation and User Guide for India Compliance App"}`
+                }
+            ],
+            ['meta',
+                {
+                    name: 'og:url',
+                    content: `${pageData?.frontmatter?.og_url ? pageData.frontmatter.og_url : "https://docs.indiacompliance.app/"}`
+                }
+            ],
+            ['meta',
+                {
+                    name: 'twitter:title',
+                    content: `${pageData?.frontmatter?.og_title ? pageData.frontmatter.og_title : "India Compliance"}`
+                }
+            ],
+            ['meta',
+                {
+                    name: 'twitter:description',
+                    content: `${pageData?.description ? pageData.description : "Documentation and User Guide for India Compliance App"}`
+                }
+            ],
+            ['meta',
+                {
+                    name: 'twitter:url',
+                    content: `${pageData?.frontmatter?.og_url ? pageData.frontmatter.og_url : "https://docs.indiacompliance.app/"}`
+                }
+            ],
+        )
+    },
 
     sitemap: {
         hostname: 'https://docs.indiacompliance.app/',

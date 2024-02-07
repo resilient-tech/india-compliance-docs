@@ -1,11 +1,14 @@
 ---
-description: Learn how to set up and use the sandbox for India Compliance. Understand the steps to enable sandbox mode, test e-Waybill and e-Invoice functionalities, and explore the limitations of the sandbox environment.
+description: Learn to set up and use the India Compliance sandbox. Enable sandbox mode, test e-Waybill and e-Invoice features, and explore limitations in the environment.
+
+og_title : Sandbox for India Compliance - Documentation
+og_url : https://docs.indiacompliance.app/docs/developer-guide/sandbox
 
 structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
     name: "Sandbox for India Compliance - Documentation"
-    description: "Learn how to set up and use the sandbox for India Compliance. Understand the steps to enable sandbox mode, test e-Waybill and e-Invoice functionalities, and explore the limitations of the sandbox environment."
+    description: "Learn to set up and use the India Compliance sandbox. Enable sandbox mode, test e-Waybill and e-Invoice features, and explore limitations in the environment."
     mainEntityOfPage:
       "@type": "WebPage"
       "@id": "https://docs.indiacompliance.app/docs/developer-guide/sandbox"

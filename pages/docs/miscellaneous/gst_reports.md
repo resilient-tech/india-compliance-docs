@@ -1,6 +1,9 @@
 ---
 description: Learn how to generate and utilize various GST reports in ERPNext for effective compliance with GST regulations in India. Explore GSTR3B Report, GSTR-3B Details Report, GSTR-1 Report, and GST Balance Report.
 
+og_title : GST Reports - ERPNext Documentation
+og_url : https://docs.indiacompliance.app/docs/miscellaneous/gst_reports
+
 structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
