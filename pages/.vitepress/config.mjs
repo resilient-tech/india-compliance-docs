@@ -87,6 +87,11 @@ export default defineConfig({
         )
     },
 
+    sitemap: {
+        hostname: 'https://docs.indiacompliance.app/',
+        lastmodDateOnly: false
+    },
+
     themeConfig: {
         editLink: {
             pattern:
