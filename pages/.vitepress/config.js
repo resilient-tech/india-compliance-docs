@@ -46,55 +46,44 @@ export default defineConfig({
 
     // for specific page  meta(head) tags
     transformPageData(pageData) {
-
         pageData.frontmatter.head = []
-
         pageData.frontmatter.head.push(
-
             ['meta',
                 {
                     name: 'og:title',
                     content: `${pageData?.frontmatter?.og_title ? pageData.frontmatter.og_title : "India Compliance"}`
                 }
             ],
-
             ['meta',
                 {
                     name: 'og:description',
                     content: `${pageData?.description ? pageData.description : "Documentation and User Guide for India Compliance App"}`
                 }
             ],
-
             ['meta',
                 {
                     name: 'og:url',
                     content: `${pageData?.frontmatter?.og_url ? pageData.frontmatter.og_url : "https://docs.indiacompliance.app/"}`
                 }
             ],
-
-
             ['meta',
                 {
                     name: 'twitter:title',
                     content: `${pageData?.frontmatter?.og_title ? pageData.frontmatter.og_title : "India Compliance"}`
                 }
             ],
-
             ['meta',
                 {
                     name: 'twitter:description',
                     content: `${pageData?.description ? pageData.description : "Documentation and User Guide for India Compliance App"}`
                 }
             ],
-
             ['meta',
                 {
                     name: 'twitter:url',
                     content: `${pageData?.frontmatter?.og_url ? pageData.frontmatter.og_url : "https://docs.indiacompliance.app/"}`
                 }
             ],
-
-
         )
     },
 
