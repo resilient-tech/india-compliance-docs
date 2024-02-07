@@ -11,7 +11,7 @@ export default defineConfig({
     ignoreDeadLinks: true,
     lastUpdated: true,
     cleanUrls: "without-subfolders",
-    
+
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
 

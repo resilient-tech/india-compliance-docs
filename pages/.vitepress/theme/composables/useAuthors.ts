@@ -13,12 +13,12 @@ export default () => {
 
   const path = route.path
 
-  function findByName(name: string): Author {
+  function findByName(name: string): Author | undefined {
     return allAuthors.value.find(p => p.name === name)
   }
 
   function findCurrentIndex() {
-    return allAuthors.value.findIndex(p => `${site.value.base}blog${p.href}` === route.path)
+    return allAuthors.value.findIndex(p => `${site.value.base}blog${p.href}`.replace(".html", "") === route.path)
   }
 
   const currentAuthor = computed(() => allAuthors.value[findCurrentIndex()])

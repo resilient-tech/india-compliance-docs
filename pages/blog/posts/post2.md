@@ -10,7 +10,6 @@ tags:
 ---
 <PostDetail>
 
-# India Compliance Account
 
 Want to test the API features?  
 Get started in less than a minute with all API Features and test out the app.
