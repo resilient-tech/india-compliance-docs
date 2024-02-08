@@ -23,7 +23,7 @@ const author = findByName(props.post.author)
         </PostIcon>
       </span>
     </div>
-    <h2 class="mb-2 text-2xl font-bold text-[color:var(--vp-c-brand)]">
+    <h2 class="mb-2 text-2xl font-bold text-[color:var(--vp-c-text-1)]">
       <a :href="`${site.base}blog${post.href}`">{{ post.title }}</a>
     </h2>
     <p class="mb-5 font-medium text-[color:var(--vp-c-text-2)]">
