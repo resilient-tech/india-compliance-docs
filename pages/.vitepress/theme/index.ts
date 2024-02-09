@@ -11,8 +11,8 @@ import PostDetail from './components/blog/PostDetail.vue';
 import PostIcon from './components/blog/PostIcon.vue';
 import PostAuthor from './components/blog/PostAuthor.vue';
 import AuthorDetail from './components/blog/AuthorDetail.vue';
-import Step from '../../docs/components/Step.vue'
-import Steps from '../../docs/components/Steps.vue'
+import Step from './components/Step.vue'
+import Steps from './components/Steps.vue'
 
 import './index.css';
 import 'uno.css';

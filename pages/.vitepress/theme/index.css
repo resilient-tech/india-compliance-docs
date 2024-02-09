@@ -30,4 +30,5 @@ p>img {
     --vp-c-bg: hsl(206.25deg 42.11% 7.45%);
     --vp-c-bg-alt: hsl(206.25deg 42.11% 5.45%);
     --vp-c-bg-soft: hsl(204deg 23.81% 12.35%);
+    --vp-c-bg-soft-lighter: hsl(204deg 23.81% 20%);
 }

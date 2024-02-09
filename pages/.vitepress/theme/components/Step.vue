@@ -5,10 +5,10 @@ defineProps({
 </script>
 
 <template>
-  <div role="listitem" class="step relative flex items-start pb-8">
+  <div role="listitem" class="step relative flex items-start pb-6">
     <div
-      class="absolute w-px h-[calc(100%-2.75rem)] top-[2.25rem] left-[0.9rem] bg-[color:var(--vp-c-text-2)] dark:bg-gray-500"
-    ></div>
+      class="line absolute w-px h-[calc(100%-2.75rem)] top-[2.25rem] left-[0.9rem] bg-gray-200 dark:bg-[color:var(--vp-c-bg-soft-lighter)]">
+    </div>
     <div class="w-full overflow-hidden pl-12 pr-px">
       <h4 class="font-semibold text-gray-900 dark:text-gray-200">
         {{ title || "Default Title" }}
