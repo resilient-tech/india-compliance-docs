@@ -24,6 +24,7 @@ p>img {
     --vp-c-brand-1: var(--vp-c-green-1);
     --vp-c-brand-2: var(--vp-c-green-2);
     --vp-c-brand-3: var(--vp-c-green-3);
+    --vp-c-brand-4: hsl(152deg 53% 20%);
     --vp-c-brand: var(--vp-c-brand-3);
     --vp-home-hero-name-color: var(--vp-c-brand);
     --vp-button-brand-bg: var(--vp-c-brand-3);
@@ -34,4 +35,5 @@ p>img {
     --vp-c-bg: hsl(206.25deg 42.11% 7.45%);
     --vp-c-bg-alt: hsl(206.25deg 42.11% 5.45%);
     --vp-c-bg-soft: hsl(204deg 23.81% 12.35%);
+    --vp-c-bg-soft-lighter: hsl(204deg 23.81% 20%);
 }
