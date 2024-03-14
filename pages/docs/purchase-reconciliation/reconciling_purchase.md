@@ -36,16 +36,6 @@ Moreover, there are rules that share the responsibility of the business to ensur
     </iframe>
 </div>
 
-## Configuration
-
-- Enable API Access by logging into your GST Account. My Profile --> Manage API Access --> Enable API Access
-
-![Enable API Access](./assets/enable_api_access.png)
-
-- Add the credentials to GST Settings. Password is **not** required as it is authenticated with OTP. The username is the same that you use to log into the GST Portal at gst.gov.in.
-
-![GST Settings for Returns Credentials](./assets/gst_settings_for_returns_credentials.png)
-
 ## Download GSTR2A and GSTR2B
 
 You will see an option to download GSTR2A and GSTR2B in the Purchase Reconciliation Tool. When you actually try downloading, an encrypted session will be initialized between GST Portal and your site. You will receive OTP, which you can enter and proceed with download.

@@ -31,6 +31,7 @@ It builds on top of [ERPNext](https://github.com/frappe/erpnext) and the [Frappe
 
 - End-to-end GST e-Waybill management
 - Automated GST e-Invoice generation and cancellation
+- Advanced purchase reconciliation based on GSTR-2B and GSTR-2A
 - Autofill Party and Address details by entering their GSTIN
 - Configurable features based on business needs
 - Powerful validations to ensure correct compliance

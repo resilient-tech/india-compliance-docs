@@ -197,6 +197,15 @@ function sidebarDocs() {
             ]
         },
         {
+            text: "Purchase Reconciliation",
+            collapsible: true,
+            items: [
+                { text: "Setting Up", link: "/docs/purchase-reconciliation/purchase_reconciliation_setup" },
+                { text: "Reconciling Purchase", link: "/docs/purchase-reconciliation/reconciling_purchase" },
+                { text: "Auto Reconcile", link: "/docs/purchase-reconciliation/auto_reconcile" }
+            ]
+        },
+        {
             text: "Miscellaneous",
             collapsible: true,
             collapsed: true,
