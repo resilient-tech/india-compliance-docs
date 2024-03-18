@@ -1,18 +1,18 @@
 ---
-description: Explore ERPNext's Advanced Purchase Reconciliation Tool, streamlining GST return reconciliation. Share insightful reports with vendors for accurate records and compliance.
+description: Explore ERPNext's Advanced Purchase Reconciliation Tool, streamlining GST purchase reconciliation. Share insightful mismatch reports with vendors for accurate records and compliance.
 
 og_title : Advanced Purchase Reconciliation Tool
-og_url : https://docs.indiacompliance.app/docs/miscellaneous/purchase_reconciliation_tool
+og_url : https://docs.indiacompliance.app/docs/purchase-reconciliation/reconciling_purchase
 
 structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
     name: "Advanced Purchase Reconciliation Tool - ERPNext Documentation"
-    description: "Explore ERPNext's Advanced Purchase Reconciliation Tool, streamlining GST return reconciliation. Share insightful reports with vendors for accurate records and compliance."
+    description: "Explore ERPNext's Advanced Purchase Reconciliation Tool, streamlining GST purchase reconciliation. Share insightful mismatch reports with vendors for accurate records and compliance."
 
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://docs.indiacompliance.app/docs/miscellaneous/purchase_reconciliation_tool"
+      "@id": "https://docs.indiacompliance.app/docs/purchase-reconciliation/reconciling_purchase"
 ---
 
 
