@@ -1,18 +1,18 @@
 ---
-description: Explore ERPNext's Advanced Purchase Reconciliation Tool, streamlining GST return reconciliation. Share insightful reports with vendors for accurate records and compliance.
+description: Explore ERPNext's Advanced Purchase Reconciliation Tool, streamlining GST purchase reconciliation. Share insightful mismatch reports with vendors for accurate records and compliance.
 
 og_title : Advanced Purchase Reconciliation Tool
-og_url : https://docs.indiacompliance.app/docs/miscellaneous/purchase_reconciliation_tool
+og_url : https://docs.indiacompliance.app/docs/purchase-reconciliation/reconciling_purchase
 
 structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
     name: "Advanced Purchase Reconciliation Tool - ERPNext Documentation"
-    description: "Explore ERPNext's Advanced Purchase Reconciliation Tool, streamlining GST return reconciliation. Share insightful reports with vendors for accurate records and compliance."
+    description: "Explore ERPNext's Advanced Purchase Reconciliation Tool, streamlining GST purchase reconciliation. Share insightful mismatch reports with vendors for accurate records and compliance."
 
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://docs.indiacompliance.app/docs/miscellaneous/purchase_reconciliation_tool"
+      "@id": "https://docs.indiacompliance.app/docs/purchase-reconciliation/reconciling_purchase"
 ---
 
 
@@ -35,16 +35,6 @@ Moreover, there are rules that share the responsibility of the business to ensur
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"  src="//www.youtube.com/embed/hDRGq0dlP_c?autoplay=1&amp;feature=oembed&amp;wmode=opaque" frameborder="0" allowfullscreen>
     </iframe>
 </div>
-
-## Configuration
-
-- Enable API Access by logging into your GST Account. My Profile --> Manage API Access --> Enable API Access
-
-![Enable API Access](./assets/enable_api_access.png)
-
-- Add the credentials to GST Settings. Password is **not** required as it is authenticated with OTP. The username is the same that you use to log into the GST Portal at gst.gov.in.
-
-![GST Settings for Returns Credentials](./assets/gst_settings_for_returns_credentials.png)
 
 ## Download GSTR2A and GSTR2B
 
