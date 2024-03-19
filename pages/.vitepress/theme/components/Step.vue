@@ -28,8 +28,8 @@ defineProps({
   height: 1.75rem;
   flex-shrink: 0;
   border-radius: 0.375rem;
-  background-color: var(--vp-c-brand-3);
-  color: white;
+  background-color: var(--vp-button-alt-bg);
+  color: var(--vp-c-text-1);
   font-weight: 600;
   font-size: 0.875rem;
   display: flex;
