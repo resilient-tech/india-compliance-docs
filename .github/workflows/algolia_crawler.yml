@@ -2,6 +2,9 @@ name: Algolia Crawler
 on:
   push:
     branches: [ main ]
+  pull_request:
+    types: ['opened', 'edited', 'reopened', 'synchronize']
+    
 
 jobs:
   algolia_recrawl:
@@ -12,14 +15,14 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
-      # We don't know when the site will be deployed, we just wait a few seconds
-      # Better solutions can be found
-      - name: Sleep for 120s
-        run: sleep 120
+      # # We don't know when the site will be deployed, we just wait a few seconds
+      # # Better solutions can be found
+      # - name: Sleep for 120s
+      #   run: sleep 120
 
       # For main branch
       - name: MAIN => Algolia crawler creation and recrawl (Push on Main branch)
-        if: github.ref == 'refs/heads/main'
+        # if: github.ref == 'refs/heads/main'
         uses: algolia/algoliasearch-crawler-github-actions@v1
         id: crawler_push
         with:
@@ -27,6 +30,5 @@ jobs:
           crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
           algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
-          crawler-name: 'docs-india-compliance-app'
           site-url: 'https://docs.indiacompliance.app/'
-          override-config: true
+          # override-config: true
