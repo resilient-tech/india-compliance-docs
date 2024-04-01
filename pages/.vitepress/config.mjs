@@ -222,6 +222,7 @@ function sidebarDocs() {
             collapsible: true,
             collapsed: true,
             items: [
+                { text: "Multi Site Setup", link: "/docs/developer-guide/multi-site-setup" },
                 { text: "Migrating from V13", link: "/docs/developer-guide/migrating-from-v13" },
                 { text: "Migration Guide", link: "/docs/developer-guide/migration-guide" },
                 { text: "Sandbox", link: "/docs/developer-guide/sandbox" },
