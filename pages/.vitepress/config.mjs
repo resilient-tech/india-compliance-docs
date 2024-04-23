@@ -19,14 +19,13 @@ export default defineConfig({
         ['meta', { name: 'revisit-after', content: '7 days' }],
         
         ['meta', { name: 'og:type', content: 'website' }],
-        ['meta', { name: 'og:image', property: 'og:image', content: 'https://docs.indiacompliance.app/assets/OG-Share.jpg' }],
+        ['meta', { name: 'og:image', property: 'og:image', content: 'https://docs.indiacompliance.app/logo.jpg' }],
         ['meta', { name: 'og:image:alt', content: 'India Compliance Logo' }],
         ['meta', { name: 'og:image:width', content: '1200' }],
         ['meta', { name: 'og:image:height', content: '675' }],
 
         ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-        ['meta', { name: 'twitter:image', content: 'https://docs.indiacompliance.app/assets/OG-Share.jpg' }],
-        // NOTE  : It converts <HOST>/docs/configuration/assets to <HOST>/assets
+        ['meta', { name: 'twitter:image', content: 'https://docs.indiacompliance.app/logo.jpg' }],
         ['meta', { name: 'twitter:image:alt', content: 'India Compliance Logo' }],
         ['meta', { name: 'twitter:image:width', content: '1200' }],
         ['meta', { name: 'twitter:image:height', content: '675' }],
