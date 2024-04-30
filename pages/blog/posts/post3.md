@@ -42,8 +42,8 @@ Other supplies, which are taxed under GST, are considered taxable supplies.
 
 ## What is the key difference between Nil-Rated and Exempt Supplies?
 
-- Nil-Rated: Applies to a specific list of goods and services on which the GST rate is 0%. Central Board of Direct Taxes (CBDT) has the authority to decide which goods and services are nil-rated and notify the amendments in the rates.
-- Exempted: Applies to goods and services that are not taxed under GST in public interest. The government (on recommendations of council) can exempt certain goods and services from GST. Exemption may also be granted to certain transactions or persons.
+- Nil-Rated: Applies to a specific list of goods and services on which the GST rate is 0%. *Central Board of Direct Taxes* (CBDT) has the authority to decide which goods and services are nil-rated and notify the amendments in the rates.
+- Exempted: Applies to goods and services that are not taxed under GST in public interest. The *government* (on recommendations of CBDT) can exempt certain goods and services from GST. Exemption may also be granted to certain transactions or persons.
 
 ## How are these treatments handled in the India Compliance App?
 
