@@ -1,131 +1,70 @@
 ---
-date: 2024-04-11
-title: Managing Customisations and Fixtures
+date: 2024-04-30
+title: Difference between Nil-Rated, Exempt, Non-GST and Zero-Rated Supplies
 category: Tutorial
 author: Smit Vora
-description: Best practices to manage custom fields and fixtures in Frappe Framework.
+description: Understanding the difference between Nil-Rated, Exempt, Non-GST and Zero-Rated Supplies and how they are handled in the India Compliance App.
 tags:
-- Customisation
+- GST
 
-og_title: Blog | Managing Customisations and Fixtures
+og_title: Blog | GST Treatments in India Compliance App
 og_url : https://docs.indiacompliance.app/blog/posts/post3
 ---
 <PostDetail>
 
-Frappe provides simple ways to export fixtures and custom fields. This is particularly useful when one is migrating from one instance to another or when setting up a new instance.
+In India Compliance App, we have different types of GST treatments. These are Nil-Rated, Exempt, Non-GST, Zero Rated and Taxable supplies. In this blog, we'll understand the difference between these treatments and how they are handled in the India Compliance App.
 
-Various ways to export custom fields are:
-- [Exporting fixtures](https://frappeframework.com/docs/user/en/guides/app-development/how-to-create-custom-fields-during-app-installation)
-- [Export Customisations](https://frappeframework.com/docs/user/en/guides/app-development/exporting-customizations)
+## GST Treatments
 
-These methods are simple ways to ensure all custom fields are exported in the custom app. 
+Following table summarizes the GST treatments:
 
-But with this ease comes a responsibility to ensure the export of only the custom fields relevant to the custom app. This ensures the custom app is clean and maintainable.
+![GST Treatments](../assets/gst_treatments.png)
 
-:::info
-Ensure that only relevant custom fields are exported to the custom app.
-:::
+### Nil-Rated
 
+Nil-rated supplies are those supplies on which the GST rate is 0%. They may include daily essentials. Input tax credit is not available on the purchase of goods or services that are used to make nil-rated supplies.
 
-## What happens when these custom fields are exported?
+### Exempt
 
-When exporting custom fields, the system creates a JSON file with **all** the custom fields and fixtures. 
+Exempt supplies are those supplies that are not taxed under GST in Public Interest. This may be appliable to certain goods or transactions. Input tax credit is not available on the purchase of goods or services that are used to make exempt supplies.
 
-Fixtures are exported to the `fixtures` folder in the custom app. Whereas, customisations are exported to the `custom` folder in the custom app.
+### Non-GST
 
-On [migration](https://github.com/frappe/frappe/blob/develop/frappe/migrate.py#L126), (i.e `bench migrate`), the system reads these files and creates the custom fields or fixtures in the database if they are missing. This ensures that these fixtures and custom fields are always present in the database.
+Non-GST supplies are those supplies that are not covered under GST. Input tax credit is not available on the purchase of goods or services that are used to make non-GST supplies.
 
-## When is `migrate` triggered?
+### Zero-Rated
 
-It's triggered whenever `bench migrate` or `bench update` is run. Precisely, it's triggered every time the app is updated.
+Supplies that are made to SEZ (Special Economic Zone) or made overseas come under zero-rated supplies. The supplier can claim input tax credit on the purchase of goods or services that are used to make zero-rated supplies. This is irrespective of the fact that the supply is taxable or exempt or nil-rated. 
 
-## What is the issue if all custom fields are exported?
+### Taxable
 
-With multi-app architecture, it's common to have multiple custom apps. These apps might have custom fields (including the India Compliance App).
+Other supplies, which are taxed under GST, are considered taxable supplies.
 
-If there are changes to custom fields in one app, this may not correctly reflect as old fixtures are restored every time there is an update. This can lead to issues in the normal functioning of the app.
+## What is the key difference between Nil-Rated and Exempt Supplies?
 
-Even when a custom field is removed from the original app, it will still show up on the site. This could break the functionality of the app.
+- Nil-Rated: Applies to a specific list of goods and services on which the GST rate is 0%. Central Board of Direct Taxes (CBDT) has the authority to decide which goods and services are nil-rated and notify the amendments in the rates.
+- Exempted: Applies to goods and services that are not taxed under GST in public interest. The government (on recommendations of council) can exempt certain goods and services from GST. Exemption may also be granted to certain transactions or persons.
 
-This wasn't originally an issue, as there were limited custom fields (as part of core functionality, as everything was managed from one app).
+## How are these treatments handled in the India Compliance App?
 
-## Does this mean Fixtures and Customisations are obsolete?
+### Transactions
 
-No, they are still instrumental. But they need to be used with caution.
+In the India Compliance App, there is a `GST Treatment` field in the Item Tax template. This field is used to define the GST treatment for the item. It can be set to Nil-Rated, Exempt, Non-GST or Taxable (but not Zero-Rated).
 
-It is very useful when one wishes to have a default setup for the app. This should be ideally used only for one-time setup.
+Based on Item Tax template, the GST treatment is fetched in the Transactions.
 
-## Best Practices
+If the transaction is Export or supplies to SEZ, the GST treatment is set to Zero-Rated for all items.
 
-### Option 1
+### e-Invoice
 
-Export only relevant custom fields and fixtures. This is difficult to manage every time there is a change in the custom fields.
+- Fully Non Taxable Invoice: If all items are either Nil-Rated, Exempt or Non-GST, the e-Invoice is not applicable.
+- Partially Non Taxable Invoice: If some items are Nil-Rated, Exempt or Non-GST, the e-Invoice is applicable if it's a B2B transaction. Non-Taxable items are considered as other charges in the e-Invoice.
+- Zero-Rated Invoice: e-Invoice is applicable and hence will be created.
 
-### Option 2
+### GSTR-1
 
-Export fixtures and customisations to a separate app. This way, one can uninstall the app once done with the setup. This could be useful for setting up a new instance.
-
-However, with this approach too, one needs to ensure that they are exporting only the relevant custom fields as it may be difficult to track changes to other custom fields.
-
-### Option 3
-
-Manage custom fields directly from the code. This is the most recommended approach.
-
-**Benefits**
-- Full control over the custom fields
-- Easy to track changes
-- Only manage relevant properties
-- Manage custom fields in `after_install` and `before_uninstall` ensuring the database stays clean
-
-The following steps can be followed to manage custom fields directly from the code:
-
-<Steps>
-<Step title="Define custom fields">
-
-Reference: [Custom Fields](https://github.com/resilient-tech/india-compliance/blob/develop/india_compliance/gst_india/constants/custom_fields.py#L91) from India Compliance App.
-
-```python
-CUSTOM_FIELDS = {
-    ("Purchase Order", "Purchase Receipt", "Purchase Invoice"): [
-        {
-            "fieldname": "supplier_gstin",
-            "label": "Supplier GSTIN",
-            "fieldtype": "Data",
-            "insert_after": "address_display",
-            "fetch_from": "supplier_address.gstin",
-            "print_hide": 1,
-            "read_only": 1,
-            "translatable": 0,
-        },
-    ]
-}
-```
-</Step>
-
-<Step title="API to create custom fields">
-
-Reference: [API Usage](https://github.com/resilient-tech/india-compliance/blob/develop/india_compliance/gst_india/setup/__init__.py#L39)
-
-```python
-from frappe.custom.doctype.custom_field.custom_field import (
-    create_custom_fields
-)
-
-def after_install():
-    create_custom_fields(CUSTOM_FIELDS)
-
-```
-</Step>
-<Step title="Setup hooks">
-
-Reference: `after_install` [Hook](https://github.com/resilient-tech/india-compliance/blob/develop/india_compliance/hooks.py#L12)
-</Step>
-</Steps>
-
-Similarly, one may replicate this for `before_uninstall` to remove custom fields.
-
-Field updates can be managed directly using [patches](https://github.com/resilient-tech/india-compliance/blob/develop/india_compliance/patches.txt#L6).
-
-This approach ensures that only relevant custom fields are created and managed. This also ensures the database is clean and only relevant custom fields are created.
+- Fully Non Taxable Invoice: If all items are either Nil-Rated, Exempt or Non-GST, it is fully displayed in Nil-Exempt section in GSTR-1.
+- Partially Non Taxable Invoice: If some items are Nil-Rated, Exempt or Non-GST, it is split into Taxable and Nil-Exempt sections in GSTR-1. Taxable items will be displayed in B2B or B2C sections as the case may be. Nil-Exempt items will be displayed in Nil-Exempt section.
+- Zero-Rated Invoice: It is displayed in B2B (if SEZ) or Export section in GSTR-1.
 
 </PostDetail>
