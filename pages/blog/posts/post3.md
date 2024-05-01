@@ -53,17 +53,23 @@ In the India Compliance App, there is a `GST Treatment` field in the Item Tax te
 
 Based on Item Tax template, the GST treatment is fetched in the Transactions.
 
+#### How is Zero-Rated applied to transactions?
+
 If the transaction is Export or supplies to SEZ, the GST treatment is set to Zero-Rated for all items.
+
+#### Default GST Treatment for Transactions
+
+If there is no Taxes charged on the transaction, or is charged by default with zero percent, the GST treatment is set to Nil-Rated. Else, it is set to Taxable.
 
 ### e-Invoice
 
-- Fully Non Taxable Invoice: If all items are either Nil-Rated, Exempt or Non-GST, the e-Invoice is not applicable.
-- Partially Non Taxable Invoice: If some items are Nil-Rated, Exempt or Non-GST, the e-Invoice is applicable if it's a B2B transaction. Non-Taxable items are considered as other charges in the e-Invoice.
-- Zero-Rated Invoice: e-Invoice is applicable and hence will be created.
+- Fully Non Taxable Invoice: If all items are either Nil-Rated, Exempt or Non-GST in the transaction, the e-Invoice is not applicable and hence you wouldn't see an option to generate the same.
+- Partially Non Taxable Invoice: If some items are Nil-Rated, Exempt or Non-GST, the e-Invoice is applicable if it's a B2B transaction. Non-Taxable items are reported as other charges in the e-Invoice. This is to ensure it gets correctly reported in GSTR-1.
+- Zero-Rated Invoice: e-Invoice is applicable.
 
 ### GSTR-1
 
-- Fully Non Taxable Invoice: If all items are either Nil-Rated, Exempt or Non-GST, it is fully displayed in Nil-Exempt section in GSTR-1.
+- Fully Non Taxable Invoice: If all items are either Nil-Rated, Exempt or Non-GST in the transaction, it is fully displayed in Nil-Exempt section in GSTR-1.
 - Partially Non Taxable Invoice: If some items are Nil-Rated, Exempt or Non-GST, it is split into Taxable and Nil-Exempt sections in GSTR-1. Taxable items will be displayed in B2B or B2C sections as the case may be. Nil-Exempt items will be displayed in Nil-Exempt section.
 - Zero-Rated Invoice: It is displayed in B2B (if SEZ) or Export section in GSTR-1.
 
