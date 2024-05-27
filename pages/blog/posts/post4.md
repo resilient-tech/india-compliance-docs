@@ -3,17 +3,21 @@ date: 2024-05-27
 title: E-commerce Sales Transaction through E-commerce operators
 category: Article
 author: Priyansh Shah
-description: This blog guides you to how to perform E-commerce Transaction through E-commerce operators.
+description: This blog guides you to how to report E-commerce transactions in GSTR-1 using ERPNext / India Compliance
 tags:
 - ERPNEXT
 - INDIA COMPLIANCE
 
-og_title: Blog | E-commerce Sales Transaction through E-commerce operators
+og_title: Blog | Report E-commerce transactions in GSTR-1
 og_url : https://docs.indiacompliance.app/blog/posts/post4
 ---
 <PostDetail>
 
-Under Secion-14 of GST, E-commerce Sales Transaction is further categorized into two sections.
+### What is Table 14 in GSTR-1 filing?
+- Sales through e-commerce operators on which they are liable to collect TCS under Section 52 or pay tax under Section 9(5) of the CGST Act.
+
+
+Table 14 has two sections.
 
 - Liable to collect tax u/s 52(TCS)
 - Liable to pay tax u/s 9(5)
@@ -35,17 +39,18 @@ To perform E-commerce sales transactions, you need to create a Sales Invoice, Sa
 
 When creating documents for the above-mentioned doctypes, go to the GST Details section and enter the E-commerce GSTIN of your E-commerce operator. Depending on whether the transaction is subject to reverse charge or not, you will see the E-commerce Supply Type of your transaction.
 
-![](../assets/section_9(5).png) 
+![](../assets/ecommerce_supply_type.png) 
 
-&nbsp;&nbsp;&nbsp;&nbsp;or
 
-![](../assets/section_52.png)
+E-commerce Suppy Type can be one of: 
+- Liable to collect tax u/s 52(TCS)
+- Liable to pay tax u/s 9(5)
 
 ## Report GSTR-1
 
-You can view all your E-commerce transaction under Section-14 of GST in the GSTR-1 report by settings appropriate filters.
+You can view all your E-commerce transaction under Table 14 of GSTR-1 in the GSTR-1 report by settings appropriate filters.
 
-![GSTR-1](../assets/report_gstr1.png)
+![GSTR-1 Report](../assets/gstr1_report.png)
 
 You can also download Excel and JSON files to fill out your GSTR-1 returns.
 
