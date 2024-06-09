@@ -196,8 +196,19 @@ function sidebarDocs() {
             ]
         },
         {
+            text: "GST Reports",
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: "GSTR-1", link: "/docs/gst-reports/gstr1" },
+                { text: "GSTR-3B", link: "/docs/gst-reports/gstr3b" },
+                { text: "Miscellaneous Reports", link: "/docs/gst-reports/miscellaneous_reports" },
+            ]
+        },
+        {
             text: "Purchase Reconciliation",
             collapsible: true,
+            collapsed: true,
             items: [
                 { text: "Setting Up", link: "/docs/purchase-reconciliation/purchase_reconciliation_setup" },
                 { text: "Reconciling Purchase", link: "/docs/purchase-reconciliation/reconciling_purchase" },
