@@ -1,11 +1,11 @@
 ---
 date: 2024-05-27
-title: E-commerce Sales Transaction through E-commerce operators
+title: How to report e-commerce transactions in GSTR-1 using India Compliance
 category: Article
 author: Priyansh Shah
-description: This blog guides you to how to report E-commerce transactions in GSTR-1 using ERPNext / India Compliance
+description: This blog guides you to how to report E-commerce transactions in GSTR-1 using India Compliance
 tags:
-- ERPNEXT
+- GSTR-1
 - INDIA COMPLIANCE
 
 og_title: Blog | Report E-commerce transactions in GSTR-1
@@ -13,31 +13,32 @@ og_url : https://docs.indiacompliance.app/blog/posts/post4
 ---
 <PostDetail>
 
-### What is Table 14 in GSTR-1 filing?
-- Sales through e-commerce operators on which they are liable to collect TCS under Section 52 or pay tax under Section 9(5) of the CGST Act.
+Recently government has introduced a new section in GSTR-1 reporting for Sales through e-commerce operators. This new section is Table 14 in GSTR-1 filing.
+
+## Understanding E-commerce Transactions
+
+When a supplier sells goods or services through an e-commerce operator, he is required to report such transactions in Table 14 of GSTR-1. This is in addition to the regular reporting of sales in GSTR-1 under existing categories (eg: B2B or B2C).
+
+This is further divided into two categories:
+
+- Section 52: TCS (Tax Collected at Source) is applicable for the e-commerce operator. He is required to collect tax from the supplier at the time of payment and deposit it with the government. The Liability to pay GST is on Supplier. eg: Sales through Amazon, Flipkart, etc.
+
+- Section 9(5): The e-commerce operator is required to pay tax on behalf of the supplier. The Liability to pay GST is on E-commerce Operator. Hence, the supplier is required to ssues invoice to the e-commerce operator under Reverse Charge Mechanism. eg: Sales through Uber, Swiggy, etc.
 
 
-Table 14 has two sections.
+## Recording E-commerce Transactions in India Compliance
 
-- Liable to collect tax u/s 52(TCS)
-- Liable to pay tax u/s 9(5)
-
----
-
-### To perform E-commerce Sales Transaction through E-commerce operators follow the steps listed below: 
-
-## First Step
+### Setup
 
 First, you need to enable `Enable Sales through E-commerce Operators` in GST Seetings to perform E-commerce Sales Transaction via E-commerce operators.
 
-
 ![GST Settings](../assets/e_commerce_gst_settings.png)
 
-## Creating Sales Invoice, Sales Order, Delivery Note
+### Creating Transactions
 
-To perform E-commerce sales transactions, you need to create a Sales Invoice, Sales Order, or Delivery Note.
+You can create Sales Transactions as per regular workflow.
 
-When creating documents for the above-mentioned doctypes, go to the GST Details section and enter the E-commerce GSTIN of your E-commerce operator. Depending on whether the transaction is subject to reverse charge or not, you will see the E-commerce Supply Type of your transaction.
+When creating transactions, you need to select the E-commerce Operator in the GST Details section. Depending on reverse charge, the E-commerce Supply Type will be automatically set.
 
 ![](../assets/ecommerce_supply_type.png) 
 
@@ -46,19 +47,24 @@ E-commerce Suppy Type can be one of:
 - Liable to collect tax u/s 52(TCS)
 - Liable to pay tax u/s 9(5)
 
-## Report GSTR-1
+### e-Invoice
 
-You can view all your E-commerce transaction under Table 14 of GSTR-1 in the GSTR-1 report by settings appropriate filters.
+If you have enabled e-Invoice, usually you are not required to generate e-Invoice for E-commerce transactions as the E-commerce operator will generate the e-Invoice.
+
+### Report GSTR-1
+
+You can view all your E-commerce transaction summary in the GSTR-1 report by selecting `Supplies through E-commerce Operators`.
 
 ![GSTR-1 Report](../assets/gstr1_report.png)
 
 You can also download Excel and JSON files to fill out your GSTR-1 returns.
 
-## GSTR-3B
+### GSTR-3B
 
-For invoices subject to reverse charge, the details in GSTR-3B will be found in `3.1.1 Supplies notified under section 9(5) of the CGST Act` in GSTR-3B return of GST portal.
+Where a supply is made u/s 9(5) under reverse charge, the detailes are required to be reported in GSTR-3B under `3.1.1 Supplies notified under section 9(5) of the CGST Act`.
 
-For invoices not subject to reverse charge, the details in GSTR-3B will be in `3.1 Tax on outward and reverse charge inward supplies` in GSTR-3B return of GST portal. Inside this section, your transactions will be included where the Nature of Supplies is Outward taxable supplies.
+All other supplies are required to be reported under `3.1 Tax on outward and reverse charge inward supplies`.
 
 ![GSTR-3B](../assets/gstr3b.png)
+
 </PostDetail>
