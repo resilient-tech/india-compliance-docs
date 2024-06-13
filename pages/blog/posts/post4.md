@@ -65,6 +65,6 @@ Where a supply is made u/s 9(5) under reverse charge, the detailes are required 
 
 All other supplies are required to be reported under `3.1 Tax on outward and reverse charge inward supplies`.
 
-![GSTR-3B](../assets/gstr3b.png)
+![GSTR-3B](../assets/gstr3b_3.1.1.png)
 
 </PostDetail>
