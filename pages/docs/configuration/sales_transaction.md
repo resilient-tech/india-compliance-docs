@@ -33,3 +33,7 @@ To print Tax Invoices as per GST guidelines, please select **GST Tax Invoice** p
 Item tax breakup for each item is shown in the GST Details section for the Item table. This ensures better performance, better print formats, and backwards compatibility for changes to GST Accounts.
 
 ![Item GST Details](./assets/item_gst_details.png)
+
+## E-commerce Sales Transaction through E-commerce operators
+
+To perform E-commerce Sales Transaction through E-commerce operators refer to the [blog](/blog/posts/post4.md) to learn how to conduct such transactions.
