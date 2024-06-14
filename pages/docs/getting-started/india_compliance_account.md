@@ -43,7 +43,7 @@ Credits are the API Requests you purchase. 1 Credit = 1 API Request. This is one
 
 
 ## Pricing
-We have a simple pricing plan offered with pay-per-use model. The minimum purchase plan is also with as low as 2500 requests per annum and any additional in multiples of 2500. For further details on the pricing plan, [click here](mailto:info@resilient.tech).
+We have a simple pricing plan offered with pay-per-use model. The minimum purchase plan is also with as low as 2000 requests per annum and any additional in multiples of 2000. For further details on the pricing plan, [click here](https://indiacompliance.app/faq).
 
 ## Free Trial
 For New-users we are providing **1000 credits** with 3 months validity.  
