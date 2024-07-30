@@ -5,7 +5,7 @@ category: Article
 description: Want to test the API features? Get started in less than a minute with all API Features and test out the app.
 tags:
 - India Compliance
-- IC Account    
+- IC Account
 
 og_title :  Blog | India Compliance Account
 og_url : https://docs.indiacompliance.app/blog/posts/post2
@@ -13,15 +13,15 @@ og_url : https://docs.indiacompliance.app/blog/posts/post2
 <PostDetail>
 
 
-Want to test the API features?  
+Want to test the API features?
 Get started in less than a minute with all API Features and test out the app.
 
 ## Account Creation
-To use API features,you need an Account.  
+To use API features,you need an Account.
 **Follow these steps for sign up.**
 
 - Search for India Compliance Account or from GST India Workspace > choose India compliance Account
-- Signup / Login with your e-mail and GSTIN. 
+- Signup / Login with your e-mail and GSTIN.
 - Verify your email and refresh your India Compliance account page.
 - You are now signed up for API Features and can start using them.
 
@@ -34,19 +34,18 @@ Credits are the API Requests you purchase. 1 Credit = 1 API Request. This is one
 
 
 ## Pricing
-We have a simple pricing plan offered with pay-per-use model. Minimum purchase plan is also with as low as 2500 requests per annum and any additional in multiples of 2500. For further details on the pricing plan, [click here](mailto:info@resilient.tech).
+We have a simple pricing plan offered with pay-per-use model. Minimum purchase plan is also with as low as 1000 requests per annum and any additional in multiples of 1000. For further details on the pricing plan, [click here](mailto:hello@indiacompliance.app).
 
 ## Free Trial
-For New-users we are providing **1000 credits** with 3 months validity.  
-Free credits gets activated on e-mail verifiaction.
-(*Offer for limited period only*)
+For New-users we are providing **500 free credits** with 3 months validity.
+Free credits gets activated on e-mail verification.
 
 ## Purchase Credits
 **Follow these steps for purchasing credits.**
 - Login in to the India Compliance Account.
 - Specify the credits.
-- Enter Billing Information 
-- Make Payment(Invoice will be sent to your registered e-mail.)  
+- Enter Billing Information
+- Make Payment (Invoice will be sent to your registered e-mail)
 ***All purchases are non-refundable***
 
 ## Validity

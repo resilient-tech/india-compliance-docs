@@ -24,9 +24,9 @@ Don`t have a frappe site? New to ERPNext? Not an expert with cloud management? W
 
 You can get started in a few minutes with a new site and a fresh install to try out the simple and cool features of the App.
 
-Need consultation/support in getting started. [Get help!](mailto:info@resilient.tech)
+Need consultation/support in getting started. [Get help!](mailto:hello@indiacompliance.app)
 
-For Migration guide [Click Here](../developer-guide/migrating-from-v13.md)  
+For Migration guide [Click Here](../developer-guide/migrating-from-v13.md)
 For Sandbox Configuration [Click Here](../developer-guide/sandbox.md)
 
 ## Docker
