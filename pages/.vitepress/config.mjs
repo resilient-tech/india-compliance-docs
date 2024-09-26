@@ -202,6 +202,7 @@ function sidebarDocs() {
             items: [
                 { text: "GSTR-1", link: "/docs/gst-reports/gstr1" },
                 { text: "GSTR-3B", link: "/docs/gst-reports/gstr3b" },
+                { text: "GST Job Work Stock Movement", link: "/docs/gst-reports/itc_04" },
                 { text: "Miscellaneous Reports", link: "/docs/gst-reports/miscellaneous_reports" },
             ]
         },
