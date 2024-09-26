@@ -62,11 +62,11 @@ cannot be determined.
 
 ## GST Sales Register Beta Report
 
-The GST Sales Register Beta Report provides both detailed and summary views of
-sales transactions, offering users a comprehensive overview of all relevant
-information in one place. In addition to the general summary, users can view
-HSN-wise and item-wise breakdowns, giving clear insights into taxable sales and
-their corresponding GST amounts.
+The GST Sales Register Beta Report provides:
+
+- An overview of all sales transactions made during a specified period.
+- Item-Wise summary of transactions.
+- HSN-Wise summary of transactions.
 
 To view GST Sales Register Beta report navigate to **Accounts > GST India > GST
 Sales Register Beta**
@@ -79,11 +79,11 @@ or simply search for GST Sales Register Beta in awesomebar.
 
 ## GST Purchase Register Beta Report
 
-The GST Purchase Register Report provides an overview of all purchases made
-during a specified period. Users can access a comprehensive summary based on
-various categories along with a detailed breakdown of each transaction. This
-ensures a clear view of purchase data, helping businesses track input taxes
-efficiently for accurate tax return filings.
+The GST Purchase Register Report provides:
+
+- An overview of all purchases made during a specified period.
+- A comprehensive summary based on various categories
+- A detailed breakdown of each transaction based on category.
 
 To view GST Purchase Register Beta report navigate to **Accounts > GST India >
 GST Purchase Register Beta**
