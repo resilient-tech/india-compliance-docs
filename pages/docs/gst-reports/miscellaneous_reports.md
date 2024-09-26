@@ -19,6 +19,27 @@ structured_data:
 Other useful reports in India Compliance App to help you with your GST
 compliance.
 
+## GST Job Work Stock Movement Report
+
+The report provides detailed information on inputs, capital goods, or
+semi-finished goods sent to job workers, goods returned, and any inter-job
+worker transfers.
+
+To generate GST Job Work Stock Movement Report in ERPNext navigate to
+
+**Accounting > Goods and Services Tax (GST India) > GST Job Work Stock Movement
+Report**
+
+or simply search for GST Job Work Stock Movement Report in awesomebar.
+
+- **Received back from Job Worker** category provides data on stock transfers
+  received from the job worker after the completion of subcontracted tasks.
+
+- **Sent for Job Work** category provides data on stock transfers sent to the
+  job worker for subcontracting.
+
+![GST Job Work Stock Movement Report](./assets/gst_job_work_stock_movement_report.png)
+
 ## GST Balance Report
 
 The GST Balance Report provides the balance of GST Accounts for a given period.
@@ -32,11 +53,11 @@ or simply search for GST Balance in awesomebar.
 
 ![GST Balance Summary Report](./assets/gst_balance_summary_report.png)
 
-::: info 
+::: info
 You may need to update GSTIN in documents where GST Number is not set.
 We have provided a tool to update GST Number in all documents. However, in a
 multi-company setup, you'll need to manually update for each document, as GSTIN
-cannot be determined. 
+cannot be determined.
 :::
 
 ## GST Sales Register Beta Report

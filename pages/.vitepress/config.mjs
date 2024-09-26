@@ -202,7 +202,6 @@ function sidebarDocs() {
             items: [
                 { text: "GSTR-1", link: "/docs/gst-reports/gstr1" },
                 { text: "GSTR-3B", link: "/docs/gst-reports/gstr3b" },
-                { text: "GST Job Work Stock Movement", link: "/docs/gst-reports/itc_04" },
                 { text: "Miscellaneous Reports", link: "/docs/gst-reports/miscellaneous_reports" },
             ]
         },
@@ -223,7 +222,6 @@ function sidebarDocs() {
             items: [
                 { text: "Audit Trail", link: "/docs/miscellaneous/audit_trail" },
                 { text: "GSTIN Verification", link: "/docs/miscellaneous/gstin_verification" },
-                { text: "Reports and Returns", link: "/docs/miscellaneous/gst_reports" },
                 { text: "Transaction Validations", link: "/docs/miscellaneous/transaction_validations" },
                 { text: "Lower Deduction Certificate", link: "/docs/miscellaneous/lower_deduction_certificate" },
             ]
