@@ -16,7 +16,8 @@ structured_data:
 
 # Miscellaneous Reports
 
-Other useful reports in India Compliance App to help you with your GST compliance.
+Other useful reports in India Compliance App to help you with your GST
+compliance.
 
 ## GST Balance Report
 
@@ -31,16 +32,23 @@ or simply search for GST Balance in awesomebar.
 
 ![GST Balance Summary Report](./assets/gst_balance_summary_report.png)
 
-::: info
+::: info 
 You may need to update GSTIN in documents where GST Number is not set.
-We have provided a tool to update GST Number in all documents.However, in a multi-company setup, you'll need to manually update for each document, as GSTIN cannot be determined.
+We have provided a tool to update GST Number in all documents. However, in a
+multi-company setup, you'll need to manually update for each document, as GSTIN
+cannot be determined. 
 :::
 
 ## GST Sales Register Beta Report
 
-The GST Sales Register Beta Report provides both detailed and summary views of sales transactions, offering users a comprehensive overview of all relevant information in one place. In addition to the general summary, users can view HSN-wise and item-wise breakdowns, giving clear insights into taxable sales and their corresponding GST amounts.
+The GST Sales Register Beta Report provides both detailed and summary views of
+sales transactions, offering users a comprehensive overview of all relevant
+information in one place. In addition to the general summary, users can view
+HSN-wise and item-wise breakdowns, giving clear insights into taxable sales and
+their corresponding GST amounts.
 
-To view GST Sales Register Beta report navigate to **Accounts > GST India > GST Sales Register Beta**
+To view GST Sales Register Beta report navigate to **Accounts > GST India > GST
+Sales Register Beta**
 
 or simply search for GST Sales Register Beta in awesomebar.
 
@@ -50,9 +58,14 @@ or simply search for GST Sales Register Beta in awesomebar.
 
 ## GST Purchase Register Beta Report
 
-The GST Purchase Register Report provides an overview of all purchases made during a specified period. Users can access a comprehensive summary based on various categories along with a detailed breakdown of each transaction. This ensures a clear view of purchase data, helping businesses track input taxes efficiently for accurate tax return filings.
+The GST Purchase Register Report provides an overview of all purchases made
+during a specified period. Users can access a comprehensive summary based on
+various categories along with a detailed breakdown of each transaction. This
+ensures a clear view of purchase data, helping businesses track input taxes
+efficiently for accurate tax return filings.
 
-To view GST Purchase Register Beta report navigate to **Accounts > GST India > GST Purchase Register Beta**
+To view GST Purchase Register Beta report navigate to **Accounts > GST India >
+GST Purchase Register Beta**
 
 or simply search for GST Purchase Register Beta in awesomebar.
 

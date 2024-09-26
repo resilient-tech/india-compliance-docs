@@ -16,18 +16,23 @@ structured_data:
 
 # GST Job Work Stock Movement
 
-The report provides detailed information on inputs, capital goods, or semi-finished goods sent to job workers, goods returned, and any inter-job worker transfers.
+The report provides detailed information on inputs, capital goods, or
+semi-finished goods sent to job workers, goods returned, and any inter-job
+worker transfers.
 
 ## GST Job Work Stock Movement Report
 
 To generate GST Job Work Stock Movement Report in ERPNext navigate to
 
-**Accounting > Goods and Services Tax (GST India) > GST Job Work Stock Movement Report**
+**Accounting > Goods and Services Tax (GST India) > GST Job Work Stock Movement
+Report**
 
 or simply search for GST Job Work Stock Movement Report in awesomebar.
 
-- **Received back from Job Worker** category provides data on stock transfers received from the job worker after the completion of subcontracted tasks.
+- **Received back from Job Worker** category provides data on stock transfers
+  received from the job worker after the completion of subcontracted tasks.
 
-- **Sent for Job Work** category provides data on stock transfers sent to the job worker for subcontracting.
+- **Sent for Job Work** category provides data on stock transfers sent to the
+  job worker for subcontracting.
 
 ![GST Job Work Stock Movement Report](./assets/gst_job_work_stock_movement_report.png)

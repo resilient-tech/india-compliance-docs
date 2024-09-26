@@ -28,7 +28,8 @@ or simply search for GSTR 3B Report in awesomebar.
 
 - **GSTR-3B now supports generating the report based on Month or Quarter.**
 
-- Click New to generate a new report or select an existing report to update it or download JSON.
+- Click New to generate a new report or select an existing report to update it
+  or download JSON.
 
 - Enter the following details to generate the report:
 
@@ -37,16 +38,19 @@ or simply search for GSTR 3B Report in awesomebar.
   3. Year
   4. Month or Quarter
 
-- Click Save to generate the report and view form. An existing report can also be updated/regenerated on clicking save.
+- Click Save to generate the report and view form. An existing report can also
+  be updated/regenerated on clicking save.
 
 ![GSTR-3B Report](./assets/gstr_3b_form.png)
 
-If you want to print the report it can also be printed and viewed in GSTR-3B Form by clicking on View Form as shown below
+If you want to print the report it can also be printed and viewed in GSTR-3B
+Form by clicking on View Form as shown below
 
 ![Download Option in GSTR-3B](./assets/gstr_3b_view_form.png)
 
 ## GSTR-3B Details Report
 
-The GSTR-3B Details Report provides detailed information on all the purchase transactions that are included in the GSTR-3B report.
+The GSTR-3B Details Report provides detailed information on all the purchase
+transactions that are included in the GSTR-3B report.
 
 ![GSTR-3B Details Report](./assets/gstr_3b_details_report.png)
