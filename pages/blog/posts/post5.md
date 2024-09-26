@@ -14,7 +14,9 @@ og_url: https://docs.indiacompliance.app/blog/posts/post5
 
 <PostDetail>
 
-The complete guideline of how subcontracting works in ERPNext is provided [here](https://docs.erpnext.com/docs/user/manual/en/subcontracting). We will explore the various documents involved in the subcontracting process and delve into different scenarios, offering a clear understanding of its practical applications and workflows.
+The complete guideline of how subcontracting works in ERPNext is provided [here](https://docs.erpnext.com/docs/user/manual/en/subcontracting).
+
+In this blog we will explore the various documents involved in the subcontracting process and delve into different scenarios, offering a clear understanding of its practical applications and workflows.
 
 ## What is Subcontracting ??
 
@@ -26,7 +28,7 @@ Subcontracting, or job work, allows businesses to send raw materials or semi-fin
 
 - **Service Item:** This item is used to record and charge the service cost associated with the job work process, reflecting the labor or services provided by the Job Worker.
 
-- **Raw Materials/Capital Goods:** In subcontracting, raw materials are tangible items that are provided to a subcontractor to be processed into a semi-finished or finished product. Capital goods can be intangible assets, such as a brand name, technology, license, copyright, or patent.
+- **Raw Materials/Capital Goods:** In subcontracting, Raw Materials are items that are provided to a subcontractor to be processed into a semi-finished or finished product. Whereas, Capital Goods are tangible assets that a company uses to produce goods and services, such as buildings, machinery, equipment, vehicles, and tools. 
 
 - **Finished Item:** This refers to the final product that is produced as a result of the job work process.
 
