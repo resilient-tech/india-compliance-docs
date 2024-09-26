@@ -48,3 +48,14 @@ or simply search for GST Sales Register Beta in awesomebar.
 
 ![Sales Register Beta Detail View](./assets/sales_register_beta_detail_view.png)
 
+## GST Purchase Register Beta Report
+
+The GST Purchase Register Report provides an overview of all purchases made during a specified period. Users can access a comprehensive summary based on various categories along with a detailed breakdown of each transaction. This ensures a clear view of purchase data, helping businesses track input taxes efficiently for accurate tax return filings.
+
+To view GST Purchase Register Beta report navigate to **Accounts > GST India > GST Purchase Register Beta**
+
+or simply search for GST Purchase Register Beta in awesomebar.
+
+![Purchase Register Beta Overview](./assets/purchase_register_beta_overview.png)
+
+![Purchase Register Beta Detail View](./assets/purchase_register_beta_detail_view.png)
