@@ -58,6 +58,8 @@ You should ideally generate an e-Waybill from the sales invoice. e-Waybill gener
 - **Enable e-Waybill Generation from Purchase Invoice**
 Enable this setting to generate e-Waybill from Purchase Invoice. Businesses are generally required to generate e-Waybills for Purchases involving the movement of goods to ensure compliance, transparency and accurate taxation.
 
+- **Enable e-Waybill Generation for Subcontracting**
+  Enable this setting to generate e-Waybills for the Subcontracting Workflow. When materials are dispatched to subcontractors for job work, generating e-Waybills becomes essential for compliance and tracking purposes.
 
 - **Invoice Value Threshold for e-Waybill Generation**  
 As per the CGST Rules, the limit is Rs.50,000 which is set by default. But it may vary state-wise so, you can configure it as per applicable laws or ensure tighter internal controls. Applicability of e-Waybill for Sales Invoice is checked based on this setting.
