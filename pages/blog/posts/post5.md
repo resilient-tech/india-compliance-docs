@@ -119,8 +119,8 @@ materials and finished products.
 
 Link the receipt with the **Stock Entries** and the **Subcontracting Returns**
 in **Doc References** to maintain clear documentation of the transactions
-associated with the receipt. This ensures that all relevant movements of goods
-are tracked accurately within the system.
+associated with the receipt. This ensures that all relevant information required
+for ITC-04 Reporting is accurately recorded and tracked.
 
 Refer
 [here](https://docs.indiacompliance.app/docs/ewaybill-and-einvoice/gst_settings#e-waybill-settings)
@@ -204,9 +204,8 @@ returned. This process can be managed in ERPNext using Stock Entry Returns.
 - The initial steps for sending goods to the subcontractor remains the same.
 
 - A Stock Entry Return must be created to receive back the unused raw materials,
-  and it should be linked to the original stock entry under Doc References for
-  accurate ITC-04 reporting. This transaction will be included in Table-5 for
-  ITC-04 Reporting.
+  and it should be linked to the original stock entry under Doc References which
+  will be used as original challan in Table-5 for ITC-04 Reporting.
 
 - Finally, receive the finished goods through the Subcontracting Receipt to
   complete the process cycle.This transaction will be included in Table-5 for
@@ -218,6 +217,9 @@ There is a time limit for the principal manufacturer to receive goods:
 - Capital Goods- 3 years from effective date
 - Input Goods- 1 year from effective date
 
-In case goods are not received within the period as mentioned above, such goods will be deemed as supply from the effective date. The principal manufacturer will have to pay tax on such deemed supply. The challan issued will be treated as an invoice for such supply.
+In case goods are not received within the period as mentioned above, such goods
+will be deemed as supply from the effective date. The principal manufacturer
+will have to pay tax on such deemed supply. The challan issued will be treated
+as an invoice for such supply.
 :::
 </PostDetail>
