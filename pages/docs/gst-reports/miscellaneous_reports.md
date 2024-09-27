@@ -40,6 +40,8 @@ or simply search for GST Job Work Stock Movement Report in awesomebar.
 
 ![GST Job Work Stock Movement Report](./assets/gst_job_work_stock_movement_report.png)
 
+Refer [here](https://docs.indiacompliance.app/blog/posts/post5) for the detailed Subcontracting Workflow in ERPNext for Indian Compliance.
+
 ## GST Balance Report
 
 The GST Balance Report provides the balance of GST Accounts for a given period.
