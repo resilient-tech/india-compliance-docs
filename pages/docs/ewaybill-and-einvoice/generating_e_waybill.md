@@ -20,6 +20,15 @@ e-Waybill is an electronic waybill required to be generated on [e-Waybill Portal
 
 You can generate the e-Waybill using the bulk generation facility or the APIs.
 
+## Supported DocTypes to generate e-Waybill
+
+- Sales Invoice
+- Purchase Invoice
+- Delivery Note
+- Purchase Receipt
+- Stock Entry
+- Subcontracting Receipt
+
 ## Prerequisites
 - [GSP credentials in ERPNext](gst_settings#gsp-credentials)
 - [India Compliance Account](../getting-started/india_compliance_account#account-creation)

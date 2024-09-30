@@ -222,7 +222,6 @@ function sidebarDocs() {
             items: [
                 { text: "Audit Trail", link: "/docs/miscellaneous/audit_trail" },
                 { text: "GSTIN Verification", link: "/docs/miscellaneous/gstin_verification" },
-                { text: "Reports and Returns", link: "/docs/miscellaneous/gst_reports" },
                 { text: "Transaction Validations", link: "/docs/miscellaneous/transaction_validations" },
                 { text: "Lower Deduction Certificate", link: "/docs/miscellaneous/lower_deduction_certificate" },
             ]

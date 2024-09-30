@@ -16,7 +16,31 @@ structured_data:
 
 # Miscellaneous Reports
 
-Other useful reports in India Compliance App to help you with your GST compliance.
+Other useful reports in India Compliance App to help you with your GST
+compliance.
+
+## GST Job Work Stock Movement Report
+
+The report provides detailed information on inputs, capital goods, or
+semi-finished goods sent to job workers, goods returned, and any inter-job
+worker transfers.
+
+To generate GST Job Work Stock Movement Report in ERPNext navigate to
+
+**Accounting > Goods and Services Tax (GST India) > GST Job Work Stock Movement
+Report**
+
+or simply search for GST Job Work Stock Movement Report in awesomebar.
+
+- **Received back from Job Worker** category provides data on stock transfers
+  received from the job worker after the completion of subcontracted tasks.
+
+- **Sent for Job Work** category provides data on stock transfers sent to the
+  job worker for subcontracting.
+
+![GST Job Work Stock Movement Report](./assets/gst_job_work_stock_movement_report.png)
+
+Refer [here](https://docs.indiacompliance.app/blog/posts/post5) for the detailed Subcontracting Workflow in ERPNext for Indian Compliance.
 
 ## GST Balance Report
 
@@ -28,9 +52,46 @@ To view GST balance report navigate to **Accounts > GST India > GST Balance**
 or simply search for GST Balance in awesomebar.
 
 ![GST Balance Details Report](./assets/gst_balance_details_report.png)
+
 ![GST Balance Summary Report](./assets/gst_balance_summary_report.png)
 
 ::: info
 You may need to update GSTIN in documents where GST Number is not set.
-We have provided a tool to update GST Number in all documents.However, in a multi-company setup, you'll need to manually update for each document, as GSTIN cannot be determined.
+We have provided a tool to update GST Number in all documents. However, in a
+multi-company setup, you'll need to manually update for each document, as GSTIN
+cannot be determined.
 :::
+
+## GST Sales Register Beta Report
+
+The GST Sales Register Beta Report provides:
+
+- An overview of all sales transactions made during a specified period.
+- Item-Wise summary of transactions.
+- HSN-Wise summary of transactions.
+
+To view GST Sales Register Beta report navigate to **Accounts > GST India > GST
+Sales Register Beta**
+
+or simply search for GST Sales Register Beta in awesomebar.
+
+![Sales Register Beta Overview](./assets/sales_register_beta_overview.png)
+
+![Sales Register Beta Detail View](./assets/sales_register_beta_detail_view.png)
+
+## GST Purchase Register Beta Report
+
+The GST Purchase Register Report provides:
+
+- An overview of all purchases made during a specified period.
+- A comprehensive summary based on various categories
+- A detailed breakdown of each transaction based on category.
+
+To view GST Purchase Register Beta report navigate to **Accounts > GST India >
+GST Purchase Register Beta**
+
+or simply search for GST Purchase Register Beta in awesomebar.
+
+![Purchase Register Beta Overview](./assets/purchase_register_beta_overview.png)
+
+![Purchase Register Beta Detail View](./assets/purchase_register_beta_detail_view.png)
