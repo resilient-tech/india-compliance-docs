@@ -20,7 +20,7 @@ Want to test the API features?
 Get started in less than a minute with all API Features and test out the app.
 
 ::: tip Bundled on Frappe Cloud
-We recommend [Frappe Cloud](https://frappecloud.com/dashboard/signup?referrer=99df7a8f) for hosting your site. It comes bundled with India Compliance API features and hence India Compliance Account won't be accessible there.
+We recommend [Frappe Cloud](https://frappecloud.com/dashboard/signup?referrer=99df7a8f) for hosting your site. It comes bundled with India Compliance API features, providing free API access without requiring a purchase from the India Compliance app. For sites hosted outside of Frappe Cloud, credits must be purchased through the India Compliance app.
 :::
 
 ## Account Creation
