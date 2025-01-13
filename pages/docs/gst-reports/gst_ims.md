@@ -62,13 +62,13 @@ After the invoices reported by your supplier are downloaded from GSTN, they will
 | Pending   | The invoices that are marked as pending will remain in the IMS and will not be included when generating GSTR-2B. |
 | No Action | These invoices will be deemed accepted at the time of generating GSTR-2B.                                        |
 
-Refer below to understand the process of performing these actions.
+- Navigate to the **Actions Summary** Tab where you can view the summary of invoices based on actions taken.
 
-<!-- Add gif -->
+![Apply Individual Action](./assets/apply_ims_action.gif)
+
+![Apply Bulk Action](./assets/apply_ims_bulk_action.gif)
 
 > Note: You cannot **Accept** invoices where match status is **Missing in PI**.
-
-- Navigate to the **Actions Summary** Tab where you can view the summary of invoices based on actions taken.
 
 ## Upload to GSTN
 
@@ -78,7 +78,7 @@ The actions taken on the downloaded invoices need to be updated on the GSTN. Her
 
 - If any invoices fail to upload to GSTN, you can redownload and reupload them using the option provided in the dialog box.
 
-<!-- Add gif -->
+![Upload Error](./assets/ims_upload_error.gif)
 
 ::: tip
 As a best practice, download invoices from GSTN before uploading to ensure data accuracy and maintain consistency.
