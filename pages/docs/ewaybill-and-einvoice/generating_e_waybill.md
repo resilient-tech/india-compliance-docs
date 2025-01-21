@@ -92,8 +92,14 @@ You can print e-waybill in two formats similar to the e-Waybill portal:
 2. A Detailed Format with additional fields using "e-Waybill Detailed" print format
 
 <div style="display: flex; gap:5px;">
-  <img src="./assets/e_waybill_simplified.png" alt="E-Waybill Simplified" width="50%" style="border-radius:8px">
-  <img src="./assets/e_waybill_detailed.png" alt="E-Waybill Detailed " width="50%" style="border-radius:8px">
+  <div width="50%" style="text-align:center; margin:5px;">
+    <img src="./assets/e_waybill_simplified.png" alt="E-Waybill Simplified"  style="border-radius:8px; height:100%;">
+    <strong>E-Waybill Simplified</strong>
+  </div>
+  <div width="50%" style="text-align:center; margin:5px;">
+    <img src="./assets/e_waybill_detailed.png" alt="E-Waybill Detailed"  style="border-radius:8px; height:100%;">
+    <strong>E-Waybill Detailed</strong>
+  </div>
 </div>
 
 ## Attach e-Waybill
