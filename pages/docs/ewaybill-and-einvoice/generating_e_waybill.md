@@ -87,7 +87,14 @@ From the e-Waybill menu, Click on "Extend Validity". In the dialog box, enter th
 ## Print e-Waybill
 You can use this to print an e-Waybill if you prefer not to have attachments. It works similarly to printing any other document in ERPNext. It will redirect you to the respective e-Waybill log print and fetch the latest e-Waybill data (from the NIC Portal) for printing if it's not available.
 
-You can print e-waybills in two formats: a Simplified Format using "e-Waybill" print format and a Detailed Format with additional fields using "e-Waybill Detailed" print format, similar to the e-Waybill portal.
+You can print e-waybill in two formats similar to the e-Waybill portal: 
+1. A Simplified Format using "e-Waybill" print format
+2. A Detailed Format with additional fields using "e-Waybill Detailed" print format
+
+<div style="display: flex; gap:5px;">
+  <img src="./assets/e_waybill_simplified.png" alt="E-Waybill Simplified" width="50%" style="border-radius:8px">
+  <img src="./assets/e_waybill_detailed.png" alt="E-Waybill Detailed " width="50%" style="border-radius:8px">
+</div>
 
 ## Attach e-Waybill
 It is a manual trigger to attach an e-Waybill to a Sales Invoice. A new attachment will replace the old attachment if present.
