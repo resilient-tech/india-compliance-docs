@@ -19,19 +19,36 @@ structured_data:
 The Invoice Management System (IMS) helps businesses efficiently manage transactions. It allows taxpayers to accept, reject, or
 mark transactions for later review, making the reconciliation process simpler and improving accounting accuracy.
 
-## GST Invoice Management System
+## GST Invoice Management System (IMS)
+
+### Overview
 
 When a business purchases goods or services, it pays GST on those purchases. It can then claim Input Tax Credit (ITC) for the sales made from those goods or services. However, the buyer can only claim ITC if the supplier has filed the sale in their GSTR-1/1A/IFF. If the supplier fails to file GSTR-1 or reports incorrect information, the buyer may not be able to claim the credit.
 
-The GST Invoice Management System simplifies this process by ensuring that only accurate and valid invoices are considered for ITC claims. The invoices that do not have reverse charges and are eligible for ITC, reported by your supplier in GSTR-1/1A/IFF, will be displayed on the GST Invoice Management System. You can then accept, reject, or mark these invoices as pending.
+### Key Features
 
-Only invoices filed by the supplier will be included in the ITC calculation.
+- **Accurate ITC Claims**: Ensures only accurate and valid invoices are considered for ITC claims.
+- **Invoice Display**: Displays invoices that do not have reverse charges and are eligible for ITC, reported by your supplier in GSTR-1/1A/IFF.
+- **Action Options**: Allows you to accept, reject, or mark invoices as pending.
 
-If no action is taken on a invoice, it will automatically be deemed accepted, and a draft GSTR-2B will be generated including only the accepted or no action taken invoices on the 14th of the following month.
+### Workflow
 
-This flow between GSTR-1/1A/IFF and GSTR-2B through the IMS helps streamline the process of claiming ITC while ensuring that all invoices are accurate.
+1. **Supplier Filing**:
+   - Only invoices filed by the supplier will be included in the ITC calculation.
 
-Taxpayers can modify their actions on invoices until they file Form GSTR-3B for the month.
+2. **Invoice Actions**:
+   - **Accept**: Includes the invoice in the ITC calculation.
+   - **Reject**: Excludes the invoice from the ITC calculation.
+   - **Pending**: Excluded from the ITC calculation but will remain in IMS.
+
+3. **Automatic Acceptance**:
+   - If no action is taken on an invoice, it will automatically be deemed accepted.
+   - A draft GSTR-2B will be generated, including only the accepted or no-action-taken invoices on the 14th of the following month.
+
+### Benefits
+
+- **Streamlined ITC Process**: The flow between GSTR-1/1A/IFF and GSTR-2B through the IMS helps streamline the process of claiming ITC while ensuring that all invoices are accurate.
+- **Flexibility**: Taxpayers can modify their actions on invoices until they file Form GSTR-3B for the month.
 
 > Note: Invoices that are not eligible for ITC, either because of the POS rule or Section 16(4) of the CGST Act, will not be displayed on IMS and will instead be directly displayed in the ITC Not Available section of GSTR-2B.
 
@@ -39,11 +56,13 @@ Taxpayers can modify their actions on invoices until they file Form GSTR-3B for 
 
 To take action on invoices filed by your supplier, you first need to download those invoices from GSTN. Here’s how:
 
-- Navigate to **Accounting > Goods and Services Tax (GST India) > GST Invoice Management System** or simply search for **GST Invoice Management System** in awesomebar.
+- Navigate to **Accounting > GST India > GST Invoice Management System** or simply search for **GST Invoice Management System** in awesomebar.
 
 - Click **Download Invoices**. Now, the invoices will be scheduled to be downloaded from GSTN, and you will be notified once the download is completed.
 
 - Click on **Show Invoices** and a summary of Inward Supplies will be displayed on the screen in the **Document View** Tab.
+
+![Download Invoices](./assets/download_button.png)
 
 ## Review Transactions
 
@@ -68,7 +87,11 @@ After the invoices reported by your supplier are downloaded from GSTN, they will
 
 ![Apply Bulk Action](./assets/apply_ims_bulk_action.gif)
 
-> Note: You cannot **Accept** invoices where match status is **Missing in PI**.
+::: info
+
+1. You cannot **Accept** invoices where match status is **Missing in PI**.
+2. When an invoice is unlinked and IMS action is **Accepted**, then IMS action will automatically revert to **No Action**.
+   :::
 
 ## Upload to GSTN
 
@@ -84,7 +107,19 @@ The actions taken on the downloaded invoices need to be updated on the GSTN. Her
 As a best practice, download invoices from GSTN before uploading to ensure data accuracy and maintain consistency.
 :::
 
+## Export Data
+
+To export the **Document View** of the GST Invoice Management System, click the **Export** button
+at the top right corner.
+
+![Export Data](./assets/export_button.png)
+
 ## FAQs
+
+### From which version is GST Invoice Management System supported?
+
+This feature is supported starting from **version-15**
+of the India Compliance App.
 
 ### When will the Invoice Management System be ready for use?
 
@@ -131,8 +166,16 @@ All the outward supplies reported in GSTR 1, IFF, or 1A will appear in your IMS.
 
 - **Accept**: When you accept a record, it will be added to the ITC Available section of GSTR 2B. The GST on these records will automatically populate in GSTR 3B as eligible ITC.
 - **Reject**: When you reject a record, it will fall into the ITC Rejected section of GSTR 2B. The ITC from these rejected records will not be added to GSTR 3B.
-- **Pending**: If you leave an invoice and it gets marked as "pending," it won't appear in GSTR 2B or GSTR 3B. These pending records will stay on the IMS dashboard until you accept or rejects them. However, you cannot mark certain types of records as pending. These types of records include:
-- Original credit notes.
-- Upward amendments of credit notes (no matter what action was taken on the original credit note).
-- Downward amendments of credit notes if the original credit note was rejected.
-- Downward amendments of invoices or debit notes if the original was accepted and GSTR 3B was already filed.
+- **Pending**: If you leave an invoice and it gets marked as "pending," it won't appear in GSTR 2B or GSTR 3B. These pending records will stay on the IMS dashboard until you accept or rejects them. However, you cannot mark certain types of records as pending.
+
+  These types of records include:
+
+  - Original credit notes.
+  - Upward amendments of credit notes (no matter what action was taken on the original credit note).
+  - Downward amendments of credit notes if the original credit note was rejected.
+  - Downward amendments of invoices or debit notes if the original was accepted and GSTR 3B was already filed.
+
+For more FAQS, you can refer to the following links:
+
+- [Initial FAQs](https://tutorial.gst.gov.in/downloads/news/final_faqs_on_ims_22_09_2024.pdf)
+- [Additional FAQs](https://tutorial.gst.gov.in/downloads/news/final_faqs_on_ims_22_09_2024.pdf)
