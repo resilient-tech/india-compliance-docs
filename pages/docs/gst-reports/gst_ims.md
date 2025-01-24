@@ -34,16 +34,31 @@ When a business purchases goods or services, it pays GST on those purchases. It 
 ### Workflow
 
 1. **Supplier Filing**:
+
    - Only invoices filed by the supplier will be included in the ITC calculation.
 
-2. **Invoice Actions**:
+2. **Reconciliation**:
+
+   - Match inward supplies downloaded from the government portal to the purchases from the system to identify which invoices need to be accepted, rejected, or marked as pending.
+
+3. **Invoice Actions**:
+
    - **Accept**: Includes the invoice in the ITC calculation.
    - **Reject**: Excludes the invoice from the ITC calculation.
-   - **Pending**: Excluded from the ITC calculation but will remain in IMS.
+   - **Pending**: Excludes the invoice from the ITC calculation but will remain in IMS.
 
-3. **Automatic Acceptance**:
+4. **Automatic Acceptance**:
+
    - If no action is taken on an invoice, it will automatically be deemed accepted.
    - A draft GSTR-2B will be generated, including only the accepted or no-action-taken invoices on the 14th of the following month.
+
+5. **Regenerate GSTR-2B**:
+
+   - After applying the actions in IMS, regenerate GSTR-2B to reflect the latest status of invoices.
+
+6. **Populate GSTR-3B**:
+
+   - Based on the regenerated GSTR-2B, GSTR-3B will be populated, which demonstrates how the IMS significantly enhances the efficiency and accuracy of the complete filing process.
 
 ### Benefits
 
@@ -118,12 +133,11 @@ at the top right corner.
 
 ### From which version is GST Invoice Management System supported?
 
-This feature is supported starting from **version-15**
-of the India Compliance App.
+This feature is supported starting from **version-15** of the India Compliance App.
 
 ### When will the Invoice Management System be ready for use?
 
-This feature has started functioning from the 14th of October.
+This feature has started functioning from the 14th of October 2024.
 
 ### How will my seller send me these invoices through IMS?
 
