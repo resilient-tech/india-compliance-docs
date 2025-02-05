@@ -106,7 +106,7 @@ After the invoices reported by your supplier are downloaded from GSTN, they will
 
 1. You cannot **Accept** invoices where match status is **Missing in PI**.
 2. When an invoice is unlinked and IMS action is **Accepted**, then IMS action will automatically revert to **No Action**.
-3. The **Suggested Mark as Pending** match status is applicable only to transactions where a match has been identified. This status indicates that the return was filed by the supplier in a previous periods, while the corresponding purchase has been recorded in a subsequent period. Consequently, these transactions should be marked as **Pending**.
+3. The **Suggested Mark as Pending** match status is applicable only to transactions where a match has been identified. This status indicates that the return was filed by the supplier in a previous periods (for which GSTR3B is being filed), while the corresponding purchase has been recorded in a subsequent period (hence ITC should be claimed in the subsequent period). Consequently, these transactions should be marked as **Pending**.
    :::
 
 ## Upload to GSTN
