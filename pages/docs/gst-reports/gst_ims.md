@@ -81,7 +81,7 @@ To take action on invoices filed by your supplier, you first need to download th
 
 ## Review Transactions
 
-After the invoices reported by your supplier are downloaded from GSTN, they will be categorized under **Exact Match**, **Suggested Match**, **Mismatch**, **Manual Match**, or **Missing in PI**. You can either accept, reject, or mark the transactions as pending after verifying them with the Purchase transactions. Here’s how:
+After the invoices reported by your supplier are downloaded from GSTN, they will be categorized under **Exact Match**, **Suggested Match**, **Mismatch**, **Manual Match**, **Missing in PI**, or **Suggested Mark as Pending**. You can either accept, reject, or mark the transactions as pending after verifying them with the Purchase transactions. Here’s how:
 
 - Navigate to the **Match Summary** Tab where you can view the summary of invoices based on match status.
 
@@ -106,6 +106,7 @@ After the invoices reported by your supplier are downloaded from GSTN, they will
 
 1. You cannot **Accept** invoices where match status is **Missing in PI**.
 2. When an invoice is unlinked and IMS action is **Accepted**, then IMS action will automatically revert to **No Action**.
+3. The **Suggested Mark as Pending** match status is applicable only to transactions where a match has been identified. This status indicates that the return was filed by the supplier in a previous periods, while the corresponding purchase has been recorded in a subsequent period. Consequently, these transactions should be marked as **Pending**.
    :::
 
 ## Upload to GSTN
