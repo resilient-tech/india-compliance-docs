@@ -42,6 +42,20 @@ or simply search for GST Job Work Stock Movement Report in awesomebar.
 
 Refer [here](https://docs.indiacompliance.app/blog/posts/post5) for the detailed Subcontracting Workflow in ERPNext for Indian Compliance.
 
+### Export JSON Data
+
+To export JSON data, follow these steps:
+
+- Click the **Export JSON** button located at the top right corner of the screen.
+- In the dialog that appears, select the **Year**, **Period**, and **Return Type** for which you want to export the JSON data. 
+   - For example, if you want to export data for the year **2024-2025**, select the year **2024**.
+- Click the **Export JSON** button to initiate the download. Your JSON data will be saved to your device.
+- Once downloaded, you can upload this JSON data to the government portal as required.
+
+![GST Job Work Stock Movement Report Export](./assets/gst_jobwork_stock_movement_export.png)
+
+![GST Job Work Stock Movement Report Export Dialog](./assets/gst_jobwork_stock_movement_export_dialog.png)
+
 ## GST Balance Report
 
 The GST Balance Report provides the balance of GST Accounts for a given period.
