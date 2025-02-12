@@ -1,8 +1,8 @@
 ---
 description: Learn about additional reports in India Compliance App to help you with your GST compliance.
 
-og_title : Miscellaneous Reports - India Compliance App
-og_url : https://docs.indiacompliance.app/docs/gst-reports/miscellaneous_reports
+og_title: Miscellaneous Reports - India Compliance App
+og_url: https://docs.indiacompliance.app/docs/gst-reports/miscellaneous_reports
 
 structured_data:
   - "@context": "https://schema.org"
@@ -41,6 +41,16 @@ or simply search for GST Job Work Stock Movement Report in awesomebar.
 ![GST Job Work Stock Movement Report](./assets/gst_job_work_stock_movement_report.png)
 
 Refer [here](https://docs.indiacompliance.app/blog/posts/post5) for the detailed Subcontracting Workflow in ERPNext for Indian Compliance.
+
+### Export JSON Data
+
+To export JSON data, follow these steps:
+
+- Click the **Export JSON** button located at the top right corner of the screen to initiate the download.
+ Your JSON data will be saved to your device.
+- Once downloaded, you can upload this JSON data to the government portal as required.
+
+![GST Job Work Stock Movement Report Export](./assets/gst_jobwork_stock_movement_export.png)
 
 ## GST Balance Report
 
