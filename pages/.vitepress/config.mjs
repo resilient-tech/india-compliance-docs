@@ -15,7 +15,7 @@ export default defineConfig({
         ['meta', { name: 'author', content: 'Resilient Tech' }],
         ['meta', { name: 'keywords', content: 'India Compliance, Resilient Tech, ERP, ERPNext, Frappe, GSTR2A/2B, Reconciliation Tool, e-Invoice, e-Waybill, GST, India' }],
         ['meta', { name: 'robots', content: 'index, follow' }],
-        ['meta', { name: 'copyright', content: 'Copyright © 2024, Resilient Tech' }],
+        ['meta', { name: 'copyright', content: 'Copyright © 2025, Resilient Tech' }],
         ['meta', { name: 'revisit-after', content: '7 days' }],
         
         ['meta', { name: 'og:type', content: 'website' }],
@@ -107,7 +107,7 @@ export default defineConfig({
 
         footer: {
             message: "<a href=https://www.resilient.tech/> Powered by Resilient Tech <a> ",
-            copyright: "Copyright © 2024",
+            copyright: "Copyright © 2025",
         },
 
         comment: {
