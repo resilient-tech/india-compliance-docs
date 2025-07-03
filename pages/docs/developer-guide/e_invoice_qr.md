@@ -90,3 +90,17 @@ To add an e-Invoice QR code to a standard print format, follow these steps:
 ::: warning
 Make sure the name mentioned in `web_block` exactly matches the name of your Web Template.
 :::
+
+## Guide to Add QR Code in Print Designer
+
+To add a QR code to a print designer, follow these steps:
+
+- In the Print Designer, navigate to the left sidebar and select the "Barcode" option.
+- Go to the desired location within your print format where you want to place the QR code and click there. You will get a dialog - box to choose the width and height for your QR code.
+- Adjust the width and height of the QR code to fit your requirements, then click "Confirm".
+- Double-click on the Barcode area to access the Barcode dialog.
+- In the Barcode dialog, select the relevant doctype from which you will get your field to encode in the QR code.
+- If it is a hidden field, toggle "Hidden Fields" on the top right side of the Barcode dialog.
+- Choose the field you want to encode in the QR code.
+- In the Format input field, select the "QR Code" option and click "Confirm".
+- Save the print format, and your print format will now include the QR code.
