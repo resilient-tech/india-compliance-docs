@@ -72,22 +72,22 @@ multi-company setup, you'll need to manually update for each document, as GSTIN
 cannot be determined.
 :::
 
-## GST Sales Register Beta Report
+## GST Sales Register Report
 
-The GST Sales Register Beta Report provides:
+The GST Sales Register Report provides:
 
 - An overview of all sales transactions made during a specified period.
 - Item-Wise summary of transactions.
 - HSN-Wise summary of transactions.
 
-To view GST Sales Register Beta report navigate to **Accounts > GST India > GST
-Sales Register Beta**
+To view GST Sales Register report navigate to **Accounts > GST India > GST
+Sales Register**
 
-or simply search for GST Sales Register Beta in awesomebar.
+or simply search for GST Sales Register in awesomebar.
 
-![Sales Register Beta Overview](./assets/sales_register_beta_overview.png)
+![Sales Register Overview](./assets/sales_register_overview.png)
 
-![Sales Register Beta Detail View](./assets/sales_register_beta_detail_view.png)
+![Sales Register Detail View](./assets/sales_register_detail_view.png)
 
 ## GST Purchase Register Beta Report
 
