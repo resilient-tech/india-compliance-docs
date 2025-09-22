@@ -12,7 +12,7 @@ tags:
   - Bulk Updates
 
 og_title: Blog | GST 2.0 Tax Updates - Streamline Item Tax Changes with GST HSN Code
-og_url: https://docs.indiacompliance.app/blog/posts/post6
+og_url: https://docs.indiacompliance.app/blog/posts/gst_2_0_tax_updates
 ---
 
 <PostDetail>
@@ -21,7 +21,7 @@ With GST 2.0, the Government of India has changed GST rates for many items. Inst
 
 This guide will show you exactly how to do this in 4 simple steps.
 
-![Update Taxes for Items](../assets/update_taxes_for_items_button.png)
+![Update Taxes for Items](../assets/update_taxes_for_items.gif)
 
 ## Why Use This Feature?
 
@@ -30,7 +30,6 @@ GST 2.0 has changed rates for many HSN codes. This feature helps you:
 - Update all items with the same hsn code at once instead of one by one
 - Save hours of manual work
 - Make sure all items under the same HSN code have correct tax rates
-<!-- - Keep old tax records intact for past transactions -->
 
 ## How to Update Taxes in 4 Simple Steps
 
