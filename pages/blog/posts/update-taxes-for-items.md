@@ -17,11 +17,17 @@ og_url: https://docs.indiacompliance.app/blog/posts/update-taxes-for-items
 
 <PostDetail>
 
+
 As of **22nd November 2025**, the Government of India has revised GST rates for many items. This means item tax details need to be updated. Instead of updating each item one by one (which can take hours!), you can update all items under the same HSN code at once using the **Update Taxes for Items** feature in *India Compliance*.
 
 This guide will show you how to do it in just 4 simple steps.
 
-![Update Taxes for Items](../assets/update_taxes_for_items.gif)
+<div style="max-width: 700px; margin: 0 auto;">
+  <video controls autoplay loop muted style="width: 100%; height: auto; border-radius: 8px;">
+    <source src="../assets/update_taxes_for_items.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can <a href="../assets/update_taxes_for_items.mp4">download the video here</a>.
+  </video>
+</div>
 
 ## Why Use This Feature?
 
