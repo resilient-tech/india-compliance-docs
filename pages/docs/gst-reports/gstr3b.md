@@ -1,5 +1,5 @@
 ---
-description: Learn how to generate GSTR-3B Report, export it in JSON, or Excel, and utilize it for effectively file GSTR-3B returns.
+description: Learn how to generate GSTR-3B Report, export it in JSON, and utilize it to effectively file GSTR-3B returns.
 
 og_title : GSTR-3B - India Compliance App
 og_url : https://docs.indiacompliance.app/docs/gst-reports/gstr3b
@@ -8,7 +8,7 @@ structured_data:
   - "@context": "https://schema.org"
     "@type": "WebPage"
     name: "GSTR-3B - India Compliance App"
-    description: "Learn how to generate GSTR-3B Report, export it in JSON, or Excel, and utilize it for effectively file GSTR-3B returns."
+    description: "Learn how to generate GSTR-3B Report, export it in JSON, and utilize it to effectively file GSTR-3B returns."
     mainEntityOfPage:
       "@type": "WebPage"
       "@id": "https://docs.indiacompliance.app/docs/gst-reports/gstr3b"
@@ -16,7 +16,7 @@ structured_data:
 
 # GSTR-3B
 
-This guide will help you generate GSTR-3B Report in ERPNext. 
+This guide will help you generate GSTR-3B Report in ERPNext.
 
 ## GSTR-3B Report
 
