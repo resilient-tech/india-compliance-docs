@@ -31,7 +31,7 @@ For Sandbox Configuration [Click Here](../developer-guide/sandbox.md)
 
 ## Docker
 
-Use [this guide](https://github.com/frappe/frappe_docker/blob/main/docs/custom-apps.md) to deploy India Compliance by building your custom image.
+Use [this guide](https://frappe.github.io/frappe_docker/02-setup/02-build-setup.html#define-custom-apps) to deploy India Compliance by building your custom image.
 
 Sample Apps JSON
 
