@@ -142,7 +142,7 @@ RCM liability is paid from your Cash Ledger when filing GSTR-3B.
 | RCM Payable | 50 | |
 | GST Cash Ledger | | 50 |
 
-![RCM Set-Off Journal Entry](../assets/rmc-gl-entry.jpg)
+![RCM Set-Off Journal Entry](../assets/rcm-gl-entry.jpg)
 
 ::: warning
 Your total cash deposit needs to cover both regular liability and RCM. In this example, the actual bank payment would be ₹200 (₹150 regular + ₹50 RCM), not ₹150.
