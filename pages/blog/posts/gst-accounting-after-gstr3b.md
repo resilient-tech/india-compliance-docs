@@ -33,7 +33,7 @@ A typical GST setup in your books will have:
 
 ## Government Ledgers — and Why You Should Mirror Them
 
-The GST portal maintains two ledgers for every GSTIN, visible under Services → Ledger:
+The GST portal maintains ledgers for every GSTIN, visible under Services → Ledger (or summary on the dashboard):
 
 **Electronic Credit Ledger** — your pool of claimed input tax credit with the government. You use this to pay off liability.
 
