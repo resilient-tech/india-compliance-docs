@@ -58,6 +58,8 @@ Let's say in a given month:
 - Paid ₹150 to the government via challan
 - Claimed ₹50 of input credit in GSTR-3B (out of ₹100 available)
 
+This main example covers regular output liability only (no RCM). A combined regular + RCM case is shown in the RCM section later.
+
 ### 1. Input GST on Purchase
 
 Posted automatically when you book a purchase invoice.
