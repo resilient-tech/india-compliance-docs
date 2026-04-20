@@ -29,7 +29,11 @@ A typical GST setup in your books will have:
 
 ![Input GST Accounts](../assets/gst-input-accounts.jpg)
 
+*Input GST group under Current Assets*
+
 ![Output GST and RCM Accounts](../assets/gst-output-accounts.jpg)
+
+*Output GST and RCM Payable groups under Current Liabilities → Duties and Taxes*
 
 ## Government Ledgers — and Why You Should Mirror Them
 
@@ -43,7 +47,11 @@ If you create matching accounts in your books (GST Credit Ledger, GST Cash Ledge
 
 ![GST Cash and Credit Ledger — Books](../assets/gst-cash-credit-accounts.jpg)
 
+*GST Cash Ledger and GST Credit Ledger under Current Assets - value held with the government*
+
 ![GST Portal — Ledger Balance](../assets/gst-portal-ledgers.jpg)
+
+*The GST portal's Ledger Balance page — your book balances should match these*
 
 ::: info
 The government also maintains an **Electronic Liability Register** — this records what you've declared as payable in GSTR-3B Table 3.1 (output liability + RCM). Ideally, this matches your Output GST + RCM Payable balances. You can optionally maintain a Liability account in your books too, where Output and RCM move into Liability first, and then Liability is set off against Credit and Cash. For most businesses, directly setting off Output and RCM against Credit and Cash (as shown below) is simpler and works just fine.
