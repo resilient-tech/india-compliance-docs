@@ -24,9 +24,9 @@ Each needs a different book treatment.
 
 ## Refund Receivable Accounts — Set These Up First
 
-Every rupee you expect back from the government is a receivable. Create one account per GST component — **IGST Refund Receivable**, **CGST Refund Receivable**, **SGST Refund Receivable** — under **Current Assets**. Alternatively, you can just track one account for all GST components. These track the amount pending with the portal until the refund hits your bank.
+Every rupee you expect back from the government is a receivable. Create one account per GST component (CGST, SGST, IGST) or one account for all GST components. These track the amount pending with the portal until the refund hits your bank.
 
-In India Compliance App, you can configure these directly in **GST Settings → Output Refund Accounts**. Once set, they become available for sales transactions that need refund treatment.
+In India Compliance App, you can configure these directly in **GST Settings → Output Refund Accounts**. Once set, they are validated for sales transactions that need refund treatment.
 
 ![Output Refund Accounts in GST Settings](../assets/gst-output-refund-account-gst-settings.jpg)
 
@@ -125,7 +125,5 @@ If the refund is rejected or partially sanctioned, the portal re-credits the unc
 
 - **On filing (Case 2 only):** Entry Type "Journal Entry". Debit the relevant Refund Receivable account, credit GST Credit Ledger. Posting date = date of filing on the portal.
 - **On receipt (both cases):** Entry Type "Bank Entry". Debit Bank, credit the Refund Receivable account. Posting date = date the refund hits your bank.
-
-Add a remark with the ARN and refund period on every entry — makes reconciliation trivial later.
 
 </PostDetail>
