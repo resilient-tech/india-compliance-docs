@@ -22,7 +22,7 @@ e-Invoice is an electronic invoice required to be generated on [e-Invoice Portal
 - [GSP credentials in ERPNext](gst_settings#gsp-credentials)
 - [India Compliance Account](../getting-started/india_compliance_account#account-creation)
 - API should be enabled under GST Settings.
-- [e-Invoice Configration](gst_settings#e-invoice-settings) 
+- [e-Invoice Configuration](gst_settings#e-invoice-settings)
 
 ## Generating e-Invoice
 
