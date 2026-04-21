@@ -18,11 +18,11 @@ structured_data:
 
 India Compliace App helps you generate GSTR-1 Report, export it in JSON, or Excel, and utilize it for effectively file GSTR-1 returns.
 
-## GSTR-1 Beta
+## GSTR-1
 
 ### Feature Highlights
 
-Simplify GSTR-1 filing, and file with confidence using the GSTR-1 Beta.
+Simplify GSTR-1 filing, and file with confidence using the GSTR-1.
 
 - **Seamless API Integration:** Effortlessly fetch both unfiled and filed data from the GST Portal for comparison before and after filing GSTR-1. Easily upload and reset data and file GSTR-1 as needed, with all actions conveniently accessible in one place.
 - **Comprehensive Overview:** Access to complete overview of Ledger Balances, Transactions, and data as per GST Portal.
@@ -30,7 +30,7 @@ Simplify GSTR-1 filing, and file with confidence using the GSTR-1 Beta.
 
 ### Setting up
 
-To get stated with GSTR-1 Beta, make sure you have completed the following steps:
+To get stated with GSTR-1, make sure you have completed the following steps:
 
 #### Configure GST Settings
 
@@ -51,7 +51,7 @@ If you plan to leverage API features, make sure that API access is enabled on th
 
 ### Generate GSTR-1
 
-Navigate to **GSTR-1 Beta** and select the period and company for which you want to generate the GSTR-1 report. Click on the `Generate` button.
+Navigate to **GSTR-1** and select the period and company for which you want to generate the GSTR-1 report. Click on the `Generate` button.
 
 For API features, an OTP may be required for authentication; input the received OTP from your registered contact details.
 
@@ -65,24 +65,24 @@ The generation process of GSTR-1 is queued and may require some time to finalize
 - Tab Actions: Perform actions like downloading data in Excel or JSON format, syncing data with the GST Portal, and more.
 - Detailed Views: Click on sub-categories to delve into detailed data.
 
-![GSTR-1 Beta](./assets/gstr_1_components.png)
+![GSTR-1](./assets/gstr_1_components.png)
 
 ### Compare, Export, and File
 
-![GSTR-1 Beta](./assets/gstr_1_tabs.png)
+![GSTR-1](./assets/gstr_1_tabs.png)
 
-![GSTR-1 Beta](./assets/gstr_1_unfiled_tab.png)
+![GSTR-1](./assets/gstr_1_unfiled_tab.png)
 
 **More control with JSON Export**
 
 - Exclude previously uploaded data from JSON export.
 - Delete transactions in the GST Portal that are absent in your books.
 
-![GSTR-1 Beta](./assets/gstr_1_json_download.png)
+![GSTR-1](./assets/gstr_1_json_download.png)
 
 ### Compare Historical Data
 
-![GSTR-1 Beta](./assets/gstr_1_historical_comparision.png)
+![GSTR-1](./assets/gstr_1_historical_comparision.png)
 
 ### Reset GSTR-1
 
@@ -90,7 +90,7 @@ The generation process of GSTR-1 is queued and may require some time to finalize
   click the `Reset` button and confirm the action.
   This will clear the data for that specific period on the portal.
 
-![GSTR-1 Beta](./assets/gstr_1_reset_dialog.png)
+![GSTR-1](./assets/gstr_1_reset_dialog.png)
 
 ### Upload GSTR-1 Data
 
@@ -100,17 +100,17 @@ The generation process of GSTR-1 is queued and may require some time to finalize
 - If any errors occur, they will be displayed in the Error tab
   along with the corresponding invoice number and error message.
 
-![GSTR-1 Beta](./assets/gstr_1_error_tab.png)
+![GSTR-1](./assets/gstr_1_error_tab.png)
 
 - If there are no errors, a Summary will be generated.
   The data will be compared and any mismatches will be displayed.
 
-![GSTR-1 Beta](./assets/gstr_1_mismatched_summary.png)
+![GSTR-1](./assets/gstr_1_mismatched_summary.png)
 
 - If the summary matches, the Filing status will update to Ready to File.
   At this point, you can file the GSTR-1 by clicking the File button.
 
-![GSTR-1 Beta](./assets/gstr_1_ready_to_file.png)
+![GSTR-1](./assets/gstr_1_ready_to_file.png)
 
 - If you wish to upload the data again, click `Mark as Unfiled`.
   Filing status will change to Not Filed and
@@ -126,19 +126,19 @@ The generation process of GSTR-1 is queued and may require some time to finalize
   An OTP will be sent to your registered contact details,
   input this OTP and click File to complete the filing.
 
-![GSTR-1 Beta](./assets/gstr_1_filing_dialog.png)
+![GSTR-1](./assets/gstr_1_filing_dialog.png)
 
 - After successful filing, the Filing status will change to Filed, and the
   data will be re-downloaded for comparison with the final summary.
 
-![GSTR-1 Beta](./assets/gstr_1_filed.png)
+![GSTR-1](./assets/gstr_1_filed.png)
 
 - If there are any sales reverse charge entries,
   a dialog will appear after successful filing.
   This will prompt you to create a Journal Entry to reduce the
   Output GST Liability based on the sales reverse charge.
 
-![GSTR-1 Beta](./assets/gstr_1_je_dialog.png)
+![GSTR-1](./assets/gstr_1_je_dialog.png)
 
 ## GSTR-1 Report (Legacy)
 
