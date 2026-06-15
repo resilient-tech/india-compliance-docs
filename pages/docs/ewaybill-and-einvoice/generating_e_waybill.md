@@ -163,3 +163,26 @@ e-Waybills can be generated in bulk in two ways.
 ::: warning
 You shall not be able to update transport fields while you download e-Waybill JSON from the Sales Invoice List.
 :::
+
+
+## e-Waybill for Subcontracting Inward
+
+In subcontracting (job work), goods move on a **Delivery Challan** without a tax invoice, recorded in ERPNext as a **Stock Entry**. India Compliance generates the e-Waybill for these Stock Entries — both when you send goods out for job work and when you process goods for a customer.
+
+To use this, enable [e-Waybill Generation for Subcontracting](gst_settings#e-waybill-settings) under GST Settings.
+
+The following Stock Entry purposes are supported, based on your role:
+
+- **Send to Subcontractor** *(you are the principal)* — You send raw materials to your subcontractor for processing.
+- **Subcontracting Delivery** *(you are the job worker)* — You deliver the finished goods back to your customer.
+- **Return Raw Material to Customer** *(you are the job worker)* — You return the unused raw materials provided by your customer.
+
+When you act as the job worker, the **Subcontracting Delivery** and **Return Raw Material to Customer** Stock Entries are created from the **Subcontracting Inward Order**. India Compliance fills the *Bill From* (your Company) and *Bill To* (your Customer) addresses from this order, and you can change them if needed.
+
+### Value of customer-provided materials
+
+The raw materials supplied by your customer are not part of your stock value, but as per Rule 55 the Delivery Challan and e-Waybill must still reflect their value.
+
+India Compliance calculates this automatically from the materials received against the Subcontracting Inward Order and shows it in the read-only **Additional Taxable Value** field on the Stock Entry item. This amount is added to the taxable value, so the e-Waybill carries the correct value without any manual entry.
+
+For subcontracting movements, the **Document Type** is *Delivery Challan*, and the **Sub Supply Type** is set automatically based on the purpose (for example, *Others* with a description such as "Job Work Delivery" or "Return Raw Material").
