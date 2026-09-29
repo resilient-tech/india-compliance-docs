@@ -98,6 +98,11 @@ After the invoices reported by your supplier are downloaded from GSTN, they will
 
 - Navigate to the **Actions Summary** Tab where you can view the summary of invoices based on actions taken.
 
+- To correct the Bill No or Bill Date of a matched purchase with the values
+  reported by your supplier, use **Copy** in the detail view or
+  **Actions > Copy Data** for selected invoices. For details, refer to
+  [this section](https://docs.indiacompliance.app/docs/purchase-reconciliation/reconciling_purchase#copy-details-from-gstr2a-2b).
+
 ![Apply Individual Action](./assets/apply_ims_action.gif)
 
 ![Apply Bulk Action](./assets/apply_ims_bulk_action.gif)

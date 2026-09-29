@@ -115,6 +115,16 @@ Once you have narrowed down to unreconciled transactions, you can process them i
 
 ![Perform Actions for Missing in Purchase](./assets/perform_actions_for_missing_in_purchase.png)
 
+### Copy Details from GSTR2A/2B {#copy-details-from-gstr2a-2b}
+
+Copy the Bill No and Bill Date reported in GSTR2A/2B to your matched purchase.
+
+- **Detail View:** Select Bill No and/or Bill Date and click **Copy**.
+- **Bulk:** Select transactions, click **Actions > Copy Data**, choose the
+  fields and click **Apply**.
+
+![Copy Details from GSTR2A/2B](./assets/copy_2a_2b_data.gif)
+
 ### Sharing Reports with Vendors
 Finally, you can download the report and share it with your vendors. This report will contain all the transactions that are missing in your books and the transactions that are missing in GSTR2A/2B. This comes preformatted and highlights the important differences to you.
 
