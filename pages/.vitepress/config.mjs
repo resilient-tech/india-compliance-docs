@@ -181,6 +181,7 @@ function sidebarDocs() {
                 { text: "Setting Up", link: "/docs/configuration/gst_setup" },
                 { text: "Sales Transaction", link: "/docs/configuration/sales_transaction" },
                 { text: "Purchase Transaction", link: "/docs/configuration/purchase_transaction" },
+                { text: "Input Service Distribution", link: "/docs/configuration/input_service_distribution" },
                 { text: "TDS Configuration", link: "/docs/configuration/tds_configuration" },
                 { text: "Other Transaction", link: "/docs/configuration/other_transaction" },
             ]

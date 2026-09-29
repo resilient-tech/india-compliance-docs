@@ -105,3 +105,27 @@ or simply search for GST Purchase Register Beta in awesomebar.
 ![Purchase Register Beta Overview](./assets/purchase_register_beta_overview.png)
 
 ![Purchase Register Beta Detail View](./assets/purchase_register_beta_detail_view.png)
+
+## ISD Invoice Register Report
+
+The ISD Invoice Register Report provides a consolidated view of your **Input
+Service Distributor** activity, covering the common ITC available, distributed
+and received. The ISD can use it to fill the **GSTR-6** return.
+
+Use the **Report View** filter to switch between three views:
+
+- **Purchase Invoice** — ISD-applicable purchase invoices and the ITC available
+  to distribute
+- **ISD Distribution Invoice** — available vs distributed ITC by each ISD
+  Distribution Invoice
+- **ISD Recipient Invoice** — tax received by each ISD Recipient Invoice
+
+To view ISD Invoice Register report navigate to **Accounts > GST India > ISD
+Invoice Register**
+
+or simply search for ISD Invoice Register in awesomebar.
+
+![ISD Invoice Register](./assets/isd_invoice_register_report.png)
+
+> The impact of ISD distribution is also reflected in **GSTR-3B** and the
+> **Purchase Reconciliation Tool**.
